@@ -1,0 +1,3624 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfigContract should parse mainnet config 1`] = `
+{
+  "configAddress": kf9VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVQft,
+  "dnsRootAddress": kf_lZ1T4NCb2mwkme9h2rJfESCE0W34ma9lWp7-_uY3zXIBg,
+  "electorAddress": kf8zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM_BP,
+  "feeCollectorAddress": null,
+  "gasPrices": {
+    "masterchain": {
+      "flatGasPrice": 1000000n,
+      "flatLimit": 100n,
+      "other": {
+        "blockGasLimit": 37000000n,
+        "deleteDueLimit": 1000000000n,
+        "freezeDueLimit": 100000000n,
+        "gasCredit": 10000n,
+        "gasLimit": 1000000n,
+        "gasPrice": 655360000n,
+        "specialGasLimit": 35000000n,
+      },
+    },
+    "workchain": {
+      "flatGasPrice": 100000n,
+      "flatLimit": 100n,
+      "other": {
+        "blockGasLimit": 10000000n,
+        "deleteDueLimit": 1000000000n,
+        "freezeDueLimit": 100000000n,
+        "gasCredit": 10000n,
+        "gasLimit": 1000000n,
+        "gasPrice": 65536000n,
+        "specialGasLimit": 1000000n,
+      },
+    },
+  },
+  "globalVersion": {
+    "capabilities": 144115188075855872n,
+    "version": 3288334336,
+  },
+  "messagePrices": {
+    "masterchain": {
+      "bitPrice": 655360000n,
+      "cellPrice": 65536000000n,
+      "firstFrac": 21845,
+      "ihrPriceFactor": 98304,
+      "lumpPrice": 10000000n,
+      "nextFrac": 21845,
+    },
+    "workchain": {
+      "bitPrice": 65536000n,
+      "cellPrice": 6553600000n,
+      "firstFrac": 21845,
+      "ihrPriceFactor": 98304,
+      "lumpPrice": 1000000n,
+      "nextFrac": 21845,
+    },
+  },
+  "minterAddress": kf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIue,
+  "punishment": null,
+  "storagePrices": [
+    {
+      "bitPricePs": 1n,
+      "cellPricePs": 500n,
+      "mcBitPricePs": 1000n,
+      "mcCellPricePs": 500000n,
+      "utimeSince": 0,
+    },
+  ],
+  "validating": {
+    "electorsEndBefore": 8192,
+    "electorsStartBefore": 32768,
+    "maxMainValidators": 100,
+    "maxStake": 10000000000000000n,
+    "maxStakeFactor": 196608,
+    "maxValidators": 400,
+    "minStake": 300000000000000n,
+    "minTotalStake": 75000000000000000n,
+    "minValidators": 75,
+    "stakeHeldFor": 32768,
+    "validatorsElectedFor": 65536,
+  },
+  "validators": {
+    "currentTempValidators": null,
+    "currentValidators": {
+      "list": Dictionary {
+        "_key": {
+          "bits": 16,
+          "parse": [Function],
+          "serialize": [Function],
+        },
+        "_map": Map {
+          "n:0" => {
+            "adnlAddress": Buffer{ee813153527430a8921a5fccbaaea4825ff575c9be93a47dd27987d5786cdf51},
+            "publicKey": Buffer{a112b783dedf41105134181d6a87655b2353219fc419e6720e41da5338e76979},
+            "weight": 5262947172863923n,
+          },
+          "n:1" => {
+            "adnlAddress": Buffer{909ca0fa82f64a247522ccbd1193c5227eba5a13bd1f856f0cf6194226f2369c},
+            "publicKey": Buffer{4af89bc9184677b433d31171025ea0438c13c3fd7c41a21473d800aafb56f19a},
+            "weight": 5262947172863923n,
+          },
+          "n:2" => {
+            "adnlAddress": Buffer{c638a114aab66f5907e639575dd100e5655c9306b94a1a9a89ab0a45d051c570},
+            "publicKey": Buffer{f4d04997ca496dc05f4ca0b33d97e2f45f2ae3baad550bb5d5813acff04cce1b},
+            "weight": 5262947172863923n,
+          },
+          "n:3" => {
+            "adnlAddress": Buffer{17833e8cd744f22f70b2db21314d10675a9283474909fd7df1acf54b94ddffeb},
+            "publicKey": Buffer{fdffdcd7f3afc2440f03172bb3f2bfd4aef2d4e385af56cd3a6559ebf634531c},
+            "weight": 5262947172863923n,
+          },
+          "n:4" => {
+            "adnlAddress": Buffer{f8506a33540c650d5d11e3663d8eb0d15124ab51eb6cc306cd4c72330d269eb4},
+            "publicKey": Buffer{952313d2ec4cfbb05e3d025626eefc4dbd1dfeeadd39d94d5b91c56395bc7b63},
+            "weight": 5262947172863923n,
+          },
+          "n:5" => {
+            "adnlAddress": Buffer{3126a513474ffa0734a9a8ba393a52e4c17b6dd8af9133a4e3ceabec4b8c237e},
+            "publicKey": Buffer{8769cc1ef0b020d7ff39fb27a399ed630a86ff4b6f849e59e3b98ea300e01961},
+            "weight": 5262947172863923n,
+          },
+          "n:6" => {
+            "adnlAddress": Buffer{876e643dbc843cc0841c245e1278524378aaa450f72a18a4851f31691e655a43},
+            "publicKey": Buffer{d6160f225c9f688792050d0ec4fcfab73247bbc563f8f0eafe9aab1bc9f591fa},
+            "weight": 5262947172863923n,
+          },
+          "n:7" => {
+            "adnlAddress": Buffer{2be45449dd12c31bb5e294866c37abad1a09ef8e1701bdfe7e43927c96e1027d},
+            "publicKey": Buffer{1031aeebd0c899d88b9e7c13b8e735a733f8d9ec4c06bcc4234d420d973dabe9},
+            "weight": 5262947172863923n,
+          },
+          "n:8" => {
+            "adnlAddress": Buffer{bd082a4ab34154845c7e9defae96f0a72786d278521c1059989e18dbbfa3809c},
+            "publicKey": Buffer{cc89f1de855b1fd4ffd83359fdc96abb3b4f1c195d2622a424e34ad9bc79e3c5},
+            "weight": 5262947172863923n,
+          },
+          "n:9" => {
+            "adnlAddress": Buffer{e253f8a4c57b4f195041daf838b12156ac8d958418ee29b6e3247c8b31cec5ba},
+            "publicKey": Buffer{5a3203392ca6aa82b074693d3a0261dd1f7f452695490a24356aa7bf48ce31a8},
+            "weight": 5262947172863923n,
+          },
+          "n:10" => {
+            "adnlAddress": Buffer{5244e85e03250b4c784600aecece308424d567912cba7d3c9278aa664280cac5},
+            "publicKey": Buffer{de4b2164d70e580052d4ed834764ef30d918d34c4a755e6f7ae73803bf517c56},
+            "weight": 5214063097338108n,
+          },
+          "n:11" => {
+            "adnlAddress": Buffer{29ceac92bd05c3a2991bdbebd89482a79c2b80bd9aa3eaa35ce7bc21eff1f97a},
+            "publicKey": Buffer{1d841feaf9355dce40505e991913483fda75170fedb196c9c9f7b983c965cd4c},
+            "weight": 5173314657245359n,
+          },
+          "n:12" => {
+            "adnlAddress": Buffer{09ec025b792f25574d342bb01855c076280a3a487c5e94eee4d22800bc4f61bf},
+            "publicKey": Buffer{387bdba366d4d15c309fa2b5967490a300d8fd5a4eb1d0fc973e235a414e6fb5},
+            "weight": 5173314650005144n,
+          },
+          "n:13" => {
+            "adnlAddress": Buffer{3736e52d4ca783fce3ed0c9f15d01d50b42f3dd47080591303b1fae77f1db212},
+            "publicKey": Buffer{89324a4d3e9a90b2339cdb65ff951cdef5491ed17024ae0b2d3ab05f5386fcf1},
+            "weight": 5173314535487072n,
+          },
+          "n:14" => {
+            "adnlAddress": Buffer{212448d1e09c06923a9296a21b3c57e5e1e05a675df930fdafcba8806cfaead6},
+            "publicKey": Buffer{114e1fd87178678aad5e9d3fe903f00e93560bf7dae7954d51f308fc6923815d},
+            "weight": 5173312294870926n,
+          },
+          "n:15" => {
+            "adnlAddress": Buffer{9e2d3cb60ced77f1b123488ab78e7e92a5af21d398ac5ab780b142b154e4a7a4},
+            "publicKey": Buffer{15b75e1df1aa46009449ee482205219851ec66bcab46761fc5211211f56c2341},
+            "weight": 5173311847338244n,
+          },
+          "n:16" => {
+            "adnlAddress": Buffer{9332cf2321deb3e6544ef594f4d77bd83863eb989052c2cef9dc1cf0daaf1c9d},
+            "publicKey": Buffer{8bd2c9765a40b960cc53a96506b1ad7c31c1919686e81aa5589e2ff4fb8db683},
+            "weight": 5172835176756050n,
+          },
+          "n:17" => {
+            "adnlAddress": Buffer{62a264592c608b4b8e76b25e364ce0fade340d50012b811c20ef449d7e94c8ed},
+            "publicKey": Buffer{1b5c5537f911b7fabf8313b5bac5e4dc56493df3c02729607fc035e02868ae13},
+            "weight": 5172755562888902n,
+          },
+          "n:18" => {
+            "adnlAddress": Buffer{8d5188441b023af0f9130ce0223c304d7beef0618175f77ead052ac2e231201b},
+            "publicKey": Buffer{b958664fcf313dd48e89e4b1f0a5ba577c5c95f2f7990e8b97bb5f61481a1eb0},
+            "weight": 5172223205110820n,
+          },
+          "n:19" => {
+            "adnlAddress": Buffer{2ef4c0914c49f654bb8778adbac6d34fbfea63ba29a99b4b473cd3d82a2b7d3b},
+            "publicKey": Buffer{b3bbf3e84868c9082cebd546df9bc148f465d79e29c9e9c0401fdba3d3e39f06},
+            "weight": 5171459649384120n,
+          },
+          "n:20" => {
+            "adnlAddress": Buffer{057977e62f2880ab45943363b28cd75310c90505fa3e07e7d40ed91f7b7744a7},
+            "publicKey": Buffer{a1767a7c33a79ff401c1b761a75f944c98c2a51bb39c2513807f8f24e78ae469},
+            "weight": 5075191269468896n,
+          },
+          "n:21" => {
+            "adnlAddress": Buffer{992298d37bb944cbb41f311531f9dd3897be96d09f626aa0195894d492aa7e37},
+            "publicKey": Buffer{911a9e7db036ca2c8f032e674834cb08351c06937c9b8e0fe201f82f35495be1},
+            "weight": 5047496451669777n,
+          },
+          "n:22" => {
+            "adnlAddress": Buffer{461d0f3b4338be1242611306e43c0028fb25b19a25b568bbdc70f3ead7c8497e},
+            "publicKey": Buffer{29f6b3f9bb615754a41a1106c91ec0adefd7d75da49331b47255e225849608f6},
+            "weight": 5043456870276259n,
+          },
+          "n:23" => {
+            "adnlAddress": Buffer{42aa421411eb4e4235ae1d788ee1267564aae7ed2a93f57b31f4c6edc6d15af1},
+            "publicKey": Buffer{24f1af9dcef09a7af95474b398bad9110adafcd85accf0aa3c5c4d76c79db5f5},
+            "weight": 5035493779478223n,
+          },
+          "n:24" => {
+            "adnlAddress": Buffer{94f94c3c4e3708c0d2acea4ea8416fae9fceb7f23eb19d5b1a9074ec5fb23014},
+            "publicKey": Buffer{f237bc60c4763ace291a484152a5118a09f54c005107096dd16d3d25af9f72e6},
+            "weight": 5024154307294198n,
+          },
+          "n:25" => {
+            "adnlAddress": Buffer{0d323cde31969e8be0df21aa701875abed0eee24dd54122b9921dba674ac30b6},
+            "publicKey": Buffer{7f8016fc8342f388a57d946c60da865629e33c3b39565d04616bcae3a23da241},
+            "weight": 5011329594704376n,
+          },
+          "n:26" => {
+            "adnlAddress": Buffer{7b92dc7a8df14e8e75e308a9f55110cdef2ac7a824afff27deedd54343ea4a7f},
+            "publicKey": Buffer{359f7929f5270e3bd4d466c784b2656a4e490636e1c49f385348f1b3e8a0db14},
+            "weight": 4998268332653863n,
+          },
+          "n:27" => {
+            "adnlAddress": Buffer{a20dcda0ec1a87f2c7cb807cb9942e735bd93977e39609ad91bd293a00a37cb3},
+            "publicKey": Buffer{f49c91f946ebc9f944254f82efa61a3f01b57a7174a738640fc0f776dcfdf6e8},
+            "weight": 4988996366050022n,
+          },
+          "n:28" => {
+            "adnlAddress": Buffer{138719eec042da2b275c5e20a71c167f92f612d37c7db3292da7afc91e2805fc},
+            "publicKey": Buffer{6a8cca3bfefdbf9d806e27c38fcf957e91e1f9de481a99ddff679d42d6554e41},
+            "weight": 4968785865162322n,
+          },
+          "n:29" => {
+            "adnlAddress": Buffer{1e8413305d73fc1e79f771d9f79f06251501ab9487852ad424f7713b58605d78},
+            "publicKey": Buffer{f6175303ab0626d5b3c303e47226fa3b3bb3effeffb137bb3455ebb368808d5c},
+            "weight": 4961739713126044n,
+          },
+          "n:30" => {
+            "adnlAddress": Buffer{045846329850544ce16f384f8d35a153eb05c32ea7485bbf17dc70508f4f2a39},
+            "publicKey": Buffer{4fba16a5b052610a6b29f738e5f1cbb967c63d45770f7aeb43ccd7b1817f8a81},
+            "weight": 4955995750031259n,
+          },
+          "n:31" => {
+            "adnlAddress": Buffer{96049d40a9b1350ac8065c29128c01a7ea664e43537e1094da32649184587d1d},
+            "publicKey": Buffer{0797e7741009cd630f2c1c162cd0cbeeae9e4182fc347da75802c2ce74124a90},
+            "weight": 4955936436470122n,
+          },
+          "n:32" => {
+            "adnlAddress": Buffer{7fe9fbf95686e6957883668356cd3776a7323ec5734e041203d06d7eaf2d6668},
+            "publicKey": Buffer{f42bc61737f7ccee5182af0b6419446993819d95e3050f7d2bf7b9b988162bf7},
+            "weight": 4955243249930347n,
+          },
+          "n:33" => {
+            "adnlAddress": Buffer{8c9691a5066ddfacd071f2d26c5151707b81b7d0c0682b159af769097a0ba20e},
+            "publicKey": Buffer{ed663a5d60783898b7293e3331e380aa2b9de31ee578f2e9f5f6da05c52f083e},
+            "weight": 4952024826335787n,
+          },
+          "n:34" => {
+            "adnlAddress": Buffer{20ed0665410992aec5f476cac9d452d89b1c34c210c48c1d578d1b46a82a4088},
+            "publicKey": Buffer{08f2e962e64c1405a76cf05b023e8e154c014ee5b4ff6e42843610de5a62fcfb},
+            "weight": 4951977623593050n,
+          },
+          "n:35" => {
+            "adnlAddress": Buffer{ae083c661dad64f734ccbf5a4bedf398bc4cf5a6bf454e376bb4b4437cbb4c9c},
+            "publicKey": Buffer{23e8a61a8d1c0e58b81cd364c49bb684a624f6e9111144bd97c4e0e8032d2dd4},
+            "weight": 4951376482041425n,
+          },
+          "n:36" => {
+            "adnlAddress": Buffer{d4ab33e3c1f558143bf63ecf82b26b6a1ad635149afcda508dfcf53ddef49ea1},
+            "publicKey": Buffer{c02557e92c884ddbba81fa4847d8e8ca216e98516b46911a95918f806ccf7591},
+            "weight": 4951322482181077n,
+          },
+          "n:37" => {
+            "adnlAddress": Buffer{d298c0fb55597a61e316dc9e40b64f36b06a7270d4c715a90b6c16aaaede8948},
+            "publicKey": Buffer{cede2d20b06afa849a44fd709fd5d0710a23ce28342efd087f5be46aa58ba5af},
+            "weight": 4950099382256209n,
+          },
+          "n:38" => {
+            "adnlAddress": Buffer{aa1457d99d2aafe298a55f1ab8a854acd40f2cff8b95565f20acdae64dcf7cda},
+            "publicKey": Buffer{df731ced131e1e7922a5852f99e83a126dbfefb511c6b6d9f276bffb84fd3bd0},
+            "weight": 4949582214621334n,
+          },
+          "n:39" => {
+            "adnlAddress": Buffer{d89c634805ee2111971b40bb58359dac7e45771b3c7c912234533c27fad9ac28},
+            "publicKey": Buffer{2df4520d45df8383ff8dd1aa28c2bc974ec97d8d26ee638ba271d577a2cb9804},
+            "weight": 4942081345788291n,
+          },
+          "n:40" => {
+            "adnlAddress": Buffer{f09f3602cff4391acdcf9de3677902856f74d0c9f5c25c9315b44b99e60c2cf1},
+            "publicKey": Buffer{6f87eee4e2b3f62cf71b2ce5f333e305fb79bb8cd673c06761dd1c04def8bcbf},
+            "weight": 4931263039108776n,
+          },
+          "n:41" => {
+            "adnlAddress": Buffer{70a92c6fd4ed18c388c6bbdb3aa39ec0690579883cf62ba0892059d55ce3a7e9},
+            "publicKey": Buffer{95662657f2c889615c10f4792cefc3b2dd3291bedb091d0ec97dad8f83698fdd},
+            "weight": 4792676979620864n,
+          },
+          "n:42" => {
+            "adnlAddress": Buffer{1f4e39ca376175b0400877b7b4258b1971dfdd088073d789f48e0b8f35497cc6},
+            "publicKey": Buffer{7cd111fbd0156c86e0b8366c9a22f827cf3a0c7606f2e23344e4702b0626734e},
+            "weight": 4791754609027780n,
+          },
+          "n:43" => {
+            "adnlAddress": Buffer{35a5fb162b5cf4f685113a2cb80cde2189958817f1a94195d5f7b481639c320b},
+            "publicKey": Buffer{bf5fba727b19001210f7f4fe64d67a68665ee95f35a083c93cef56c0220fb366},
+            "weight": 4790645582505323n,
+          },
+          "n:44" => {
+            "adnlAddress": Buffer{f23de20e7976ceb50886f59bdb586033c46135765960efcbb440d92524f845a0},
+            "publicKey": Buffer{925d4e10feca2f03af39fb6e2bffcc7c361b7a60e0ae2ea4026bfdc0b97d4a50},
+            "weight": 4738091903918852n,
+          },
+          "n:45" => {
+            "adnlAddress": Buffer{92e30baf33cdaeeee5dbaef2fade54f5651b2055e0f4872204c74cb901a4b748},
+            "publicKey": Buffer{55356fa7ab140000454a073b59b70fae99691e131d1a21e769f6bd4bfd10790d},
+            "weight": 4726893336857580n,
+          },
+          "n:46" => {
+            "adnlAddress": Buffer{9e8cf30571fac611e3556185c41b1265c794fed133bf73f4077bd519d8c9322a},
+            "publicKey": Buffer{0c1b6216d9aa74fbfe41c92307835d45acb157bdae620446b1c6710a4c977753},
+            "weight": 4725548159246705n,
+          },
+          "n:47" => {
+            "adnlAddress": Buffer{75b0b721f1b3eccf623ff4ec7cbc883e4024bb883c96833e51242d5ad433fb88},
+            "publicKey": Buffer{8c05a4f5fc8c3befeceb1d898876adc770441a1b9db65562c68ad031e7809ba5},
+            "weight": 4724512444203636n,
+          },
+          "n:48" => {
+            "adnlAddress": Buffer{9fb30a2dcceb24f9c1f3c46ac0462404350f814845c0e252eb2683e7dadfa767},
+            "publicKey": Buffer{d5e4ad6df1fc3249527e51070163ad615c033be28eb64901a9489b34364802d0},
+            "weight": 4712768991734848n,
+          },
+          "n:49" => {
+            "adnlAddress": Buffer{68cc9759a6c21447b685532be38aa2519d0466d61a0a9a309f893c83337ac1d9},
+            "publicKey": Buffer{8faf4f62badfd807fe5f3896a35c04e2c5113ff529bfbead95222ce3904865c2},
+            "weight": 4711652188399863n,
+          },
+          "n:50" => {
+            "adnlAddress": Buffer{ac194291dcf132e5b835d9d10dec0213e36f377a29681b693d54e0409fba101d},
+            "publicKey": Buffer{29d821af6a09efb60f42482ff5483f4279834f4a091838a040c3d4fec0f31904},
+            "weight": 4651388138763285n,
+          },
+          "n:51" => {
+            "adnlAddress": Buffer{1300abc61b436547d92764247663dd91abea384cdbcf25d48c98a51e8bdfd989},
+            "publicKey": Buffer{56a40bb72eacffd1341956ee872aa31473451bba6bba7ad0ca8a940e99e6b293},
+            "weight": 4597066505775035n,
+          },
+          "n:52" => {
+            "adnlAddress": Buffer{b2dc942fcbf1b26f1be477ed4547c4d5240378607771391c41a6be31031f4b0e},
+            "publicKey": Buffer{859d6e0c10de63aa1df8f2b0ed8f4f52ed2b5a634df15646bc1fc22356dfba12},
+            "weight": 4595661906807916n,
+          },
+          "n:53" => {
+            "adnlAddress": Buffer{37e369d3f65979346ee2584c55559a7584b1913e3a38b546e454873304a95d74},
+            "publicKey": Buffer{410f70a5e3c0b227a4d6764cf4ff1adf964703a6f29957067e5d3664c1ab0e55},
+            "weight": 4586209132881334n,
+          },
+          "n:54" => {
+            "adnlAddress": Buffer{dae4342d0f93d388013e9d5a1b6888a2818fcb0d80576b806ceae8048ce55b25},
+            "publicKey": Buffer{bb7619a5eeb9c695f0f7f1e1e42756c8802e2622ff1c3dc95af73f1daa012501},
+            "weight": 4571567077819900n,
+          },
+          "n:55" => {
+            "adnlAddress": Buffer{dbe6f61756c005bdb577ea6748fad6b12c55d6bc176c77b75aa68e7c5c4c4ff1},
+            "publicKey": Buffer{c64501275e4ede4e212daaca68ff345d7922552ec77723efa4c5f8d312ca1924},
+            "weight": 4546136720543884n,
+          },
+          "n:56" => {
+            "adnlAddress": Buffer{ac1174d43cbf0d97ae90c8a3a70bd89f736045a76aad7d91c01b6511a8c7649d},
+            "publicKey": Buffer{f62323625a4e25ea3cb41e2d27cdeed59d35f9979d0da002cfc90a0bb8ba9656},
+            "weight": 4532252417342211n,
+          },
+          "n:57" => {
+            "adnlAddress": Buffer{9de39dad458aceb34354e3433853c7e1c2af035ed145841b4d9160b8792ecc41},
+            "publicKey": Buffer{2f2a6e282623b35b8dd3bbe593f0fbadc4082e907aed6f16d676b9c8553195c9},
+            "weight": 4518366153394733n,
+          },
+          "n:58" => {
+            "adnlAddress": Buffer{e5bfe6e2b6310e3abf1147f51d29dfa5d2c6fe8f8e94e975527213cd951c6893},
+            "publicKey": Buffer{d3dbdbe1a1861b76d489e5c75ca38ab50fe1eff174d2aa27377741dd6b499c21},
+            "weight": 4503948606255875n,
+          },
+          "n:59" => {
+            "adnlAddress": Buffer{2cacbd88362b754e85d6853594739c225ee417e944f1b1d1ff5881df02b04cab},
+            "publicKey": Buffer{be1c206f81cd5c23cadae251ad808a395be095b2edf79d7da5f82215e514b1b1},
+            "weight": 4503927882618845n,
+          },
+          "n:60" => {
+            "adnlAddress": Buffer{b02e523d85bbf6f738d8a8e26f70bfdf056581d6b92da69824aca9d4d7fe308d},
+            "publicKey": Buffer{ffedd006ab55cb3caa84fc9421c57aad07f89efd830774a86f985c00b5abd2ae},
+            "weight": 4424542440187878n,
+          },
+          "n:61" => {
+            "adnlAddress": Buffer{c71dbfb47cbc8bc48bf55ce9dbc4e78e2c047a408b1e5df2191f25b688246cae},
+            "publicKey": Buffer{1493df40325a2aa8033f6e8e0d33c6b3fd70952b06a92fdf9a9b15054785bf82},
+            "weight": 4413520239691922n,
+          },
+          "n:62" => {
+            "adnlAddress": Buffer{b936d7f24896d38429fb99e033ce268b87c566de9b6afa46a44be76fb4342e4a},
+            "publicKey": Buffer{82cfe4e52310f12c9fc699f6f43b884495ef4a9900027ff8d94a479ce63b3977},
+            "weight": 4413520239691922n,
+          },
+          "n:63" => {
+            "adnlAddress": Buffer{85996e4a5e015a274a2e59df268be3bfe07536aed732e8a314fc7d3e23caf9cb},
+            "publicKey": Buffer{de64a9de8b4925acec926a1b17b326dcb651f253461ed91bed94cecf73913ad1},
+            "weight": 4413520239691922n,
+          },
+          "n:64" => {
+            "adnlAddress": Buffer{1d2b8d7ae3cbd89c00cc9e8fafa0d85de15451d2e633d10476c79881f4f32710},
+            "publicKey": Buffer{d04b0e0951972a529b38e65d76d2b8e1fb9d1570880e84c1d979f6e416d6e4ca},
+            "weight": 4413520239691922n,
+          },
+          "n:65" => {
+            "adnlAddress": Buffer{980d960bdafde86caecb43d8a76d3885d4c0efa6a2b21e2c85a3b7b90779611f},
+            "publicKey": Buffer{ac1d5f9bc482ef75d7a365ae7c21cd617c8c6d3e7e8c2837bd1cc9d07afcce17},
+            "weight": 4413520239691922n,
+          },
+          "n:66" => {
+            "adnlAddress": Buffer{daf7f2bf22caca1cce843e9243dad7d0bb8020baa868bc213ebc58681454659d},
+            "publicKey": Buffer{a521cc95906d1cb01aa0a4e6eff3ed9d322deb180d056bbbef6bc0b803f45647},
+            "weight": 4388876149188010n,
+          },
+          "n:67" => {
+            "adnlAddress": Buffer{98c8037156aa6ae4fd519d360f73bb6c720f63100ec55260d636c09440aa8f4a},
+            "publicKey": Buffer{1ff859edba412067c811feabcedafce1c77fdf1f6a6485188d3e9de846d18fae},
+            "weight": 4388876149188010n,
+          },
+          "n:68" => {
+            "adnlAddress": Buffer{0a7443e7f235b6f532c898cccb1e1fb45969d6633f9a1f487aaab54546fba8df},
+            "publicKey": Buffer{a7c048491fffb7a01c3a7535a8c91346c1c7ce85b64ee7d5b6369231cb5b6ca5},
+            "weight": 4388876149188010n,
+          },
+          "n:69" => {
+            "adnlAddress": Buffer{6a50327fc9d8cfc05cf661838cdc2e395e92f01c2851f6539c2e25d3121714a8},
+            "publicKey": Buffer{36e2398a006789b690fc5c1f838723d89fdaed2762ac3fbce38ed366f410d789},
+            "weight": 4388876149188010n,
+          },
+          "n:70" => {
+            "adnlAddress": Buffer{260492476da640fcc040eeff14f1c94b82b1be98bc823370114d7cae3f31f14a},
+            "publicKey": Buffer{651aec36dd9138441369db923693f1af16165c8f553331c8775caf6fe3b898d0},
+            "weight": 4388876149188010n,
+          },
+          "n:71" => {
+            "adnlAddress": Buffer{b079e19e4667b5dcd4cb2e27855e3e8d95ca1dd1e1e6b8bba67271046397c9a3},
+            "publicKey": Buffer{8e7d8847fef4c9d75e3a459c8c864558978e3356d1ff70d1f8c4b626e2f5f96c},
+            "weight": 4388876149188010n,
+          },
+          "n:72" => {
+            "adnlAddress": Buffer{eaaa0fc02f4147eed54d945eed6a4594def300f89ea1e9fb02bc650fe88e7cd0},
+            "publicKey": Buffer{4caad499ba9cd78dba5840c12efb2d9d50d3c717a73caf90fb6209e301014b52},
+            "weight": 4381045932571444n,
+          },
+          "n:73" => {
+            "adnlAddress": Buffer{da00b4ae993bb2132b56c0eac19552cfc38795eb08259f853af0dc41bcc454eb},
+            "publicKey": Buffer{79562646c8be66ab214bd3af544c7ca57a3736d0786696a7acb4f7ac63d2f768},
+            "weight": 4376020062901731n,
+          },
+          "n:74" => {
+            "adnlAddress": Buffer{41a924b2d66fbd326ad4b7bc97850110aefa7c9b98f9c6b9e1ea69fefe86aa21},
+            "publicKey": Buffer{7f2897b9e7573a51229f8b58d0bb9144d5e825f6ca32a59ae4a78b2dc64cfff4},
+            "weight": 4361921523946859n,
+          },
+          "n:75" => {
+            "adnlAddress": Buffer{500131f8aea7ddc710cfbaa8b590ff64e17865af99d76ad1910ef76b2d237146},
+            "publicKey": Buffer{68ac38ffd7b3779643cd2b3cc6d063c346094a1d2f3dc0c5fe744de57472fd2c},
+            "weight": 4323099966627857n,
+          },
+          "n:76" => {
+            "adnlAddress": Buffer{0fe3309ea19de9734834f92ccc902e42433885abfd8be606094c0a421dc26943},
+            "publicKey": Buffer{f3b8d24ed498a03dfb835a2c03f3f525b794c896696a61e58fefd903b5dd00e6},
+            "weight": 4323099966627857n,
+          },
+          "n:77" => {
+            "adnlAddress": Buffer{0a01810f4ac51eb5d18d85a3e4b0d0e7a721569e98bc7b7243b2d77b2e12450a},
+            "publicKey": Buffer{f5270c19ebdb3e1b055cc7ecbfe41e063f18e2c6f21034f5d2f54ab746419ba9},
+            "weight": 4323099966627857n,
+          },
+          "n:78" => {
+            "adnlAddress": Buffer{978ca195c70908b131ba313aad2b02e3f3bd5e542f4b571f8106b6f05af0da5e},
+            "publicKey": Buffer{90d209e9daacd0d430e62854bef7542619db036db6cee2a328faefe82c92784f},
+            "weight": 4323094699898531n,
+          },
+          "n:79" => {
+            "adnlAddress": Buffer{e281ee7bb6e9831295c83d1013ac8c675652b007f3025f2e4aeb054f02f11a6f},
+            "publicKey": Buffer{aa14953c23df50edda8a5598966d1d93a74c2e22661c3699388c9b7e9c987a57},
+            "weight": 4323094699898531n,
+          },
+          "n:80" => {
+            "adnlAddress": Buffer{59777fc37093a5995290e5f80df37e137dcf1efe002236292bf33a2bbc95338d},
+            "publicKey": Buffer{e11c2b405999c41eab038f5436eeca26dfaab614d7a32fcf16440678d49591ae},
+            "weight": 4323094699898531n,
+          },
+          "n:81" => {
+            "adnlAddress": Buffer{f1c07eb8616313770b9a2a0b878afda5c85936fc91ef1ad373ef657e7b7dee67},
+            "publicKey": Buffer{fefa1cfd29a67519e7ce8be92c53f0cf909697250cae673f4bd9916822f04a15},
+            "weight": 4323094699898531n,
+          },
+          "n:82" => {
+            "adnlAddress": Buffer{e0bbdd7d76602663cf5be5c861cd1b80f30b3069881cc8ab530eecfa53f1673d},
+            "publicKey": Buffer{51fcd584b0ac4fec555540e5550c29636be5efd34ab1cf9b1d3eae813029edb8},
+            "weight": 4323094699898531n,
+          },
+          "n:83" => {
+            "adnlAddress": Buffer{f17b6e10f7ff2f24bd95acda4c689669a5bfe517aa4e2d8f32e48c04c6e37831},
+            "publicKey": Buffer{04d30e410f2521327034705857bc460a57c1eae7dd56c055d2f8ce60aa5ef362},
+            "weight": 4323094699898531n,
+          },
+          "n:84" => {
+            "adnlAddress": Buffer{8ef8eef1e34865f417fd32ecf39380b0f70c3042ea5ebce6c835030bc470d5b8},
+            "publicKey": Buffer{b907be1874165313a3f8b22e817eacc5b96351e255b623a63ffd16e115f7c406},
+            "weight": 4323094699898531n,
+          },
+          "n:85" => {
+            "adnlAddress": Buffer{81f2a2e96347364742960e9da044b544a5753bf67fa64967c3536968f5b0d44a},
+            "publicKey": Buffer{6fe1af6c09b634bc327c2be2130130479e102de822046de0a62f638da9e2394b},
+            "weight": 4323094699898531n,
+          },
+          "n:86" => {
+            "adnlAddress": Buffer{ffbe43b0166b7e0017587c549f7968386c74fb98f581d8d3134dab4baf98ff49},
+            "publicKey": Buffer{27562197fb2efed0a37014e393562473c06b0c0b9bf5edf98be0a0e16d388811},
+            "weight": 4323094699898531n,
+          },
+          "n:87" => {
+            "adnlAddress": Buffer{e6d6111019f618e25bd4e033b48b55502c7017edacb3b9e2ed8e5ec1f90f4b0e},
+            "publicKey": Buffer{f98fd0e81882812c8ec04ac1d68902a472a66b7093671a9b475f70284d228b00},
+            "weight": 4323094699898531n,
+          },
+          "n:88" => {
+            "adnlAddress": Buffer{8fd2cf963b19044e5e70c346e92c829fb9d3ac8c37e882e4126a07d61601c546},
+            "publicKey": Buffer{5738d479c4e04485264242e1aa4b5b7bc1f273ed4f7943044d9a35b3f62958fa},
+            "weight": 4323094699898531n,
+          },
+          "n:89" => {
+            "adnlAddress": Buffer{8bc9319f913ccba691d69f6c763273d537a3df69b810468b5d9113fab2319eb9},
+            "publicKey": Buffer{92f497ec220c7c3a0b21688127d6058b3d734bb495eecda79f34b0a3b83f7411},
+            "weight": 4323094699898531n,
+          },
+          "n:90" => {
+            "adnlAddress": Buffer{48be98359b182f01cfbf943eb74377315849cbca9f7e080dd1ebc5bc641268f6},
+            "publicKey": Buffer{0c775528fcf9ee6686dc31d167122aa2580e76ad01447ab2db75340e22118d95},
+            "weight": 4306578236730251n,
+          },
+          "n:91" => {
+            "adnlAddress": Buffer{51c6437db378a04e35c2d97565deec28d4937684ddfac73083d89c036635ed20},
+            "publicKey": Buffer{517a1d4eb37dc595f8a714929822f9878ddf8204503151897f95a4a70f10ec7e},
+            "weight": 4300232891876333n,
+          },
+          "n:92" => {
+            "adnlAddress": Buffer{f5a118aecf095c89636e4c19f9405c3dab77a2c8dc0412eae7d5307576013eb6},
+            "publicKey": Buffer{30288514e1202e925803c06efb8fb7f4669fc401a1eb27d1d8aea97cbf968bcb},
+            "weight": 4300232891876333n,
+          },
+          "n:93" => {
+            "adnlAddress": Buffer{a4927cbd67b609ac4dc31efd704b913c584c20b6f07514de7531dbe7f69bf2bf},
+            "publicKey": Buffer{c1e1b59ccc4ec6a4f694f76dde471db69b2a8afd6cd072024b647f8d4e447461},
+            "weight": 4300232891876333n,
+          },
+          "n:94" => {
+            "adnlAddress": Buffer{cce6f66e86eac838026d6b4ec89a1f60311be56c72e496873ff2c1aef1382acb},
+            "publicKey": Buffer{419e44b3ff2d21764c3eeafe4c1523b1458ca6a4f2a1b58327f0888d48e51a17},
+            "weight": 4300232891876333n,
+          },
+          "n:95" => {
+            "adnlAddress": Buffer{278365b3b9b26caa86e0d39ae1e41b7f1d4c90fd5652ccd5ad4cea05cdab87cc},
+            "publicKey": Buffer{9ab8baf326abb3c377bd99ac068d4ccba873fcf2917eec94f968a538fbeace56},
+            "weight": 4300232891876333n,
+          },
+          "n:96" => {
+            "adnlAddress": Buffer{cae477be2cf8f1de99b6ca226458dfdc17a606bbcc286115758d349944e4c333},
+            "publicKey": Buffer{a2992d2558ef8378121c31b621043ae0f7f4b80cd0773c9b458bf0fbc5c20dfd},
+            "weight": 4297166591423582n,
+          },
+          "n:97" => {
+            "adnlAddress": Buffer{73b75bac5ed9797c5fd3702b6a840b20fe3192a8c003710b60daffdb7b638685},
+            "publicKey": Buffer{d0fa0585f7286e128dc9f040e45f5edde62ec310e124ce9e8c4057e33393c27d},
+            "weight": 4289013694425975n,
+          },
+          "n:98" => {
+            "adnlAddress": Buffer{7416e6d9d0b400ddcb3cb74563ed6415153b009c72598993ae50dc3e9a9b0124},
+            "publicKey": Buffer{693e6904bcee5a1a566da7277201445b053cf646d83adf0f07bae7c404872552},
+            "weight": 4268632515916615n,
+          },
+          "n:99" => {
+            "adnlAddress": Buffer{d31440e204fcb678728415504b760e7c7936d18bb9f99ab19d58454f17262bb8},
+            "publicKey": Buffer{a768c4e7b679681fdf1fc278b11cf93e18f761614882013f7d65b4a692d451e2},
+            "weight": 4268632515916615n,
+          },
+          "n:100" => {
+            "adnlAddress": Buffer{3fb117e9ce51505e69fd0d7cc0fd73f3972c750cc3a38b268c231ba9e08e5812},
+            "publicKey": Buffer{3844ee35983dc74b9db6f11101ec354c59a2b8d76d220168deca997b84facf56},
+            "weight": 4253033746604459n,
+          },
+          "n:101" => {
+            "adnlAddress": Buffer{69813f00b62cca725db91daab2bd982bab31c64aa7f19cf1b412da621ad0b8d1},
+            "publicKey": Buffer{24009c3c04d93825bc189bc14edc111298aaaa0b0eb96d623529087c73bfe189},
+            "weight": 4253033744712776n,
+          },
+          "n:102" => {
+            "adnlAddress": Buffer{23cd076ba1db02b0f92e3dd84390a018c18ec1bc1e42a6a3642c859dd95e2586},
+            "publicKey": Buffer{ae4fa1da52263467e4b4d7171000bb8e0d8f35a28b506e426f8011853c2aade2},
+            "weight": 4253033742239441n,
+          },
+          "n:103" => {
+            "adnlAddress": Buffer{fdf28e03967543f21d17f047a7690bae49a6e9ba437db1f63af0eb898d15561b},
+            "publicKey": Buffer{da3ca53b54934b79ccddf461a63311dad629d49d43a70ac2e92d2296a452ceed},
+            "weight": 4253033738053561n,
+          },
+          "n:104" => {
+            "adnlAddress": Buffer{8f00e8c50d35a59a95ffa7d037ba87e84e7cac108447a0bcc58cf5d40f36c051},
+            "publicKey": Buffer{ac7761ce7133034995d0dcf4fc3e71673002a22e8835068137388cc64ab37140},
+            "weight": 4253033737243522n,
+          },
+          "n:105" => {
+            "adnlAddress": Buffer{98b9b2956984f3d06a594cea85cf22e806d9ddda2aa8e5edf421952d6169ce7d},
+            "publicKey": Buffer{6a2170609e9c84fd8dd97a6a9ba25d8931d3bbf19715f4603053eff75baa7e2b},
+            "weight": 4253033736515834n,
+          },
+          "n:106" => {
+            "adnlAddress": Buffer{5d9b97f545e1cac0c28da05779b8dd251032bc779a255fe65cb2f7bf360c6c0e},
+            "publicKey": Buffer{9794e736481c4f9a0f95c9c7b4772d6f83ce3bdbd0a6da92e3c93074897481c1},
+            "weight": 4253033732578332n,
+          },
+          "n:107" => {
+            "adnlAddress": Buffer{0ce4be0fccaee752264be87364bbe93ec196b07a4b04f9fb32cb4b0876445811},
+            "publicKey": Buffer{7151dc811e0a872acce12e59d1f7195cc0bff7e322c96c5d4f31d2c21ffb51f3},
+            "weight": 4247089573243772n,
+          },
+          "n:108" => {
+            "adnlAddress": Buffer{f4ea9c481b3f7c627f53d069abbdaccc4cf0b7dff58ae8a847863f3ff8c71440},
+            "publicKey": Buffer{68b79bb7ec39b8ba5ad03ea6d5bbc3f0c3cbffeddb43cb03f40457c63ed78c11},
+            "weight": 4247089571842474n,
+          },
+          "n:109" => {
+            "adnlAddress": Buffer{ff1e12ac60b2a45d8a9eafa9456abe8af5a9dcd48a7f6edc5466dce3c76ee083},
+            "publicKey": Buffer{7aa56556f56e4adc8c88ca8811b20ef1de56f64da48cde59e6df93689dc10313},
+            "weight": 4245900159762171n,
+          },
+          "n:110" => {
+            "adnlAddress": Buffer{49a26fc9f06f15661a955927c5bed2ec0c7512d1a38e0b6f0501729650f1f6e9},
+            "publicKey": Buffer{17e18d6d9d04cd52198d97eada99d696e807a6770e388c2289019e11a2459547},
+            "weight": 4245900158557133n,
+          },
+          "n:111" => {
+            "adnlAddress": Buffer{356ceb3bb1bb60055a1733ae878be5d77f00e3cdd3810e249ad7b572d527a47e},
+            "publicKey": Buffer{4590567f01a9e19911267937b3b283feffc7f30176af118bc624b3ce7763466b},
+            "weight": 4245900155385235n,
+          },
+          "n:112" => {
+            "adnlAddress": Buffer{a33eba6844c246e1321ebf82764c034ed29642dba13a2efe89f02328377aed9c},
+            "publicKey": Buffer{ee61480bfabaaa9baf8cfcab9b921e04de9635c2890f14a19fd388810bfeea40},
+            "weight": 4245615844774629n,
+          },
+          "n:113" => {
+            "adnlAddress": Buffer{82cab5d7cdd07afcb929f6c07b1c0d1e0109ccf197de23474929d55e85c5ab93},
+            "publicKey": Buffer{aeeef866bd82a6482159200ab5028736a4ed2ed1c6caa84e3e39f38f460a0c36},
+            "weight": 4243633397534381n,
+          },
+          "n:114" => {
+            "adnlAddress": Buffer{32bbe43ce7691c3aa7e3d82b52509b4d3532bd31cf30885614bdf8553c87ef6d},
+            "publicKey": Buffer{4f4f8fbb2cb48310c5a9decb665cbfdaf4070f894be96d4c5b945d2cae79b306},
+            "weight": 4236096522342134n,
+          },
+          "n:115" => {
+            "adnlAddress": Buffer{f603bedd73ab6add563dd0e77bbc40820b05d642efd85d9444bcb843e6905fa5},
+            "publicKey": Buffer{4b36015d8c21c9e2e515a075ebe9bd1e1470f50147d464dad9341162d9a87df3},
+            "weight": 4225560139498861n,
+          },
+          "n:116" => {
+            "adnlAddress": Buffer{8aeb933a728ec9f12d5f16ff53247b447d8137ce00f3c2fb76d10ded8f1f33ed},
+            "publicKey": Buffer{1a1dce63d46b018c7a51ea75db19cdb50f9936dc6693730f73bedcc6b80f7df7},
+            "weight": 4199317060898972n,
+          },
+          "n:117" => {
+            "adnlAddress": Buffer{8a842cdef2c7b06ebb64c2fe6738610b58e030c1ae03f2d7fca5c7d7eebcf34f},
+            "publicKey": Buffer{0533fd3f0c8189d3536eee8bfda13fde67a2c203665423266010c6746fc2f3cc},
+            "weight": 4187044547933292n,
+          },
+          "n:118" => {
+            "adnlAddress": Buffer{c38231f77c6ff0f063f16756a3126c98b52a6379a17622045f61fa038da2304b},
+            "publicKey": Buffer{18e51aebd9057d57024de2777f789b0b9b808d0e42de7175a97b77970a6c2385},
+            "weight": 4187044547933292n,
+          },
+          "n:119" => {
+            "adnlAddress": Buffer{2503e99ff0df0082ea29739f9ea79001cc0d3c8017a550c94e2a3e75ca925ac3},
+            "publicKey": Buffer{80935995108d39703cd82a3976cd8afcf4d7786bea69f574c1f5a8c0896bd607},
+            "weight": 4187044547933292n,
+          },
+          "n:120" => {
+            "adnlAddress": Buffer{208cdb72489bfcd94585ab5f60c893071eff7f191c004a0f33faaee28e394984},
+            "publicKey": Buffer{9f8e0195614e4f0aa17f7d74e221f894a0bc4f1420989d12979f4a92aaa2808b},
+            "weight": 4187044547933292n,
+          },
+          "n:121" => {
+            "adnlAddress": Buffer{ffb11720a377f67f26cfdbf302cd634ddd4d99f32d12a296bc25383271bb0d81},
+            "publicKey": Buffer{5189fad8e90d8a559f56d21470c4a4fb503e31ea5f7b994ec2c25e42a03e8c0f},
+            "weight": 4187044547933292n,
+          },
+          "n:122" => {
+            "adnlAddress": Buffer{62b694fef86e081005a8446d90b17042dbbec56a455fb807dcf47f1db39bd0ac},
+            "publicKey": Buffer{a0dca06bc32ee739d3b14c4a377f824ae0e17d6e709499b4f365b46510d7bb6b},
+            "weight": 4187044547933292n,
+          },
+          "n:123" => {
+            "adnlAddress": Buffer{ae08cc5389b594e8f7381665de8320f25c2a62fbf3d79d724deaa76ca759ffaa},
+            "publicKey": Buffer{920753858c52c2417ed7ea32d7f4b79ebabd96b4e30d3f786e818031ee77af52},
+            "weight": 4187044547933292n,
+          },
+          "n:124" => {
+            "adnlAddress": Buffer{0803689f44c555ebedb2871d50bb50f219cc8141f5a3d9657740782eccb11c6b},
+            "publicKey": Buffer{26b5e6e6c3e24f617d4cbf8282c133d2c13bd69078d2abd24498448fe8acab18},
+            "weight": 4187044547933292n,
+          },
+          "n:125" => {
+            "adnlAddress": Buffer{0992d296262695836c78ade13b1928b35fc78c7dc1de146261129156a8bc0676},
+            "publicKey": Buffer{0b2ce60f0fe70e504286e3d0de3f9388ff5f9ea588e7eb08286ec88930019d98},
+            "weight": 4187044547933292n,
+          },
+          "n:126" => {
+            "adnlAddress": Buffer{32708b4d13c47293ae67743eed50ff0477ec7a1b8c8199a6eddb7de1f87c0aef},
+            "publicKey": Buffer{0dc121d57fd65c85466f43f470ba07aa48ab61a5cc003a00de1d72f35c8d333a},
+            "weight": 4187044547933292n,
+          },
+          "n:127" => {
+            "adnlAddress": Buffer{ccbcb11e31c07a44916a8f623755605f9131cf4310b6a7cba105875e709f088e},
+            "publicKey": Buffer{ec13f95ea5453c7ab38117326bcfbeec43219859171892a16af32b91905e3cfb},
+            "weight": 4187044547933292n,
+          },
+          "n:128" => {
+            "adnlAddress": Buffer{af20670974dba927b26e673f74f3ebe47590aea77253fe09cfbd29ed3f45a408},
+            "publicKey": Buffer{311c8ef4bb5d76c85dc079ef75d6964e005ed39141d6ee4f1cfbff0acabe9955},
+            "weight": 4187044547933292n,
+          },
+          "n:129" => {
+            "adnlAddress": Buffer{88b4fa2e7808231cc93003abda6dfa98b7d6e93e965c53d1977b9aa1e54f6310},
+            "publicKey": Buffer{d48a254168160ecf964d71a547dfd7703208bcd0c26c708441024f51c836d36e},
+            "weight": 4187044547933292n,
+          },
+          "n:130" => {
+            "adnlAddress": Buffer{1479d29413558a1da01f88e71b2d81d187616311ccd9e4686efea13ce590d4e5},
+            "publicKey": Buffer{6bcaa0ed1ffaff8de8192e892e769a503259eef665308aa9ae7fdbec0ff70f15},
+            "weight": 4187044547933292n,
+          },
+          "n:131" => {
+            "adnlAddress": Buffer{326ea121f368b3322364b2269f051671d615167913e50aece3f3c648667efee8},
+            "publicKey": Buffer{9faaf0c51b2edaa9221a44b19eb585cfacc6d4a6d441bd6c14cb1697c55ceb7f},
+            "weight": 4187044547933292n,
+          },
+          "n:132" => {
+            "adnlAddress": Buffer{4b81c41f882d9a169f22637b0c01ea5e16023b5075d1f035d41e358edf1db439},
+            "publicKey": Buffer{6d62345aeca3b27fdf3c394ae47d63ab35902e1cf9072aaa59465fdefb1688f9},
+            "weight": 4187044547933292n,
+          },
+          "n:133" => {
+            "adnlAddress": Buffer{856021bdc29b84d9b1377ccfe09907f9d83fb57212a4bf9a36a28e59ef99addd},
+            "publicKey": Buffer{b1f055f81de320881b1df8d77d10b506ef8626ce8df7488449619941eb145e5c},
+            "weight": 4187044547933292n,
+          },
+          "n:134" => {
+            "adnlAddress": Buffer{26e19aec2805686e72d28109679d70a15385005fd94fcf90b8d38f8be1fafac7},
+            "publicKey": Buffer{27226b6d025a8bb0c71fde04f3265313035051567464c7b9a3a22364c55c2e27},
+            "weight": 4187044547933292n,
+          },
+          "n:135" => {
+            "adnlAddress": Buffer{59a031a8aa53cd457ba04b322196a33ed02b8904a303da08c35fc0f24157076b},
+            "publicKey": Buffer{30c0592bf9f9103908d4be764106c58fc1c4cf1cfaa431cd75e26130804c5273},
+            "weight": 4187044547933292n,
+          },
+          "n:136" => {
+            "adnlAddress": Buffer{6e8fb336868699d80f31379aa2cf793dbd0b1a2d206ec9599eb43ca92209a5f8},
+            "publicKey": Buffer{4e5bff8bdb783dcad71cf84612cf6bf4c0d1c44bb5ffbc9cbae71fdbc97e028a},
+            "weight": 4187044547933292n,
+          },
+          "n:137" => {
+            "adnlAddress": Buffer{4f2dc9a4d04a591deff9cfea9234ede0aa7490a4c9962c7ef03767693763abda},
+            "publicKey": Buffer{34e09af7a1a68cf08efeeb209475387413b7f48c7ed5814ccbdeaec6fccc3583},
+            "weight": 4157782599794593n,
+          },
+          "n:138" => {
+            "adnlAddress": Buffer{608d1c904a66dc4b1fdd0dce7e35a701f4bdedfeecf80a833510c8535959e006},
+            "publicKey": Buffer{bf1bf850c2b2d3b02cb734baf6525d548501481f5b21fb6c1c4db60d3c12d8c4},
+            "weight": 4114574352399005n,
+          },
+          "n:139" => {
+            "adnlAddress": Buffer{be3d9fcde7f1f164fc2f8b03cd27097612e1d312bc725578dc10393237e9f6da},
+            "publicKey": Buffer{24d3ca8b6ef1434c3be4c40d5be21fcf43011fa89e97f1c2d63f968b81c051ec},
+            "weight": 4114574352399005n,
+          },
+          "n:140" => {
+            "adnlAddress": Buffer{0d4f3bf192f228e636c4d5f75b8711edd9fbeb173cc9cfeee29bc6fecd8ad041},
+            "publicKey": Buffer{954ee0e9c74c8611f34c621e5c71ce87cbcad8b4ecd4656a20f963ec5c8fa5f7},
+            "weight": 4114574352399005n,
+          },
+          "n:141" => {
+            "adnlAddress": Buffer{48cbbc37760aa7a8e1756181b0a1b5e2d540c382247642aae04c9d0f75babc3d},
+            "publicKey": Buffer{73f3de7998397ff935521f568ac7900d89a2c43a19ab89b797dc5457edf4dedd},
+            "weight": 4114574352399005n,
+          },
+          "n:142" => {
+            "adnlAddress": Buffer{721273cbdf55df7fcac63c179401b24a3220865ec87d1c282538062067557afe},
+            "publicKey": Buffer{4d15c2669683e0ececf1b84d663d6a1b72c72ce1a70d2be40809370c0eb77d6d},
+            "weight": 4114574352399005n,
+          },
+          "n:143" => {
+            "adnlAddress": Buffer{871f5a1c98e7d475329a61a5dd3a706c344b980e3fd493b935dbdb8d94b78215},
+            "publicKey": Buffer{4003230bc99ee9cc50435918de52455417e8819682dc4b7b85b5f46208a76ac0},
+            "weight": 4114574352399005n,
+          },
+          "n:144" => {
+            "adnlAddress": Buffer{945f80b22b0d1ad61e24e5f4e980dfdd195b35cb87b12d959e64b56381f66366},
+            "publicKey": Buffer{634e6217e26294b2a9a35d0332bd3208929cc34d886ec92e662c5567fadf882e},
+            "weight": 4072670402684552n,
+          },
+          "n:145" => {
+            "adnlAddress": Buffer{2a734afda1b6f9ee9b5102aabd9fe6f8d382cf6641d279f9c0252750815e2a29},
+            "publicKey": Buffer{b3696e7705934df2a3344fffcf11788c9f1bc2368d73dd3ef6ce84f1c3fa1e4f},
+            "weight": 4072663839284421n,
+          },
+          "n:146" => {
+            "adnlAddress": Buffer{5565d9be0533b84a517b0f1285b357f8a2e2aa45eaaf01655a70164796ae3bb9},
+            "publicKey": Buffer{53b003b147ff0fce3442d765d988c48375c325c2cfe78fe4e4cee6e7370851bf},
+            "weight": 4071680914631334n,
+          },
+          "n:147" => {
+            "adnlAddress": Buffer{65e02db2cde41fcb0e9d1e476ea2e19bc76c7547a975a078fe71835e02ef1310},
+            "publicKey": Buffer{e789f281cd0499511315201884b5a08b0343de1d5c5351b6f9634f040c5d73e1},
+            "weight": 4005296049585633n,
+          },
+          "n:148" => {
+            "adnlAddress": Buffer{931f3634f688358ea81af60ebceb4e5ff00bfe86569fd647144b5f738334064a},
+            "publicKey": Buffer{736db396ccf4c9187f2ffc2d4c25cab7fbc31fdec618888b812a4e2c65d8bc06},
+            "weight": 4005296049585633n,
+          },
+          "n:149" => {
+            "adnlAddress": Buffer{c8349f70872528858077fd0a277467a708f2de575174db01aa317b9d426a9fd3},
+            "publicKey": Buffer{81fc456096cf87ae62924648c68dc47d36df93b65f8b8eb9f05fd4a421518946},
+            "weight": 4005296049585633n,
+          },
+          "n:150" => {
+            "adnlAddress": Buffer{61dcab6649c2e94bb3a591354108d5258d70c1e5ac606f7aa797272fec0a8850},
+            "publicKey": Buffer{2f607ccc2b384d1523b1b61f8e3a5c7ab34f7959f49568410b3582c968dc69f8},
+            "weight": 4005296049585633n,
+          },
+          "n:151" => {
+            "adnlAddress": Buffer{d970275b1d6341a39ea3b7a30aee231d6458a2eaef2baa3c72e49eaaf1f5f9aa},
+            "publicKey": Buffer{16893fecadd4e1cc88036c0925eb6dd6a53d8afcaf8f80cddb3cd7d7ff4910d2},
+            "weight": 4005296049585633n,
+          },
+          "n:152" => {
+            "adnlAddress": Buffer{ae8742015f1b45419e300891f4d7658ef75c681a9dfedc72d9f0d8c5e5b39518},
+            "publicKey": Buffer{3dbdc3683a08596378f462007f9b5df79c8e4ed7e9e3c88ac4e601c0ea7218da},
+            "weight": 4005296049585633n,
+          },
+          "n:153" => {
+            "adnlAddress": Buffer{b73054305bf8225c907a03d104cce74b81057bea80a8b0d485cc98e8282cf89d},
+            "publicKey": Buffer{a240aa8e25834c1163daf72bbc2416596b5ef6e1714dcd48bcdf0fab164192eb},
+            "weight": 3986502368527908n,
+          },
+          "n:154" => {
+            "adnlAddress": Buffer{b93805bd460574cce2ae30a782f40e243faae7a187c3f2da3b60d4f40adac091},
+            "publicKey": Buffer{860495b2f30753a4d265d6c91984b5d6a418ff3c9cf67ef630c429d30f0b01f8},
+            "weight": 3963643231502782n,
+          },
+          "n:155" => {
+            "adnlAddress": Buffer{834047a0c3babce6e67b5e3df1fa47824519e32929f1bb7b12f9eada863feba8},
+            "publicKey": Buffer{8d438a65a423827901e10c4ba2dbb5dda4437e438d274e29c2108185280f6f97},
+            "weight": 3962343318715250n,
+          },
+          "n:156" => {
+            "adnlAddress": Buffer{08ffbe73d24526cb8a8ff5f7b1f768e87c3448337498bdb3b66dcafa665e172d},
+            "publicKey": Buffer{dc1b7d6c7f58e8e43b4edaa8e028552634269cc4811fae52b7b300efe0fd9461},
+            "weight": 3950650128049557n,
+          },
+          "n:157" => {
+            "adnlAddress": Buffer{f3876c71c1712514468cefff4e1e9e7443c65742ea0994cc97e229f54ae3b9c9},
+            "publicKey": Buffer{3fa9541cd6f44feb9e4db244e87cb913a5dfcb8c19d8e7b6604d4652f271ab1b},
+            "weight": 3948023847529758n,
+          },
+          "n:158" => {
+            "adnlAddress": Buffer{a7f807b93262a8c710b588e25e5376b85a4b82358055382daa19d35e91b3f585},
+            "publicKey": Buffer{236dfb3816268e30e8c2aa848b3b3bc49a7d54675143fffdf8daf6e2c20966ed},
+            "weight": 3942615221601405n,
+          },
+          "n:159" => {
+            "adnlAddress": Buffer{1093d78a0eb70fa3694b2428b72f41f8c47209b6f12d8f7606643edb2dcc26f1},
+            "publicKey": Buffer{52463b4870f75fed0cf0297092c3b6f2f6530cad9c41bec8a78589cf6eae0f27},
+            "weight": 3938324211408677n,
+          },
+          "n:160" => {
+            "adnlAddress": Buffer{a8fa83056dd2fe72958ea33b2c7ebb26b36d88155e82129f218b8677c123e0fa},
+            "publicKey": Buffer{bde403ebb0697805f71f4fb49241197f1f9e6e56c0df6ac0f03bee55a7436ad5},
+            "weight": 3924653131931735n,
+          },
+          "n:161" => {
+            "adnlAddress": Buffer{0637f5054bfcdc3d42ac29f7823b783355b499a8a21a361ed8266902914d4f1b},
+            "publicKey": Buffer{4a203a5e8e64f7817ba061014e545b9984366d782d1b9ca76788478b4bbb6792},
+            "weight": 3878609078378465n,
+          },
+          "n:162" => {
+            "adnlAddress": Buffer{17986a9864208a53882743d58e64451f51470c8f722788f1cefcc6e639ca7ab0},
+            "publicKey": Buffer{7fa4a3c6551ffba4972bcf44e23e09c7da2e29f246b9e8a229a94c52ed30a8fd},
+            "weight": 3868361087093522n,
+          },
+          "n:163" => {
+            "adnlAddress": Buffer{fdcc88c0cf2abab5c2f5a9c8c1c8d1f29f87abd61a348b21702653e5d84ea3ec},
+            "publicKey": Buffer{1fd8e72766c8f686b58377eb67a017d91bd943cf4e858a3e982eeab24dfe7604},
+            "weight": 3868361087093522n,
+          },
+          "n:164" => {
+            "adnlAddress": Buffer{03639807fc27eb2d174cbd0b581f4d00e564d7a0b5d52230261e417a731d1c63},
+            "publicKey": Buffer{322a769b2f71b9d656b6e4273c03b1d77609a11af722553ea0dd8ae3a22bce49},
+            "weight": 3868361087093522n,
+          },
+          "n:165" => {
+            "adnlAddress": Buffer{6b5de5ba8610c88b64174b26fab8759b026fb5b631e3b63ad1238f6d68d14882},
+            "publicKey": Buffer{56e26ad6e8dce08869656d9b61b57a8e9aa77b0199c6fa463f39f66a8e306773},
+            "weight": 3868361087093522n,
+          },
+          "n:166" => {
+            "adnlAddress": Buffer{5b5035bce39832dacc0bfaf6d023f2a99fffe30c9c69024a6c7a809d2cb9cc09},
+            "publicKey": Buffer{d0dc7d51d1913fa8928286a4a108fa2ea5e8d0b8788041fac2c7e8024827d2e9},
+            "weight": 3844707717704171n,
+          },
+          "n:167" => {
+            "adnlAddress": Buffer{24c84c3c110dd379b172f679c8c112bb0ebcfddec63795326e7df3d0ca436e27},
+            "publicKey": Buffer{50c59807065b7768acca939a5fd7083df66e6e4703b6bd3d95b07392431400a5},
+            "weight": 3836755876655666n,
+          },
+          "n:168" => {
+            "adnlAddress": Buffer{b1e0e68db670e941527f85fd432ec0b955292cb07495c012d327dc1c4d29f1b8},
+            "publicKey": Buffer{52d069b7c26ca69cfce993aff09fb6cdc0ff0d4fcfbda94d8a0cf05e72116e0e},
+            "weight": 3834558330585156n,
+          },
+          "n:169" => {
+            "adnlAddress": Buffer{8883c59791c5f87d4b3b2bf213921c41f203b1ad2d97664ee4988d1ca5f75d2b},
+            "publicKey": Buffer{339ce689b92a2511e025b46425f3a8ad2bf53d8c6c6906e12753008feca0fb2a},
+            "weight": 3831505314014115n,
+          },
+          "n:170" => {
+            "adnlAddress": Buffer{a48fdfeec71dfc92f977aaf6a39ae24c19d741d46a8b60cd77235c432e4a610b},
+            "publicKey": Buffer{38debe94369245bc0cd9330668d092a59b345ba5847554cdd05096ec74326751},
+            "weight": 3829554517808317n,
+          },
+          "n:171" => {
+            "adnlAddress": Buffer{54a387ca823db25df7ad786e87aafb369b392cbb8453ae3d9e328a463dded857},
+            "publicKey": Buffer{4a0dfb16ad604be0ecfabbb458be941abb3875c1aa62a8a685b0560fbc1845dc},
+            "weight": 3828670279250130n,
+          },
+          "n:172" => {
+            "adnlAddress": Buffer{a56b8cd290400a8eb2daf6073b97bd0963df0400f1f4bdfd30ee6ce171c465a3},
+            "publicKey": Buffer{ca650b0741aceed1df970c47126b8c3920b2fcdd220b3f4e89a07a87c16a8c3e},
+            "weight": 3825020701824485n,
+          },
+          "n:173" => {
+            "adnlAddress": Buffer{79b52f64d1ceb4771ae105db81f20d3c68784389655ce6106b65c92a4d40f855},
+            "publicKey": Buffer{3b458801575d52ae296224413cf64fe1cca7058eb8dfe1030d41145f0c7182be},
+            "weight": 3818373495069917n,
+          },
+          "n:174" => {
+            "adnlAddress": Buffer{a2d0c204d5ed2217df5a99e9d8aa204078c40980c73dbb1af07fa4a5d80d7362},
+            "publicKey": Buffer{ff7b575149461491ebe4e8c3562398e5282bb1af8812e84800f99664b697f92e},
+            "weight": 3816286275022043n,
+          },
+          "n:175" => {
+            "adnlAddress": Buffer{9257aed9e2cdbe189172565ca38859bcd8034d92ce10ca1199e8a5c187bee6c1},
+            "publicKey": Buffer{1fa77f60a1a8701ecaf11d29acdff8aa97436c1e415e6d134d5094576e14933d},
+            "weight": 3812775959402609n,
+          },
+          "n:176" => {
+            "adnlAddress": Buffer{668a2a1eb3ebfd7787088b3d2bc1f7047a38fe92ab7bd76adf3807045396e7da},
+            "publicKey": Buffer{8fb70014dc17e69dc67bc68d41c3f13aac73a874547f1365e751000a7ab02bd2},
+            "weight": 3787445214241949n,
+          },
+          "n:177" => {
+            "adnlAddress": Buffer{73649164c777f1b5422d046ad006265717d89d4b815200f27e0b455216f8007e},
+            "publicKey": Buffer{073443498c0add59252f2adf2ceeee623a058ebbe0295b94cbae8115f5e12982},
+            "weight": 3779854033866826n,
+          },
+          "n:178" => {
+            "adnlAddress": Buffer{497a8d0561651eea80652c501998bf3309a4f7624c884480e84c9a967d433992},
+            "publicKey": Buffer{7726b384fd0fe6ca4cc9addcb26399a0006d7cb00c0819bfd1a2aa3b81b3a62c},
+            "weight": 3762361376188565n,
+          },
+          "n:179" => {
+            "adnlAddress": Buffer{e631ee57d0aa270a97b54f5aba37199686b9093bc7a586eb216f889eb977f397},
+            "publicKey": Buffer{78fe068bcc8b909d0548b680dd09561a11edb7ea715448c26a853b955877772d},
+            "weight": 3762361375021121n,
+          },
+          "n:180" => {
+            "adnlAddress": Buffer{b94c51fb87269352403030a4b7e7fb95a6c0b81553247a8ddd3e186be07f0f25},
+            "publicKey": Buffer{4ab33d4b7c4ca60aca9fd388fabbd6cc2c2210f8860d82d8fe6e18beed8537ab},
+            "weight": 3762361373638494n,
+          },
+          "n:181" => {
+            "adnlAddress": Buffer{b45b54b474d2bdd6dc306871cd8eaff0dcf3dfefcc8a7322fa009da0959c2ffc},
+            "publicKey": Buffer{bd5e2fd2648b15232e4ef13a60dd63bc726e93e8ea1e23da3951fc4afb497dc7},
+            "weight": 3762361373423011n,
+          },
+          "n:182" => {
+            "adnlAddress": Buffer{c8d88ff8de9a9dec151cd14e59c2324d8d463462be514a2e480529b5e543fa6c},
+            "publicKey": Buffer{614a7f0ea21770299db296618a54238afbe38240e16943bc59dc65c1bdf2debb},
+            "weight": 3761138132632826n,
+          },
+          "n:183" => {
+            "adnlAddress": Buffer{ed04c6265b5ba338d249e96ad54e807a8d97f05e66121919545b53f5082aa216},
+            "publicKey": Buffer{75a70a84b3bf0bda1ee7cea3f51b40d285cc056e3258b9e9514de3fe47464c69},
+            "weight": 3737381731485160n,
+          },
+          "n:184" => {
+            "adnlAddress": Buffer{eb7d5cda6770d67870565a42ccbe17111ae363dcd946b28816c19583c207447c},
+            "publicKey": Buffer{a0e550e42c6db743b093eda5f2b924e2e756cbefb6295dbdb81084b737b6919d},
+            "weight": 3707772179210904n,
+          },
+          "n:185" => {
+            "adnlAddress": Buffer{36f0cb9fe63d7c6377c211e583da7715a40f2de493fc2f508c944ba85c042399},
+            "publicKey": Buffer{61f4c6a3256b0c705e9619c5df3b408e9d1ad007de093a4f9a113d73da99dca6},
+            "weight": 3683458873733195n,
+          },
+          "n:186" => {
+            "adnlAddress": Buffer{acffc56d5dc7a2aa0b9c4f8bfce50e5a58a783d938376da059746430955f396d},
+            "publicKey": Buffer{cc32a4ea748a4e4c75b9e5574301454a6e86deaac12fcf76d4fd71d221a1a9f1},
+            "weight": 3665638344597947n,
+          },
+          "n:187" => {
+            "adnlAddress": Buffer{182541cbdbac49c01fa62c30b2154546eb1ae53081c037c7d5125a68a9fe14d1},
+            "publicKey": Buffer{d7f54aad57507c5883220c337f50fc04390a30c7aca7c1690e28543059036e76},
+            "weight": 3614092802777013n,
+          },
+          "n:188" => {
+            "adnlAddress": Buffer{2a0b9442d367d40540f11da723c1731fc948dbc55bc02ab37ba6df81bac1fb60},
+            "publicKey": Buffer{bae014460f50e06db4db938bd09de40af64b10800ce4256fbfdafdacc1311252},
+            "weight": 3608877551631076n,
+          },
+          "n:189" => {
+            "adnlAddress": Buffer{212331dc6ef20d8761bce0461f6deecd7e0ffa2b609074cee30b26b2bd65c8ed},
+            "publicKey": Buffer{8571584a9a9915ea0be54dd3218dc7dea195663674c6875da3f6892b8c1b12f1},
+            "weight": 3604779136586112n,
+          },
+          "n:190" => {
+            "adnlAddress": Buffer{f57c4ee3acbeca047e3cbf48923e225f8546f594b24fcc1ec783431c76f6f442},
+            "publicKey": Buffer{f9f738aa4e25cd635fb1185d46f8972aa309a93989f1d940c4464087d367cf07},
+            "weight": 3578653474265148n,
+          },
+          "n:191" => {
+            "adnlAddress": Buffer{e45bc0a5980ce2ff8f3addd00b3ae505806ffb9ea8b60bf27d0f4083db5c59c4},
+            "publicKey": Buffer{8f0d204747c01af7cd36e11d165c71b67c1b4c6e19159e7bdd012b34dcebcf51},
+            "weight": 3534960552312886n,
+          },
+          "n:192" => {
+            "adnlAddress": Buffer{582e29ec8715f49fc24c7a39b3f6df775ad397c9e67df6332acc755e33199f90},
+            "publicKey": Buffer{fdbaefb4b1b5fa7d62b95b70b962dd38af5172d0ef12cb9af6ef5c82edc5ed03},
+            "weight": 3491641831437764n,
+          },
+          "n:193" => {
+            "adnlAddress": Buffer{02f878af6d1cc60117ff86edb9e7daf6f42ed504fe8dff088afef37fb8ba15e8},
+            "publicKey": Buffer{f3a99ab339dcc1a0debd8393b6deae274a8dc7e9c211f07f61ee6cc5ff65deee},
+            "weight": 3478701053878909n,
+          },
+          "n:194" => {
+            "adnlAddress": Buffer{c404f095073e609e62cc540976c7645b78e764f7146c5939e7682cd14b903acd},
+            "publicKey": Buffer{da519c5389c66e4f0c5a9220ae599ac8c4ca3c518535fe5e5efb6d1d9e6ba97c},
+            "weight": 3464770554810000n,
+          },
+          "n:195" => {
+            "adnlAddress": Buffer{0d4db6b86bc7f02544c5dabfdf1e758e3ba66ba5d7f6592fe50b6df43ee46dde},
+            "publicKey": Buffer{c8f8b90c6d15240956515d8739aaf79ca716fbf63459898dbf4fed62886bbb7c},
+            "weight": 3438652844079293n,
+          },
+          "n:196" => {
+            "adnlAddress": Buffer{fe55de00a6f9e6d2a5b7f429e25b0bc6c8c0f91865c767afa8c250fd32f2f902},
+            "publicKey": Buffer{65f5646e89ef7c18f008b9ce610ece3463b62c0129133afe87b406f27f1673a6},
+            "weight": 3429712754245485n,
+          },
+          "n:197" => {
+            "adnlAddress": Buffer{122485157696c94efc280dcfa5036ac7d8b0cf6c6db0e38b09427a42c635b62d},
+            "publicKey": Buffer{940c2b3ad784c952b9e7815e19592a2c8a42c282d0fa26a181475712a3c414f2},
+            "weight": 3429062129975519n,
+          },
+          "n:198" => {
+            "adnlAddress": Buffer{43fbcd0197830042952698408766c5a170a9778b974116e724fb5e5aec38f3ca},
+            "publicKey": Buffer{bc8daa51fbf36b5c9d2e2aeb738b08723236d9a2257528fad4682af3eb1c2a38},
+            "weight": 3428896413429076n,
+          },
+          "n:199" => {
+            "adnlAddress": Buffer{3f480f8cd37986aff3e16c8e85f1be1e14f666a9a3bb191811eaf68bf20deba1},
+            "publicKey": Buffer{6e31df107860617336aeb2b590d341d6728129d51bdab0df0763e8f21ecc3312},
+            "weight": 3419902534753330n,
+          },
+          "n:200" => {
+            "adnlAddress": Buffer{47cdaa6dd6e5a1fde4f7b085b181b8fdf1af62aef86be9028a238c378a543bc7},
+            "publicKey": Buffer{7f34fbc2a903a7ea59f8e271dc6de37e72f184b26ebb0d7c6885efdf9af30fa1},
+            "weight": 3414777052142095n,
+          },
+          "n:201" => {
+            "adnlAddress": Buffer{8e926bdfd627f970da141ed9e8beef7ca121abe4dcb10a993e44c05f35a66fe8},
+            "publicKey": Buffer{218ca29c84220a0b2d84094343ba2c97dc659528cb9c3ddad0c6281be8f301b7},
+            "weight": 3391601636478416n,
+          },
+          "n:202" => {
+            "adnlAddress": Buffer{684fc47fcc6029ecf745ba0cf0e904727345f22167030a20263203ea02d1ed9e},
+            "publicKey": Buffer{917fafe04a8510af2e78ef12051b006fc230fe89a74d93e7511bf8490479fc2f},
+            "weight": 3380985996221120n,
+          },
+          "n:203" => {
+            "adnlAddress": Buffer{13d5dfedfb1ab8244be01bb876347f3bd91ff248a393279b3c1e2a6efe227d2a},
+            "publicKey": Buffer{f3d99cf0b56c39cfdabe04db3bd97ec1e88949836b2d518eea30ef501a586557},
+            "weight": 3380055213591323n,
+          },
+          "n:204" => {
+            "adnlAddress": Buffer{0e50d497e0587e2bb0bed4d4cd7f0aeec6ac2d1da0640f2d11f329a6093c6e73},
+            "publicKey": Buffer{ac4cb9ddad07c103e376213eefefed555a7a15e5b843f76c06f56f2f93a6c787},
+            "weight": 3322562102523390n,
+          },
+          "n:205" => {
+            "adnlAddress": Buffer{0f113b6df5a06a7bbee7b9cad9bb21d30b736efbfbd3e7343b244c71b8cae810},
+            "publicKey": Buffer{34b5b51b26d263894147fe481f73cf63641e760e8f3c5929bcb77e5df863ae8d},
+            "weight": 3299637523503168n,
+          },
+          "n:206" => {
+            "adnlAddress": Buffer{598fafd6c56c177625d19d921f332ccffb5902f129a2d24189b663d503f071f3},
+            "publicKey": Buffer{da65aa190b4be4f794f88ba2574d40903d810e6d721faf5a7deb6e22d3365304},
+            "weight": 3263881698104747n,
+          },
+          "n:207" => {
+            "adnlAddress": Buffer{1905c09e1a02253dba9a329a7b4e35f2001366b31989a714b72e92544c2fd625},
+            "publicKey": Buffer{675ebc8cbd75c44d777b2833482587c34bc9e5615f9a0e769f9407e632c07371},
+            "weight": 3248613325975155n,
+          },
+          "n:208" => {
+            "adnlAddress": Buffer{ebe59d79a1b243f8a808a4350d34cba61efac87b36a23711b6efb03c94dfd783},
+            "publicKey": Buffer{f7f1a0a61df51b27fd03532b9fbd16ebdbc7f13dab85e8286d47b06b2ece0185},
+            "weight": 3235256656879190n,
+          },
+          "n:209" => {
+            "adnlAddress": Buffer{e041576d93865b8ce5bb79efa8a10df07527db6c1ab3fe1a27adcec4fa8fd4d0},
+            "publicKey": Buffer{2f893043a880c1d2c06f9cab711cbedd6bafe64657c492cff8cee3fe126f6e48},
+            "weight": 3225924379847799n,
+          },
+          "n:210" => {
+            "adnlAddress": Buffer{3fab01fc392f044c82a36a2c6ce99918ad4f1252938539db08e3c99993fff893},
+            "publicKey": Buffer{9267610454b3ad2b3f4598c196b8b9ece160c49bd674d66b82c7dd5d1526095d},
+            "weight": 3224681431726717n,
+          },
+          "n:211" => {
+            "adnlAddress": Buffer{8c2e39518eedbd2eb81df8655a89848d34fc77d4c5d5670b03357d2e015fd1d7},
+            "publicKey": Buffer{1828136451da1c4e16455c664082bff425c540a3621e58c5572bfd552c32010e},
+            "weight": 3221826864431689n,
+          },
+          "n:212" => {
+            "adnlAddress": Buffer{062535f7547d211dcee68083ca91cc7302faa65a565dcbc009a112bb5b42d166},
+            "publicKey": Buffer{5daa489034a3507ddd069fa6e5ef7791da45bc0a61257bd5654d0e238d56dfbc},
+            "weight": 3213878292087695n,
+          },
+          "n:213" => {
+            "adnlAddress": Buffer{74d1f117326cf0c289028e652f9b9d7ce449b4358f3daa14dda7be66329b5642},
+            "publicKey": Buffer{59cab8d9e19325257dbcac34d853b4fdb6fadab43f3fa8833eb9900d9fdd4509},
+            "weight": 3209703564818223n,
+          },
+          "n:214" => {
+            "adnlAddress": Buffer{f041fbcebf2fac567b8037ac368e073e3abdfb8f150963b2e7f8d533ecf67e34},
+            "publicKey": Buffer{b00a4d63ae265c90a00b5757c5bfa1ac021df28cf6be24deb48370ddd14f0e65},
+            "weight": 3196660392450597n,
+          },
+          "n:215" => {
+            "adnlAddress": Buffer{9ae8d699f61e2e73a3345d91628abefd6e359094c6cfd226a7f7a4fc9287b1c4},
+            "publicKey": Buffer{fc0bf81373b68441f9a4772ca0823624a0f53efcf489876c03d50edcf92098cb},
+            "weight": 3160032329242461n,
+          },
+          "n:216" => {
+            "adnlAddress": Buffer{2682ae91168d8a9ea9ed6f982d4aa6214c568f064ad4c4fa2075a0c895e39e69},
+            "publicKey": Buffer{9139900028db13e4ee392ae567aebbcb10077ba99a7013b146d61702a6bd9ac8},
+            "weight": 3160032329242461n,
+          },
+          "n:217" => {
+            "adnlAddress": Buffer{6619f87631c7d85d697a89ee973f278749f988d3997f5cc1a8d8f828778f1444},
+            "publicKey": Buffer{e077471022ede031741729fa39ad0340e645c930bd73b3568da435ecfad4c265},
+            "weight": 3153663554402348n,
+          },
+          "n:218" => {
+            "adnlAddress": Buffer{0c0e58ed560c34b4a14cd844d2dd862ad0d4a2ef6bda1e9a749a19c505e4bff2},
+            "publicKey": Buffer{9d804d03cce4c6144d44e74d92763341bca878985e737fa7226eb82db3f0a8bb},
+            "weight": 3108871320563678n,
+          },
+          "n:219" => {
+            "adnlAddress": Buffer{58d94ca575e82acfff9c2a38e6d0c411b24f969465dbb0c3c5f2045468a2d890},
+            "publicKey": Buffer{b868c14f0877b253bf944ff23efb3746ec0d271a8c310996b6a55b1e0f1fa37a},
+            "weight": 3097121247435989n,
+          },
+          "n:220" => {
+            "adnlAddress": Buffer{dd475f7b8a39e8dec78d5ca98aaf4cebcb28fe1b4616283339bfd82f69b8d167},
+            "publicKey": Buffer{16cde98464c8bae26af61308b50cbe173abd60ec04bd3ab6627c0faff31637b3},
+            "weight": 3083389388926372n,
+          },
+          "n:221" => {
+            "adnlAddress": Buffer{396d8922ba55e06714c65518f75e8a49de0d696c9cc8f6d933a8702e1c4a41eb},
+            "publicKey": Buffer{9d424a4aef1ef6544d154080224e67e051b3fab38f919838fe35b3000bc6414e},
+            "weight": 3082253270546942n,
+          },
+          "n:222" => {
+            "adnlAddress": Buffer{1e89f6ec66e8d4ed5c6647d96fff96bb47d1d83b06d78bfec8f7250c38e82f88},
+            "publicKey": Buffer{a4068baa0aa4ca8c933c464a9fc23de47c7aafa4b7841059cb4fe859467d5954},
+            "weight": 3081816132012832n,
+          },
+          "n:223" => {
+            "adnlAddress": Buffer{87470ce69196b8fb5ca09b2880e0801fba2c4fcd33295e3158be59218ccaefa6},
+            "publicKey": Buffer{740b84280d2e709637e6ac11e93a27520c5b1079a1f52e3122d9b700c3f3dc3b},
+            "weight": 3076559631705101n,
+          },
+          "n:224" => {
+            "adnlAddress": Buffer{34e970549412873926ef4317c0885a6f81f07d4c369c95705e156a2f6043779f},
+            "publicKey": Buffer{e68ea55a387a8dba36182f1ff18b78cfe9e914fefdf3258cc5a8d78b4cdc7946},
+            "weight": 3067448712043757n,
+          },
+          "n:225" => {
+            "adnlAddress": Buffer{9c90bef9ff11dd3d34f6acd84f9f2be9ec1e7e84928ce9bf2432a5aea9a5c130},
+            "publicKey": Buffer{c6512633f688b116bb6742b4d6b62c53b7ff1df1d36b95de567a95f89d9c9117},
+            "weight": 3049181935003859n,
+          },
+          "n:226" => {
+            "adnlAddress": Buffer{3ec95e2a670da55875a13acc82a3c4fbcc8050e267f261430e39d3a56c3abd03},
+            "publicKey": Buffer{6303e01b105eaebd79b959a4353bdc219b1cbf2045b5435d48906de5fbb21821},
+            "weight": 3043827213379925n,
+          },
+          "n:227" => {
+            "adnlAddress": Buffer{d28b8fd36a09f81347335837a27de8af86ccbd0bbbf9dfe2cbe3312d52b37e17},
+            "publicKey": Buffer{02dbbaba03ad7dbb480c5bf8ac9722a046def82540904434254740322986c3e3},
+            "weight": 3035437869165349n,
+          },
+          "n:228" => {
+            "adnlAddress": Buffer{72371f3d7b3beabede4f0a8535f6c6cf83b068af014d037e44c288de2d95186a},
+            "publicKey": Buffer{094af24743c9fa518bfad7ea696a581f751dc657c6008da4a3b69b78e583be9c},
+            "weight": 2992063018336152n,
+          },
+          "n:229" => {
+            "adnlAddress": Buffer{016ae2ef87178b8ec795198da4434d3ae46c8cacc7886e82cec858b96677a65e},
+            "publicKey": Buffer{229fbf40256b229e69a610deee9345a78cdeba17f7916d0d1817f952c0ee8af4},
+            "weight": 2984376372741042n,
+          },
+          "n:230" => {
+            "adnlAddress": Buffer{7adcf5845d9878e3c21aa18c4258187dceeaa32946042085dff9dcfb7ab81b34},
+            "publicKey": Buffer{b2e1edda3ede13d7a709662a4b708900f5219c6e349d0cabad0500374a7d3af4},
+            "weight": 2974401187396425n,
+          },
+          "n:231" => {
+            "adnlAddress": Buffer{b065b16c72daf012b751bae7ac1d6aa4f4c609b1a6d523bfc4c2c462a87c2749},
+            "publicKey": Buffer{cdc1c556780bc4ce017bab06b3f69610ed3ca9f0fae30daf6f0821ac8585c078},
+            "weight": 2897733408588823n,
+          },
+          "n:232" => {
+            "adnlAddress": Buffer{4930f90db58c3a5bb4dce2965579fc1032fc55d79458611b5154e9293d354590},
+            "publicKey": Buffer{0500bfd6ddd9f38aa7f81501c8476f3076768a24c12ef01654772efd73ebd82d},
+            "weight": 2896702193625464n,
+          },
+          "n:233" => {
+            "adnlAddress": Buffer{6df20651f61604a8763882856edc3484df6b6513e992cde84a71bc1d1c75a72b},
+            "publicKey": Buffer{f038a40892127e9a8ce2530769e7ca1d28b92c9271b0571d4fa7d000aabc8757},
+            "weight": 2872757911289352n,
+          },
+          "n:234" => {
+            "adnlAddress": Buffer{f9be360faa250ac27587580d9bf03f37b6d5056b04fd34b35a404db4f40b49ab},
+            "publicKey": Buffer{ef6f07ef3486924954d2a21bb97b479393676a2a6cc10d632a3fdbe149e1255b},
+            "weight": 2801586766673334n,
+          },
+          "n:235" => {
+            "adnlAddress": Buffer{87a90f59eadc95a4412280ed292c42f86300ff1111c8e2193afef94a3a6bebe9},
+            "publicKey": Buffer{0c52eb30dc2033a5bbd3cceb44705ad8709226713c809b084605939f4ba245ae},
+            "weight": 2796101332773043n,
+          },
+          "n:236" => {
+            "adnlAddress": Buffer{3090f82ae131b3a0c924e786222ba98d8ef0ec2075ab463b2924bee26a049726},
+            "publicKey": Buffer{968846c5bac3d5ef49ce8907d84a705b6b8f08bbb67f0b55173cbec42e786739},
+            "weight": 2725695695134792n,
+          },
+          "n:237" => {
+            "adnlAddress": Buffer{92fc13d392f07d5fb54e49aa0a6b1da1c65beb180521f08a3596b3b398a73d87},
+            "publicKey": Buffer{31f65fcd1a585522811dc3faa34a6b94823649db784682912478d7e0b4666475},
+            "weight": 2707098873882498n,
+          },
+          "n:238" => {
+            "adnlAddress": Buffer{6240d83273fee87abc67ea00ab60233d2f4ff73a322a2a7743be4e6f786b3c4c},
+            "publicKey": Buffer{5bef1c3b362ec22358d65beef331c18afa21cff7780928c8b555f539581ffe4d},
+            "weight": 2654525144790282n,
+          },
+          "n:239" => {
+            "adnlAddress": Buffer{fc268729460bde860cb66593f6b99e1b45215119084e367076470d9828ef2963},
+            "publicKey": Buffer{69fda2600107971c9703ed72486b23f25e62e8cdf1c5b1a8aeb6b87ace0d08c5},
+            "weight": 2633359396580496n,
+          },
+          "n:240" => {
+            "adnlAddress": Buffer{a74cb9884eb1fb995071da460d6556d70e0efc789deb2876e9209762e396c278},
+            "publicKey": Buffer{e8ba840ef843dc34b1dc904a2503dfe089c242caaa22aa3b63ebceef01d9ed5e},
+            "weight": 2622825937927257n,
+          },
+          "n:241" => {
+            "adnlAddress": Buffer{c9310ed490fb9acbdd9a9bc93d56c5c7e8de8e8496e71cb9a9eafbbef0d883b9},
+            "publicKey": Buffer{df4cb90e793334d71ccd485c0e597a3b8f13964434014582a2d08dda01feb6f9},
+            "weight": 2589865724199900n,
+          },
+          "n:242" => {
+            "adnlAddress": Buffer{a7a8b452e5e466264bdcffd1629035dbf8c55fb9d3169e038743307a4fcc9814},
+            "publicKey": Buffer{dd63aac0485b2f9292bde1f7d4c6f7fe375060a67e4d43ecb040720cdcdef818},
+            "weight": 2562397635704965n,
+          },
+          "n:243" => {
+            "adnlAddress": Buffer{59a69e334175cd390dfdc2f2ae643d563e64b3861b06a2fbf8a2f955cd44e6cd},
+            "publicKey": Buffer{6777d1cb0c3152ca9d3937c91e31dd3673583c18afda4ad9161962da13dbb3da},
+            "weight": 2538564599415328n,
+          },
+          "n:244" => {
+            "adnlAddress": Buffer{e9201d7b35d07543fb8550c6370f05af68da011aeaf3d342ba418678428ec9ef},
+            "publicKey": Buffer{9b3e509a96e339d745a2ab34b3445f95abe282ab2e0d4fdfcc4a02b9151ee48d},
+            "weight": 2501691163415005n,
+          },
+          "n:245" => {
+            "adnlAddress": Buffer{ee21c176286a49ee505447e93727717543436933dfeed2125afc6a58b7d33874},
+            "publicKey": Buffer{e3b50fe677063f1b111d231a544c2251d312cce4025f503318c73bf780b9cb05},
+            "weight": 2460727951258067n,
+          },
+          "n:246" => {
+            "adnlAddress": Buffer{cc8ce849706248fe851e2e7e5095086e1c989d0f9579b7100924130e9a1f144e},
+            "publicKey": Buffer{e7b50b6114f2c7798dea37523d42b27949010b68e418ada1274b4ac82819f4d0},
+            "weight": 2452068039699595n,
+          },
+          "n:247" => {
+            "adnlAddress": Buffer{e17073f70082f62a888204240bc6ec19955f8e49e5a2143c86499f682fb4f54b},
+            "publicKey": Buffer{c5b77ba7348843f633a395eda820cfe4148920ff26e4f218bd2c32ed19bb9cf9},
+            "weight": 2413543510926493n,
+          },
+          "n:248" => {
+            "adnlAddress": Buffer{1b7b922df5d532c41d5bb95b892c7e51edcaed75b1376080c038689539c5b76d},
+            "publicKey": Buffer{37c4b260e8d99621b6df9281dcb9270af65b47b0185b3590978f55db3b28158b},
+            "weight": 2357243198101249n,
+          },
+          "n:249" => {
+            "adnlAddress": Buffer{cf78e402b2a8707451dca2ac6909d0153c78f9e1c3568c36f94f4c6fcb95679f},
+            "publicKey": Buffer{257242c1a1ff7bdeb2d8f4a299d163b9fa70ad46816242354ac1839c152add81},
+            "weight": 2350975792995781n,
+          },
+          "n:250" => {
+            "adnlAddress": Buffer{55c6ceae164521009222e63a77687f45465a218fadcb5854a3662767cf65ac59},
+            "publicKey": Buffer{dc9c0512caa7a3b83fbcb9cee542950eb55b8950d8807b4559e5450dd97fb9ed},
+            "weight": 2342625274426738n,
+          },
+          "n:251" => {
+            "adnlAddress": Buffer{f84715c91b99dc309ed541de440274278e44bdf05b822f69797be541b11a5395},
+            "publicKey": Buffer{4324a5eee6893eab3126836190d7af09de9a1c7ac25fb3187a8bee42011b404e},
+            "weight": 2333816847783155n,
+          },
+          "n:252" => {
+            "adnlAddress": Buffer{60c934c60659a8507145148f080b8a88b62bb4941ac1baf426daaf837ffcfff5},
+            "publicKey": Buffer{860c531e235f36f8b745d6fae1fcc545dec62f1dde9dcf8a01efd59f5a6f3000},
+            "weight": 2317793429507479n,
+          },
+          "n:253" => {
+            "adnlAddress": Buffer{d748654cf5aa74e0fc28672bdb75057a71113b7c29dce4205ccf159a69cb253a},
+            "publicKey": Buffer{6d5998e15e031d40135c63cd8a6e9891f3b37ff36b28a34eef2c8cbb615f44f4},
+            "weight": 2317179560962307n,
+          },
+          "n:254" => {
+            "adnlAddress": Buffer{7fa5a399d21613520ce662ac3c8463f0405a6781b4ec1964c8b3bd3199a00baf},
+            "publicKey": Buffer{cd756899270c5502e2a7de49c6e95c69dd88ab0b7b1a4ec30b9140b19843fb3c},
+            "weight": 2309913935381894n,
+          },
+          "n:255" => {
+            "adnlAddress": Buffer{8a4506c9af480f5d45e0b97b141601f2a55d3a71cca592577a0f56ce6d4548fe},
+            "publicKey": Buffer{c6eda2acc8f6379f6891bcf5356a049f2fe8102160e8cf0188457ec98d4bbcf7},
+            "weight": 2294785893315063n,
+          },
+          "n:256" => {
+            "adnlAddress": Buffer{95b5ddba013d309d8d66742fc2d61a0ceea38db11d3d0c8e36885a6c1d1855d8},
+            "publicKey": Buffer{83d91f9008d09e51d9e3a4613702afec52c928d998b4b17859aeedf0a8f4ec1b},
+            "weight": 2271371985152938n,
+          },
+          "n:257" => {
+            "adnlAddress": Buffer{279d1318c20134cc6f06763aa54981c7ed99d0e949c964a63ae6c5d78b129277},
+            "publicKey": Buffer{a70ef0dda5b3465cdaaa929583520957f0ba64b3f5eade92d4ec01ef5e69e5d4},
+            "weight": 2259196839495526n,
+          },
+          "n:258" => {
+            "adnlAddress": Buffer{cef9ebc84744ec58df62b1c21b17d3b83ea9d93cf654650fb803bd51a31d985e},
+            "publicKey": Buffer{464e85060b65c93c95695eec3a7ebf3b2ae72462b6725924c7bcd068e3589eb6},
+            "weight": 2251460085736436n,
+          },
+          "n:259" => {
+            "adnlAddress": Buffer{32c1fbeb4e9a9acac5f7e5a22606cedd73ab316f1123f679773d59e4cf51d3b6},
+            "publicKey": Buffer{09f172242576443e8e9d57c106873a67a89d04f9a13ebc879425b877c2a093bf},
+            "weight": 2250216663279707n,
+          },
+          "n:260" => {
+            "adnlAddress": Buffer{6892066c5bbd39853ffce2be9c3e9f5bde9a2dd5ca09cae20b8c93d5a032d88e},
+            "publicKey": Buffer{02a9f075c6ac43562af6257cdcf815ac312aa8d761668629b75d050325f9af80},
+            "weight": 2246373423836842n,
+          },
+          "n:261" => {
+            "adnlAddress": Buffer{7d37ed3ec2df996e93193c9624ef4c205fe7e7ba036fc749925a5b21029c61de},
+            "publicKey": Buffer{7043ebde9d23f26b0b0a5e93232d58eab6354343c42ee1479d1b6ab41f6abe65},
+            "weight": 2220547129293938n,
+          },
+          "n:262" => {
+            "adnlAddress": Buffer{ec7cd9bb2080b4347743dd0a2a3c8da19e24e5dd77f50cc8b8f2abf4be69a6b1},
+            "publicKey": Buffer{5dcd472910e5ff15a636990a6d2cfad2fea7ad499af6c897e3c7cf1f001f815d},
+            "weight": 2202062890344439n,
+          },
+          "n:263" => {
+            "adnlAddress": Buffer{f9bece7e860020087da73dd27af660c2ebf84399dd5c9978e49c1bb8f0e2b35b},
+            "publicKey": Buffer{541eec79b77f5cebd449cb7b3fb57158757df244289197e653cb454749da9df7},
+            "weight": 2192198780686157n,
+          },
+          "n:264" => {
+            "adnlAddress": Buffer{a6512b1a15d15e3e3b42f77f29cb53fe5849860b42aea1387bb271274dc67aae},
+            "publicKey": Buffer{a013ed170e6365a0719ec3a77ee3ed6d74ddfe32253ecc4a1ccbdda117c26e64},
+            "weight": 2192198777459732n,
+          },
+          "n:265" => {
+            "adnlAddress": Buffer{685f475cf774032ea62933ce2ceb1926ee79b39c19359472096d943bdf978016},
+            "publicKey": Buffer{2b00b3e51ba1dd58da66886a83809c802cb9cf90567163dc015d14a55fff609e},
+            "weight": 2148482816436977n,
+          },
+          "n:266" => {
+            "adnlAddress": Buffer{59cce7d9746881a596b6db0fd0700ccbc1022acecdfac687940c1ddac32fbcd3},
+            "publicKey": Buffer{f0e85b183c6424758ea55b3168136f8e27f7a7ecdd97f2427ae0233e0a23045d},
+            "weight": 2146377073658103n,
+          },
+          "n:267" => {
+            "adnlAddress": Buffer{b156a8508cba48a00cb6ec067f5d950d7b4c67d8cf2fbc40845332bc5827d910},
+            "publicKey": Buffer{4d755a0985b4c9a3f6b600abd64063f80c0b073d406241811232afe786ec12ce},
+            "weight": 2139266673770208n,
+          },
+          "n:268" => {
+            "adnlAddress": Buffer{d54f83e3cc253fd4a097dcd962dfa9ae29a33e4b21634820d042e5d77fca955a},
+            "publicKey": Buffer{b9c085db1113f3e4ccadaecc432ee250f6987fa44c0bac25bd3979926118b34b},
+            "weight": 2134180252669770n,
+          },
+          "n:269" => {
+            "adnlAddress": Buffer{2fde0e8185a13ef858239c07a8b1bc4cdc73c9da18805acd27af045425df014d},
+            "publicKey": Buffer{d21a7e82cb1994e6878fade3d92fc74d7666498eec3268399b45e1407d360813},
+            "weight": 2134180252659268n,
+          },
+          "n:270" => {
+            "adnlAddress": Buffer{06fb42da3fd2fd0423c89a1ee53e52ce91715aa63168a4e61ac18a8b1cb13691},
+            "publicKey": Buffer{4cacb76b112a62f97bf29beb25bd78d3dd88743002a2ee184bff7a2f3a7ff237},
+            "weight": 2134180252649719n,
+          },
+          "n:271" => {
+            "adnlAddress": Buffer{e424d0b2e9246c2141fe2896e9531026e9b4433dee72d628fabd79193f5eff97},
+            "publicKey": Buffer{2dc047080665367e5c81c3023a577607c2ea7bcfc98d1d7e90276c9d8554a3d2},
+            "weight": 2134180252641609n,
+          },
+          "n:272" => {
+            "adnlAddress": Buffer{18375619175ae365ff92e81ca1b8211223eaed80b021cad795f19c17b6779900},
+            "publicKey": Buffer{bbd3bc0788a5aa91a2a8ca3a38dd63f2956048f028ed8e145bced0a726240685},
+            "weight": 2134180249379865n,
+          },
+          "n:273" => {
+            "adnlAddress": Buffer{7ba71388570480eb43e573637162fef199e00707b1a221b4595ccd1a45619ed8},
+            "publicKey": Buffer{2cdccb0a27b63241d36421ffcd7ac6e1c4ec79f65419f32532280ec5efe20e2e},
+            "weight": 2118087597195362n,
+          },
+          "n:274" => {
+            "adnlAddress": Buffer{6808f66fadbb858c12622d771878faf1f42446cd6fb30af7d85f0a1378d4364f},
+            "publicKey": Buffer{d274cca1524a0b07243f792f76cef83129fa7a0eb42606c25e46cc1de158f088},
+            "weight": 2106863122302665n,
+          },
+          "n:275" => {
+            "adnlAddress": Buffer{bbb511e7539c32847aacd84fe9a50a8054b7fc9f3b47b58b963d29eccd3ae966},
+            "publicKey": Buffer{858b757c1d5140bab46e1e34ea7c2909ceae700cbeb2afca10701144f30a744f},
+            "weight": 2106692794632517n,
+          },
+          "n:276" => {
+            "adnlAddress": Buffer{d4c0b9946750f37ffd6bc84b261ee8da77e32004152978450dbd0782737e6cd9},
+            "publicKey": Buffer{52dfefbd4e741a6acbbf3cedeced8cac14de6345635a716255669d3600a4da9e},
+            "weight": 2101536784929018n,
+          },
+          "n:277" => {
+            "adnlAddress": Buffer{fc3674149dfa8709aae57b004b15f56848241d27ac6b67cc526f1ad9c1e1b374},
+            "publicKey": Buffer{8028bcd7424c8763ac0c3cf518c3b075c23ccdca594d06a7165450b5d2ea7a26},
+            "weight": 2092245996164415n,
+          },
+          "n:278" => {
+            "adnlAddress": Buffer{59800c464795b7797832a7eb029eb6c108ba942d69ddda7399d50491d828324c},
+            "publicKey": Buffer{c0c71cd699c39349993cd93ff6ebd832e8fa88216d373e548bc0e304c22ab908},
+            "weight": 2089139054815599n,
+          },
+          "n:279" => {
+            "adnlAddress": Buffer{5601699a227f026d0cfac72b2043165d540206384b2382b838ef7025d1da3a7a},
+            "publicKey": Buffer{804be17f971cf649d66e2f56516eaacf2645de69092513e662160632edd97d9b},
+            "weight": 2086347299442388n,
+          },
+          "n:280" => {
+            "adnlAddress": Buffer{b4b72982594928d68cb9a16e9c732909ac38f3e470c9a735bbadcd9c6dc4d3a5},
+            "publicKey": Buffer{17edb3f9788be151185999346aef649e0151301771a4b7b2cfa962db6c9be8bf},
+            "weight": 2072737375890182n,
+          },
+          "n:281" => {
+            "adnlAddress": Buffer{c3fb77f2ace4ce5d7ae3e8a875d5aaf72ef701afa1376c10dabe990e700dd85b},
+            "publicKey": Buffer{657d48bb725c1a3767c088a486241cdd75046aaf676c1c8fead2c5d92a8cf58e},
+            "weight": 2067619079372086n,
+          },
+          "n:282" => {
+            "adnlAddress": Buffer{61fc4d759102f5a9e65921cf6a074b02decdda89bc1c95016461f3898b521702},
+            "publicKey": Buffer{808abcbbbcfe56b351b201de1d6638f937a8b465332ad8ff23a423f824f72fb7},
+            "weight": 2039874968297572n,
+          },
+          "n:283" => {
+            "adnlAddress": Buffer{37e5d2468a4de1c59899bcf0fb27a4ce43c2abadd2c1e7a4b719a53a7b1dd1ff},
+            "publicKey": Buffer{6f5af2b1647eaa642266e094e1ed6ea9afcd8acdca02695d2d1c9bd74809c6be},
+            "weight": 2023578421999205n,
+          },
+          "n:284" => {
+            "adnlAddress": Buffer{5e88a8aef1bc68ee238d34fb0c899023db7cf2bfdb4c1e1741ef454065868352},
+            "publicKey": Buffer{fa7157e73901be319ee246418f0137b58d5a93d51e23415cd26f114ec0cf4db9},
+            "weight": 2012236060899298n,
+          },
+          "n:285" => {
+            "adnlAddress": Buffer{489604ed7c25903e8288d2b39438009e7bc85413cc1b16a44a60e685d4a30013},
+            "publicKey": Buffer{c886a09cf63722da5fecf983ad138fe89fc1cd2f73bc3e8bbd045c5722b2fe52},
+            "weight": 2002978899823636n,
+          },
+          "n:286" => {
+            "adnlAddress": Buffer{9d62873d997c99f8b015c11f3590ef36ef77e8b50ea91c221b766263e7fbedb4},
+            "publicKey": Buffer{d66d478c16cc257b5595aa1af353ff8db252d904ad6e4cef0e9f28685efea84a},
+            "weight": 1999824525881419n,
+          },
+          "n:287" => {
+            "adnlAddress": Buffer{aaeabf91deabb1ee0e486ea433c6374cffd3c0f8bdecd6f1293a71609c89d8e1},
+            "publicKey": Buffer{3e6c6b3d2a74cb387fb869195befd0fb93f5cfec0f78c32941e4f0f5425d54b3},
+            "weight": 1999549033145371n,
+          },
+          "n:288" => {
+            "adnlAddress": Buffer{a33aaf48e2d618c100d971824a07f38a240918c8908076361973501b8090fce5},
+            "publicKey": Buffer{f7e7ad5558f0ccb410969785e2a502d1977c87ec287d4ef9bf5c0cfd238a25f9},
+            "weight": 1995461216239479n,
+          },
+          "n:289" => {
+            "adnlAddress": Buffer{32e2a3eee1208064ed34812086fab08f1632e3b0ab0c53fcd7b54d6bb801e3eb},
+            "publicKey": Buffer{5be12548d4c46ff3919989d44d0025977ae93024e90a944c594b2b9827792c85},
+            "weight": 1981641484703348n,
+          },
+          "n:290" => {
+            "adnlAddress": Buffer{d6d306600a582abb73c231f3042f4d2ffcf6b51cb008d5ed8f59ebe8d6f9d2a6},
+            "publicKey": Buffer{13b7c1b9dfe66c805da7e58ad6320375d4f9e4cffb07de414d28ccf49729a221},
+            "weight": 1977570675438397n,
+          },
+          "n:291" => {
+            "adnlAddress": Buffer{7476b0b27e846dc8cfee3fb6026d82c890ba0136970dc31e464244c31bd8d746},
+            "publicKey": Buffer{530ac9fd69132a47c09fd445a405876a9c850573d329a0033f222a286d9525a9},
+            "weight": 1977430902831143n,
+          },
+          "n:292" => {
+            "adnlAddress": Buffer{58c31a7d14058b08be2e7c995cc75b02e915c5283260926ac3334d4b50c5bcc4},
+            "publicKey": Buffer{7b837bf7eac47e8010beb5a4058f615be93cbc246d93254b673ec6d056dfcf0d},
+            "weight": 1977109620087098n,
+          },
+          "n:293" => {
+            "adnlAddress": Buffer{d60896a12e9838506c6927d03a592fd112a44d76503eaccba28f326b8a0dbade},
+            "publicKey": Buffer{6adbc7c5f9079fe0e590d55a2deb0bc31c7b88c6c81711f89e92dd585e197a2e},
+            "weight": 1975582280924780n,
+          },
+          "n:294" => {
+            "adnlAddress": Buffer{92d3fd813ff90a96ad991f74accf2e116078dbee45f3c62acbe65f56c013ccc3},
+            "publicKey": Buffer{564aba09bf2d9a60d1b7e4f65dadc6cbc3459a97921b5a9a3937956bc47a53e5},
+            "weight": 1972464052911363n,
+          },
+          "n:295" => {
+            "adnlAddress": Buffer{3483ec7716403a434d560aa7095b4d5d471718881d5fde12eec2f52626a48b3b},
+            "publicKey": Buffer{1747f35df6a2c41a339c5dcf05eb094dcc862daca7d53f1c417f318f9558da91},
+            "weight": 1952150648413847n,
+          },
+          "n:296" => {
+            "adnlAddress": Buffer{97f840ddcd1758264bc305cea3b88e0f6087125330f27257c1a762d4615751cf},
+            "publicKey": Buffer{ef7377e16c2ce81a4bea7332576a6c34c62652e69d8205e037815a317f18936f},
+            "weight": 1951849888445240n,
+          },
+          "n:297" => {
+            "adnlAddress": Buffer{99026b223ba587324782be70e150247a1ed90e728b321b27bfff54b54fc94ee1},
+            "publicKey": Buffer{b6376facfc408c1594d7ea2626a74fed1ef0ae604c23e0130fdd5b038750b0bf},
+            "weight": 1934961799137334n,
+          },
+          "n:298" => {
+            "adnlAddress": Buffer{187a8a514d5cb8cddb601b127203f0fc6fe1c7da489ef7e104f111e40d80cf56},
+            "publicKey": Buffer{af140df2f6470cde2d904adc881aad6ba3b962580b6506ae36114460fee43459},
+            "weight": 1889799078030435n,
+          },
+          "n:299" => {
+            "adnlAddress": Buffer{61fb8d008d7d6a25d6dc364cc2db6eb9cd7bf0f0d8426ed4c50eaf04d368497a},
+            "publicKey": Buffer{708bddd74007e7a7cdd74be956339bf472002dd84e818b2df75bad7d662c5872},
+            "weight": 1889689891908836n,
+          },
+          "n:300" => {
+            "adnlAddress": Buffer{3399e9a349ee8f19ff85642ae77c2a20deccf961cebb0453710cb8c2a61affa2},
+            "publicKey": Buffer{f89fe2de917d0a696b37e91fa9e7d7fe76876e9bc7b268fa8e3711a0ef837b9b},
+            "weight": 1867576952490000n,
+          },
+          "n:301" => {
+            "adnlAddress": Buffer{8851b3df277679998e4a8f0fdad34c0cac4cccaaf16cfe0f811f12955aa28e03},
+            "publicKey": Buffer{05ecb3c1f00c774dcd3e72a21287fc533fe0e415a4c1e4adfa0a145f7832b668},
+            "weight": 1855135849606135n,
+          },
+          "n:302" => {
+            "adnlAddress": Buffer{6951f60f24e0c32f7892fc41334a8eba58431163b203068c28a8373120d9dc92},
+            "publicKey": Buffer{6b6373bf6d0d01d43b1635b9d4c14d4417dbada02be12cfb31819ea3073b792f},
+            "weight": 1849357184005731n,
+          },
+          "n:303" => {
+            "adnlAddress": Buffer{6cd227f9514f6ff978b0036696356482197a963236a1cc7f8de9d2626d5b70f9},
+            "publicKey": Buffer{fa933b82883840f96373ea46c639317e5026bbbc5f63432ca85970d0af42a033},
+            "weight": 1849357184004772n,
+          },
+          "n:304" => {
+            "adnlAddress": Buffer{cf50af01b8e9dfee884713a3fefee9e1957f4828d8930a790b2c0ea5116490a5},
+            "publicKey": Buffer{574dcaf654355b82900e5719dc5691bd4d8548e6ff2feef5efe84fe1f72705e2},
+            "weight": 1849357184003819n,
+          },
+          "n:305" => {
+            "adnlAddress": Buffer{6ca3790b294a941747089864a148e3ffc0b5edbee325b98bdede9197bded1111},
+            "publicKey": Buffer{ccd1ca438b8f83098d50b67d1f5536dfc2986d1a6ffafa8e06e24e21e216cce9},
+            "weight": 1849357183993796n,
+          },
+          "n:306" => {
+            "adnlAddress": Buffer{114bcc7b9db5320e97af719499a662e55b5f1dfa58d64fa12b30e133e2d21a27},
+            "publicKey": Buffer{5c513c9c2912564eed6dbe3264328ea5480b8edb458291aa56eb963ef8dbd11f},
+            "weight": 1849357183989978n,
+          },
+          "n:307" => {
+            "adnlAddress": Buffer{e0a1bdd46079dd06125322c6316cf64159c0f5594098f0aa83d15dd3d98a18b2},
+            "publicKey": Buffer{f519e3707a7c7d69d7880f8535e5de5ff43ba778c2ba760644dd67e173cb45f7},
+            "weight": 1849357183968021n,
+          },
+          "n:308" => {
+            "adnlAddress": Buffer{30d592410d762c99cd28fa148f77c19a16a8acfd200c654afaca3a22c6561f10},
+            "publicKey": Buffer{92f1082be3f5f5aac9da6f2dab571476d8359109db108400426ddef03a2e16a6},
+            "weight": 1849357183959910n,
+          },
+          "n:309" => {
+            "adnlAddress": Buffer{b7c63fdae7b0d6184e011ff78a896181115a4ff688c1b0b81705144ad663c8cb},
+            "publicKey": Buffer{93b8a60187eaedeac04caeeb5307fdfc1d5866283bd11847af203dee87a1bd9b},
+            "weight": 1849357183947502n,
+          },
+          "n:310" => {
+            "adnlAddress": Buffer{e38c2f32f082c369982f37041b3ac92769a54f2f4cf59c4f9a9345a908403898},
+            "publicKey": Buffer{33582b001de033aed990c7ca4d80536ab6996d15dec8b3ce375ee4749d01841e},
+            "weight": 1849357183912183n,
+          },
+          "n:311" => {
+            "adnlAddress": Buffer{950900c0a128990f7cfa68f709e93a49063df4a18ee31351104efdd1f63adad2},
+            "publicKey": Buffer{3cb94f833f8a5575ff4d11f53f5a32b423edcde2c9230ac05d7dcb5c6c194c78},
+            "weight": 1849357183890705n,
+          },
+          "n:312" => {
+            "adnlAddress": Buffer{910d786d2508f745a8c98112df02be7723547ed0eff0869b83b73c04608210e0},
+            "publicKey": Buffer{b0f0623fa6872f71f633521e227eff3ef015d61499a55c680717b7261a50574f},
+            "weight": 1849357183882110n,
+          },
+          "n:313" => {
+            "adnlAddress": Buffer{1f62280894f5b594e32029b4820ff8c7183ca2ef794f8ea86beeda3afa19176c},
+            "publicKey": Buffer{b1ed0d9e50b5758b93fa3ae9628493ea06bb3f1df93a8f81e334173d5167771b},
+            "weight": 1849357180724422n,
+          },
+          "n:314" => {
+            "adnlAddress": Buffer{860f8d19ee041eb7a35ce60c44db21c6146c5c5005d05bdd1c59dbe3d16eb624},
+            "publicKey": Buffer{8767e73b78f8f8efeba183294a9382b741e1c2bcca9a973a6159bf2a4ff2841f},
+            "weight": 1802025870649299n,
+          },
+          "n:315" => {
+            "adnlAddress": Buffer{7d92f70fb8fbff4d3c7ac3aec3ed23a6710396c10b061987df3ca0df4e5970f9},
+            "publicKey": Buffer{9a8e44b51b8a9e2e70a1371b2fedeb1e68755b3ffce01c7d5b7c16836062e555},
+            "weight": 1758008416218394n,
+          },
+          "n:316" => {
+            "adnlAddress": Buffer{1b4c7485c34eed9dd95e17f8032ad8e02fad92264de431ad8bdb5be6aa194f59},
+            "publicKey": Buffer{fec189fae3d66cc9e3e8552dbcbf507ea59ba2b75c4d4ba77edd97fe00dd785a},
+            "weight": 1754315724287974n,
+          },
+        },
+        "_value": {
+          "parse": [Function],
+          "serialize": [Function],
+        },
+      },
+      "main": 100,
+      "timeSince": 1680428808,
+      "timeUntil": 1680494344,
+      "total": 317,
+    },
+    "nextTempValidators": null,
+    "nextValidators": null,
+    "prevTempValidators": null,
+    "prevValidators": {
+      "list": Dictionary {
+        "_key": {
+          "bits": 16,
+          "parse": [Function],
+          "serialize": [Function],
+        },
+        "_map": Map {
+          "n:0" => {
+            "adnlAddress": Buffer{582e29ec8715f49fc24c7a39b3f6df775ad397c9e67df6332acc755e33199f90},
+            "publicKey": Buffer{1717dc4d8f4e1b2fb58c06e48c2200053afb0e27364d87815d9f37a26c384b6c},
+            "weight": 5266680283288473n,
+          },
+          "n:1" => {
+            "adnlAddress": Buffer{0d323cde31969e8be0df21aa701875abed0eee24dd54122b9921dba674ac30b6},
+            "publicKey": Buffer{0486a9b57cff674a042e99e0622463e0a10acc3afbf834f18b97d45235d642ae},
+            "weight": 5266680283288473n,
+          },
+          "n:2" => {
+            "adnlAddress": Buffer{ee813153527430a8921a5fccbaaea4825ff575c9be93a47dd27987d5786cdf51},
+            "publicKey": Buffer{dbbb17fade4931022e8c8ca685c31e51aecd643455dbc647cce93ff32949ab21},
+            "weight": 5266680283288473n,
+          },
+          "n:3" => {
+            "adnlAddress": Buffer{f09f3602cff4391acdcf9de3677902856f74d0c9f5c25c9315b44b99e60c2cf1},
+            "publicKey": Buffer{4ab482a60ddbb59bab64b2857db1f6720dbbdc16e582fef868bf8653496841cb},
+            "weight": 5266680283288473n,
+          },
+          "n:4" => {
+            "adnlAddress": Buffer{96049d40a9b1350ac8065c29128c01a7ea664e43537e1094da32649184587d1d},
+            "publicKey": Buffer{69a3f2be3eee2ca5b988be8d608648b62003fe5b756a6d5277594c7ed700191d},
+            "weight": 5266680283288473n,
+          },
+          "n:5" => {
+            "adnlAddress": Buffer{045846329850544ce16f384f8d35a153eb05c32ea7485bbf17dc70508f4f2a39},
+            "publicKey": Buffer{e4ffa085b072f5cc677eb7b6d2c525375941648cad81bcdecdb1be08f2ef0d69},
+            "weight": 5266680283288473n,
+          },
+          "n:6" => {
+            "adnlAddress": Buffer{7fe9fbf95686e6957883668356cd3776a7323ec5734e041203d06d7eaf2d6668},
+            "publicKey": Buffer{1ceafea97f5799b428c45bf051d8b32b354bc84356eb995dcba3b03d0c97d6db},
+            "weight": 5266680283288473n,
+          },
+          "n:7" => {
+            "adnlAddress": Buffer{1e8413305d73fc1e79f771d9f79f06251501ab9487852ad424f7713b58605d78},
+            "publicKey": Buffer{ebd31abf62b3d79f30a9f811600b32d3d6db057b7584d96cca5c739e3f469c18},
+            "weight": 5266680283288473n,
+          },
+          "n:8" => {
+            "adnlAddress": Buffer{2be45449dd12c31bb5e294866c37abad1a09ef8e1701bdfe7e43927c96e1027d},
+            "publicKey": Buffer{56751568b119c1d6e199e893fb3afea2abff737710bbfb7ec6059438c7959f5a},
+            "weight": 5266680283288473n,
+          },
+          "n:9" => {
+            "adnlAddress": Buffer{3126a513474ffa0734a9a8ba393a52e4c17b6dd8af9133a4e3ceabec4b8c237e},
+            "publicKey": Buffer{70515787590ab9f867e0ba96f643e9d8891fe6de98130f4abbce9d49b6ae727f},
+            "weight": 5266680283288473n,
+          },
+          "n:10" => {
+            "adnlAddress": Buffer{876e643dbc843cc0841c245e1278524378aaa450f72a18a4851f31691e655a43},
+            "publicKey": Buffer{c6817223f2fa9d34ff13044dd8857ac82198ef4367d70e4911c79ce8735dbf90},
+            "weight": 5266680283288473n,
+          },
+          "n:11" => {
+            "adnlAddress": Buffer{bd082a4ab34154845c7e9defae96f0a72786d278521c1059989e18dbbfa3809c},
+            "publicKey": Buffer{a3a1b2b0782ed4289a87f961424de4fbe2a4c4960e28d52b49359cd63349592e},
+            "weight": 5266680283288473n,
+          },
+          "n:12" => {
+            "adnlAddress": Buffer{5244e85e03250b4c784600aecece308424d567912cba7d3c9278aa664280cac5},
+            "publicKey": Buffer{e7ef2f5daaec2d0415a351eb8f9f9caee5f285a390ef40e9ce9d167e64df8e4e},
+            "weight": 5178513892179650n,
+          },
+          "n:13" => {
+            "adnlAddress": Buffer{d298c0fb55597a61e316dc9e40b64f36b06a7270d4c715a90b6c16aaaede8948},
+            "publicKey": Buffer{f5c0127d138bff099772e759cee2fd731f696379134f5077b2b141d0c877f429},
+            "weight": 5139076446384974n,
+          },
+          "n:14" => {
+            "adnlAddress": Buffer{8c9691a5066ddfacd071f2d26c5151707b81b7d0c0682b159af769097a0ba20e},
+            "publicKey": Buffer{203457055bf5bb13306243d17299e27d6f110e828c26cced90439ce0d05ff3e3},
+            "weight": 5139039148975597n,
+          },
+          "n:15" => {
+            "adnlAddress": Buffer{20ed0665410992aec5f476cac9d452d89b1c34c210c48c1d578d1b46a82a4088},
+            "publicKey": Buffer{7496e0171d8d37ea94d6505a3dacb19f43309f1ad0504c246a291c5b49b749c8},
+            "weight": 5139035055506372n,
+          },
+          "n:16" => {
+            "adnlAddress": Buffer{d4ab33e3c1f558143bf63ecf82b26b6a1ad635149afcda508dfcf53ddef49ea1},
+            "publicKey": Buffer{811c675d7b8b765f85c17847b9edf7c4abc63cb2d13f611cf49122e632bd36e0},
+            "weight": 5137330589189894n,
+          },
+          "n:17" => {
+            "adnlAddress": Buffer{ae083c661dad64f734ccbf5a4bedf398bc4cf5a6bf454e376bb4b4437cbb4c9c},
+            "publicKey": Buffer{13f47f3fc3d69a15cab26595afe802fbda7294264836e8fe753710f6be375c9c},
+            "weight": 5137330588637112n,
+          },
+          "n:18" => {
+            "adnlAddress": Buffer{e253f8a4c57b4f195041daf838b12156ac8d958418ee29b6e3247c8b31cec5ba},
+            "publicKey": Buffer{3ce840c407a6c8ee7bb9bcee4b8677e3d2fe2b7f34793c1a84d6beee072b2cb7},
+            "weight": 5108671114476983n,
+          },
+          "n:19" => {
+            "adnlAddress": Buffer{057977e62f2880ab45943363b28cd75310c90505fa3e07e7d40ed91f7b7744a7},
+            "publicKey": Buffer{7fb352ac2bd59ffb935eeda508a163c7c1ca6fbd4af146d9a68e6fddc28d6944},
+            "weight": 5040912629040988n,
+          },
+          "n:20" => {
+            "adnlAddress": Buffer{42aa421411eb4e4235ae1d788ee1267564aae7ed2a93f57b31f4c6edc6d15af1},
+            "publicKey": Buffer{771eb76b996f715bfda9b9490db325e69e2bf421b20b31e77ed68db389e68387},
+            "weight": 4999538456265572n,
+          },
+          "n:21" => {
+            "adnlAddress": Buffer{17e957c2a81fe2a44e5254a7e1129b515d709bfa46688c146b22e8a236b7c438},
+            "publicKey": Buffer{a9e410a29c92bc18d0376a9d70c8b4c80b6a4c4f0478e4dfcf61bd02d02cda64},
+            "weight": 4982538087427757n,
+          },
+          "n:22" => {
+            "adnlAddress": Buffer{138719eec042da2b275c5e20a71c167f92f612d37c7db3292da7afc91e2805fc},
+            "publicKey": Buffer{8a9ec4d2051e5d7509ef637fa4b756284361fc7ef8263fef9c2cea8aa7beffe3},
+            "weight": 4933306799722623n,
+          },
+          "n:23" => {
+            "adnlAddress": Buffer{c638a114aab66f5907e639575dd100e5655c9306b94a1a9a89ab0a45d051c570},
+            "publicKey": Buffer{4e2510986a79cccc99501ef33ad17b79c1db842619d293db4b74045274a64e41},
+            "weight": 4921729448531560n,
+          },
+          "n:24" => {
+            "adnlAddress": Buffer{17833e8cd744f22f70b2db21314d10675a9283474909fd7df1acf54b94ddffeb},
+            "publicKey": Buffer{030f71991d7ab6c9496ed27565d7d45e086bf0ccb823cec84c8bfb6fe6ae45f4},
+            "weight": 4921182545154187n,
+          },
+          "n:25" => {
+            "adnlAddress": Buffer{f8506a33540c650d5d11e3663d8eb0d15124ab51eb6cc306cd4c72330d269eb4},
+            "publicKey": Buffer{9e1b97fd6e1c4ae5b25c999da8fc2afa00df6306e632333bf40bb8ac38bc25bf},
+            "weight": 4920987846720951n,
+          },
+          "n:26" => {
+            "adnlAddress": Buffer{909ca0fa82f64a247522ccbd1193c5227eba5a13bd1f856f0cf6194226f2369c},
+            "publicKey": Buffer{344fcdfbbf079ed6eb2dbc9de8936266b97e10be7af322264fa3ca4b724deb24},
+            "weight": 4920477988798403n,
+          },
+          "n:27" => {
+            "adnlAddress": Buffer{29ceac92bd05c3a2991bdbebd89482a79c2b80bd9aa3eaa35ce7bc21eff1f97a},
+            "publicKey": Buffer{203ace6f7b04fdcdd83294964bf1cbfa09579c57b9874f5c887227cf6d8b13d4},
+            "weight": 4917940678107521n,
+          },
+          "n:28" => {
+            "adnlAddress": Buffer{09ec025b792f25574d342bb01855c076280a3a487c5e94eee4d22800bc4f61bf},
+            "publicKey": Buffer{20e9320c4323c53c2446dd9a3a742f0f4e3ff053ed597a509c14168f637aef95},
+            "weight": 4917940672615174n,
+          },
+          "n:29" => {
+            "adnlAddress": Buffer{2ef4c0914c49f654bb8778adbac6d34fbfea63ba29a99b4b473cd3d82a2b7d3b},
+            "publicKey": Buffer{8d6217ec2161608441e1e0eca642688379b19d9a6ed0e218d08414652bdecf50},
+            "weight": 4917871798422934n,
+          },
+          "n:30" => {
+            "adnlAddress": Buffer{3736e52d4ca783fce3ed0c9f15d01d50b42f3dd47080591303b1fae77f1db212},
+            "publicKey": Buffer{e0b888c391a068cefa42a16fc1973c9b3d5d387082247d821e05e4c5368f34bb},
+            "weight": 4916296394241450n,
+          },
+          "n:31" => {
+            "adnlAddress": Buffer{212448d1e09c06923a9296a21b3c57e5e1e05a675df930fdafcba8806cfaead6},
+            "publicKey": Buffer{47e7c25f1c09695938f49e7f346d7ef72cbb7540a3a0a149075feda12611b6f7},
+            "weight": 4916282667496203n,
+          },
+          "n:32" => {
+            "adnlAddress": Buffer{9e2d3cb60ced77f1b123488ab78e7e92a5af21d398ac5ab780b142b154e4a7a4},
+            "publicKey": Buffer{f2039e44f626dcbb28d35c44654682bfd298dc8f66a498723fd9bacd4fdf788e},
+            "weight": 4916282666966719n,
+          },
+          "n:33" => {
+            "adnlAddress": Buffer{62a264592c608b4b8e76b25e364ce0fade340d50012b811c20ef449d7e94c8ed},
+            "publicKey": Buffer{cf209aea53b4e63429cf0220000dd76882c771020c649573964187fcea52354c},
+            "weight": 4916184295717689n,
+          },
+          "n:34" => {
+            "adnlAddress": Buffer{8d5188441b023af0f9130ce0223c304d7beef0618175f77ead052ac2e231201b},
+            "publicKey": Buffer{d03e130c6acb96bd5786584e6ebc366b9f04fe957744705917919559f9015f0f},
+            "weight": 4916184293052418n,
+          },
+          "n:35" => {
+            "adnlAddress": Buffer{9332cf2321deb3e6544ef594f4d77bd83863eb989052c2cef9dc1cf0daaf1c9d},
+            "publicKey": Buffer{8674c18a1f7dc59c574b31dc9d037a221a8facd83fd7532c59b97795d182c750},
+            "weight": 4916106168140588n,
+          },
+          "n:36" => {
+            "adnlAddress": Buffer{d89c634805ee2111971b40bb58359dac7e45771b3c7c912234533c27fad9ac28},
+            "publicKey": Buffer{b994b8ef5f8a6cc64c45cb5a08fedefe57fce2a3281c01eba5ff5f8853a1a5da},
+            "weight": 4908396257633272n,
+          },
+          "n:37" => {
+            "adnlAddress": Buffer{1f4e39ca376175b0400877b7b4258b1971dfdd088073d789f48e0b8f35497cc6},
+            "publicKey": Buffer{a814fc2450e04630fcd214243752c313012520d91f9aebc099aeb5af79f97da6},
+            "weight": 4818600962564419n,
+          },
+          "n:38" => {
+            "adnlAddress": Buffer{70a92c6fd4ed18c388c6bbdb3aa39ec0690579883cf62ba0892059d55ce3a7e9},
+            "publicKey": Buffer{2e37ba1d2147232dfc25608d8c1de41af850bb2f79d1362a7de1c4bd91873fcf},
+            "weight": 4758455226203234n,
+          },
+          "n:39" => {
+            "adnlAddress": Buffer{35a5fb162b5cf4f685113a2cb80cde2189958817f1a94195d5f7b481639c320b},
+            "publicKey": Buffer{9272b8a8359d18f4f40f58a7aa1818ae327c5252fd7fc73f94e10a3ef8127596},
+            "weight": 4756191306103667n,
+          },
+          "n:40" => {
+            "adnlAddress": Buffer{cad07ea82880e63944192d815ab15bc427deef9372d8927ccabb456118c4abc0},
+            "publicKey": Buffer{67bd4dbc2531bc6df0bd8ac4805f8577b7524fc417a1b5ee29c2c430e385fdaf},
+            "weight": 4736503226248888n,
+          },
+          "n:41" => {
+            "adnlAddress": Buffer{94f94c3c4e3708c0d2acea4ea8416fae9fceb7f23eb19d5b1a9074ec5fb23014},
+            "publicKey": Buffer{14a6b13afcc77deebb5e8f080d1fa52df53693597059bc15bbac6227e9eb1f56},
+            "weight": 4733793660947108n,
+          },
+          "n:42" => {
+            "adnlAddress": Buffer{f23de20e7976ceb50886f59bdb586033c46135765960efcbb440d92524f845a0},
+            "publicKey": Buffer{e572cdfe5b3e3b5f957533824489af439fce5b121e8764e101bf47773f661f46},
+            "weight": 4725016343232074n,
+          },
+          "n:43" => {
+            "adnlAddress": Buffer{92e30baf33cdaeeee5dbaef2fade54f5651b2055e0f4872204c74cb901a4b748},
+            "publicKey": Buffer{fbc2661a2b525ca82a9785afc6e0fba2194a7682d8b1b843efe9812ecd758c43},
+            "weight": 4701624521563495n,
+          },
+          "n:44" => {
+            "adnlAddress": Buffer{9e8cf30571fac611e3556185c41b1265c794fed133bf73f4077bd519d8c9322a},
+            "publicKey": Buffer{7d2f1eda506626a510b8cfa86fd742743497019f9f951c9498d77a4df38f4968},
+            "weight": 4698537021279497n,
+          },
+          "n:45" => {
+            "adnlAddress": Buffer{75b0b721f1b3eccf623ff4ec7cbc883e4024bb883c96833e51242d5ad433fb88},
+            "publicKey": Buffer{77213b8db58f9e5f12e948f6c97a7fda81e1afe281dde4e85d507574542188a9},
+            "weight": 4695672855063637n,
+          },
+          "n:46" => {
+            "adnlAddress": Buffer{68cc9759a6c21447b685532be38aa2519d0466d61a0a9a309f893c83337ac1d9},
+            "publicKey": Buffer{5db64dcd414395fb9c3753a33d3cdc3bb04606f56cb4a5b6e55f226724fa4c66},
+            "weight": 4691187622504758n,
+          },
+          "n:47" => {
+            "adnlAddress": Buffer{9fb30a2dcceb24f9c1f3c46ac0462404350f814845c0e252eb2683e7dadfa767},
+            "publicKey": Buffer{3c2246fec0af134c5e8832a06600e666d61236f5775a8ad0389c591e6a85edfb},
+            "weight": 4685653195441999n,
+          },
+          "n:48" => {
+            "adnlAddress": Buffer{461d0f3b4338be1242611306e43c0028fb25b19a25b568bbdc70f3ead7c8497e},
+            "publicKey": Buffer{dd45c398ebd04b400b231855b80969869fe108fe745d88b74b653fb59e4c9012},
+            "weight": 4680292823289558n,
+          },
+          "n:49" => {
+            "adnlAddress": Buffer{4f2dc9a4d04a591deff9cfea9234ede0aa7490a4c9962c7ef03767693763abda},
+            "publicKey": Buffer{d9afdc5e3f1d6e70977edcf5e8853fa1c8c6de9e01050a55a2ca6409ffa00f1b},
+            "weight": 4635877921788751n,
+          },
+          "n:50" => {
+            "adnlAddress": Buffer{a20dcda0ec1a87f2c7cb807cb9942e735bd93977e39609ad91bd293a00a37cb3},
+            "publicKey": Buffer{99edb93679c1eec8ce34e3e9376c49a908ec22db95e5ff023201c8ee1ef6b50a},
+            "weight": 4599982583874033n,
+          },
+          "n:51" => {
+            "adnlAddress": Buffer{1300abc61b436547d92764247663dd91abea384cdbcf25d48c98a51e8bdfd989},
+            "publicKey": Buffer{9caa83c5ce8dc4d44369a7437ceab13a75797831318bdd6608df0dda64155dd7},
+            "weight": 4562023055407166n,
+          },
+          "n:52" => {
+            "adnlAddress": Buffer{b2dc942fcbf1b26f1be477ed4547c4d5240378607771391c41a6be31031f4b0e},
+            "publicKey": Buffer{a683d63d7362531f84ba889907b2b311b74c5fe2052803e1c074da5d7b9e8980},
+            "weight": 4560951553455598n,
+          },
+          "n:53" => {
+            "adnlAddress": Buffer{dae4342d0f93d388013e9d5a1b6888a2818fcb0d80576b806ceae8048ce55b25},
+            "publicKey": Buffer{fa30b03f932171fe43f5cb12317eaa89f093627871ec7ae8ef0a336d5e492c8b},
+            "weight": 4552477365951016n,
+          },
+          "n:54" => {
+            "adnlAddress": Buffer{2cacbd88362b754e85d6853594739c225ee417e944f1b1d1ff5881df02b04cab},
+            "publicKey": Buffer{6af119833e00e0ea91e652c918ff16f226d02122083291fb9cbb099544cd8166},
+            "weight": 4516978275765617n,
+          },
+          "n:55" => {
+            "adnlAddress": Buffer{e5bfe6e2b6310e3abf1147f51d29dfa5d2c6fe8f8e94e975527213cd951c6893},
+            "publicKey": Buffer{2de1ca4ab055dab35d03f057404d5f96002f29a16d9de1e90f75be530f9630dc},
+            "weight": 4516942521315340n,
+          },
+          "n:56" => {
+            "adnlAddress": Buffer{b93805bd460574cce2ae30a782f40e243faae7a187c3f2da3b60d4f40adac091},
+            "publicKey": Buffer{70c1666badf7278cee89b8650a50f07daccb2d07ff4e923cf16ab99e9c6cbeb4},
+            "weight": 4515481785208716n,
+          },
+          "n:57" => {
+            "adnlAddress": Buffer{dbe6f61756c005bdb577ea6748fad6b12c55d6bc176c77b75aa68e7c5c4c4ff1},
+            "publicKey": Buffer{3f46f0124d364803c766cafc77d6a02eb698dd6ffbaa6cee92341e12248d0df7},
+            "weight": 4513160951105099n,
+          },
+          "n:58" => {
+            "adnlAddress": Buffer{a33eba6844c246e1321ebf82764c034ed29642dba13a2efe89f02328377aed9c},
+            "publicKey": Buffer{56cebf2b66d6b68230d92c7dbbc51adae0a77ee780ae2dcb20e7c4dca6adcf21},
+            "weight": 4492464501173084n,
+          },
+          "n:59" => {
+            "adnlAddress": Buffer{6619f87631c7d85d697a89ee973f278749f988d3997f5cc1a8d8f828778f1444},
+            "publicKey": Buffer{6feae80879e6d204cb7f1f121692bac795a72f08481db54fc3333d18b92fc520},
+            "weight": 4469946445631645n,
+          },
+          "n:60" => {
+            "adnlAddress": Buffer{ac1174d43cbf0d97ae90c8a3a70bd89f736045a76aad7d91c01b6511a8c7649d},
+            "publicKey": Buffer{3fdb44ee375a25b71b295bf2930a470a300595ee7bb7343466975b92f206d6bb},
+            "weight": 4447741791117859n,
+          },
+          "n:61" => {
+            "adnlAddress": Buffer{7b92dc7a8df14e8e75e308a9f55110cdef2ac7a824afff27deedd54343ea4a7f},
+            "publicKey": Buffer{b0139e4695d269ddaa72a99bd05ca7384a0b362d3e499668885039c50171b06f},
+            "weight": 4405993798463175n,
+          },
+          "n:62" => {
+            "adnlAddress": Buffer{72371f3d7b3beabede4f0a8535f6c6cf83b068af014d037e44c288de2d95186a},
+            "publicKey": Buffer{42f65a5ab2205b53bae41093aa2e1bff473b42987c670a47e862b0b23d1b7f25},
+            "weight": 4397769696107472n,
+          },
+          "n:63" => {
+            "adnlAddress": Buffer{980d960bdafde86caecb43d8a76d3885d4c0efa6a2b21e2c85a3b7b90779611f},
+            "publicKey": Buffer{e3948325974095049d8a6de18acaa3e363f13d053ad79a8d0d83d5cda9211d02},
+            "weight": 4383429093201594n,
+          },
+          "n:64" => {
+            "adnlAddress": Buffer{c71dbfb47cbc8bc48bf55ce9dbc4e78e2c047a408b1e5df2191f25b688246cae},
+            "publicKey": Buffer{6fbbf0add00106bb6dae72ef6ae5c1fe67d25a328f5bf9dc0bccad7b7eef2d49},
+            "weight": 4383429093201594n,
+          },
+          "n:65" => {
+            "adnlAddress": Buffer{b936d7f24896d38429fb99e033ce268b87c566de9b6afa46a44be76fb4342e4a},
+            "publicKey": Buffer{8df616ac9cfd104e9f1f1b2b82bd0b318c844bd55726075d0c3c604e64380e00},
+            "weight": 4383429093201594n,
+          },
+          "n:66" => {
+            "adnlAddress": Buffer{85996e4a5e015a274a2e59df268be3bfe07536aed732e8a314fc7d3e23caf9cb},
+            "publicKey": Buffer{95135bcabe8c49e4051348bee868c25ad9f6f34005e75dd135b70b03aadf4075},
+            "weight": 4383429093201594n,
+          },
+          "n:67" => {
+            "adnlAddress": Buffer{1d2b8d7ae3cbd89c00cc9e8fafa0d85de15451d2e633d10476c79881f4f32710},
+            "publicKey": Buffer{e4c07cf19e9bd65e6f0e9dde4faa96453a4552d4ecc1bde6fa38e35630d9192c},
+            "weight": 4383429093201594n,
+          },
+          "n:68" => {
+            "adnlAddress": Buffer{daf7f2bf22caca1cce843e9243dad7d0bb8020baa868bc213ebc58681454659d},
+            "publicKey": Buffer{1cf5b2392315a6d06b25dce29e719b433678740d18e7528bdd05792ac32767bf},
+            "weight": 4358953024797322n,
+          },
+          "n:69" => {
+            "adnlAddress": Buffer{0a7443e7f235b6f532c898cccb1e1fb45969d6633f9a1f487aaab54546fba8df},
+            "publicKey": Buffer{f881607a21fa636c9e3d3b0d91669c82d476861f04b386a5e1b56484edf10d52},
+            "weight": 4358953024797322n,
+          },
+          "n:70" => {
+            "adnlAddress": Buffer{98c8037156aa6ae4fd519d360f73bb6c720f63100ec55260d636c09440aa8f4a},
+            "publicKey": Buffer{be0b5973456db2782597c8aab2a3b2450a95a07ad8faf26d901d0875db72321d},
+            "weight": 4358953024797322n,
+          },
+          "n:71" => {
+            "adnlAddress": Buffer{6a50327fc9d8cfc05cf661838cdc2e395e92f01c2851f6539c2e25d3121714a8},
+            "publicKey": Buffer{b3d2286d601ed312548e66aaefc96d97c0717c8a89873237ce6ea38c289d631f},
+            "weight": 4358953024797322n,
+          },
+          "n:72" => {
+            "adnlAddress": Buffer{260492476da640fcc040eeff14f1c94b82b1be98bc823370114d7cae3f31f14a},
+            "publicKey": Buffer{46d227e6f7a9a5e5759c14966b9c9d828c327788422cfdc97d300b42f7784f0a},
+            "weight": 4358953024797322n,
+          },
+          "n:73" => {
+            "adnlAddress": Buffer{b079e19e4667b5dcd4cb2e27855e3e8d95ca1dd1e1e6b8bba67271046397c9a3},
+            "publicKey": Buffer{72a924b89da398fc636aaeaac7594d62fe2058b998d3f7ae87963e106bf9d276},
+            "weight": 4358953024797322n,
+          },
+          "n:74" => {
+            "adnlAddress": Buffer{500131f8aea7ddc710cfbaa8b590ff64e17865af99d76ad1910ef76b2d237146},
+            "publicKey": Buffer{9e37e61e907458e56b62b951df2d75bc7d87d8b663e8dcd4bf951b021b5f035b},
+            "weight": 4293625300754973n,
+          },
+          "n:75" => {
+            "adnlAddress": Buffer{0fe3309ea19de9734834f92ccc902e42433885abfd8be606094c0a421dc26943},
+            "publicKey": Buffer{b421fac9738141e75dd7da67bc8c11aef7c39345fd4de32e22a700f18019b6e6},
+            "weight": 4293625300754973n,
+          },
+          "n:76" => {
+            "adnlAddress": Buffer{0a01810f4ac51eb5d18d85a3e4b0d0e7a721569e98bc7b7243b2d77b2e12450a},
+            "publicKey": Buffer{bb3810da846526ecdb80022ea990c7f64678742690cb159abbc01e624eb3dafc},
+            "weight": 4293625300754973n,
+          },
+          "n:77" => {
+            "adnlAddress": Buffer{8fd2cf963b19044e5e70c346e92c829fb9d3ac8c37e882e4126a07d61601c546},
+            "publicKey": Buffer{ded6cd52711be83c7d9a3ba2672cf3bb35e0bbbbf8b4ed59b1144937f71dd755},
+            "weight": 4293620069933927n,
+          },
+          "n:78" => {
+            "adnlAddress": Buffer{978ca195c70908b131ba313aad2b02e3f3bd5e542f4b571f8106b6f05af0da5e},
+            "publicKey": Buffer{81e0540c2e8aaaf2d74ae0caa21b3f46fda75bcb81243dd5e13d7b3c11e88502},
+            "weight": 4293620069933927n,
+          },
+          "n:79" => {
+            "adnlAddress": Buffer{59777fc37093a5995290e5f80df37e137dcf1efe002236292bf33a2bbc95338d},
+            "publicKey": Buffer{53567067de359281e8db0b27d15987192039bb4c3203cc8f8413b253ad40d6f9},
+            "weight": 4293620069933927n,
+          },
+          "n:80" => {
+            "adnlAddress": Buffer{e281ee7bb6e9831295c83d1013ac8c675652b007f3025f2e4aeb054f02f11a6f},
+            "publicKey": Buffer{0837cb6a4ba06c4c4cd96dff15afdc64ac205d8d4440adde81855a3779e4905b},
+            "weight": 4293620069933927n,
+          },
+          "n:81" => {
+            "adnlAddress": Buffer{f1c07eb8616313770b9a2a0b878afda5c85936fc91ef1ad373ef657e7b7dee67},
+            "publicKey": Buffer{ae8ae8b77c1e8578a0bfd58211daa0bf152330ff40e034461b5a99db7c40db0f},
+            "weight": 4293620069933927n,
+          },
+          "n:82" => {
+            "adnlAddress": Buffer{e0bbdd7d76602663cf5be5c861cd1b80f30b3069881cc8ab530eecfa53f1673d},
+            "publicKey": Buffer{b07a3a0410cfe8818e23a11998013cb86760cfe603812bf0da94bbecd03febc9},
+            "weight": 4293620069933927n,
+          },
+          "n:83" => {
+            "adnlAddress": Buffer{f17b6e10f7ff2f24bd95acda4c689669a5bfe517aa4e2d8f32e48c04c6e37831},
+            "publicKey": Buffer{735a81789f6cb2fe995a67fd3985bd51c2f3c1ba9ac569513ee6a11cf79c6ac3},
+            "weight": 4293620069933927n,
+          },
+          "n:84" => {
+            "adnlAddress": Buffer{ffbe43b0166b7e0017587c549f7968386c74fb98f581d8d3134dab4baf98ff49},
+            "publicKey": Buffer{dea9d1bd8bdec57276639b0a98acb0e4f64b6b8724fe0aab93d80c5c39f4752c},
+            "weight": 4293620069933927n,
+          },
+          "n:85" => {
+            "adnlAddress": Buffer{8ef8eef1e34865f417fd32ecf39380b0f70c3042ea5ebce6c835030bc470d5b8},
+            "publicKey": Buffer{1e149b0da52761636b694fb7f10ca23bbf878bec7d5edae9aabb93e47fea2bbc},
+            "weight": 4293620069933927n,
+          },
+          "n:86" => {
+            "adnlAddress": Buffer{81f2a2e96347364742960e9da044b544a5753bf67fa64967c3536968f5b0d44a},
+            "publicKey": Buffer{b60d8f3f434d7e6ace13f433f2fe2f00f7fdfe93c01106927c86c596d8820470},
+            "weight": 4293620069933927n,
+          },
+          "n:87" => {
+            "adnlAddress": Buffer{e6d6111019f618e25bd4e033b48b55502c7017edacb3b9e2ed8e5ec1f90f4b0e},
+            "publicKey": Buffer{6130b01b2fe9f8c443180f1dc5ed1cb8caecc506515022b08a86a9f77afb7a9c},
+            "weight": 4293620069933927n,
+          },
+          "n:88" => {
+            "adnlAddress": Buffer{8bc9319f913ccba691d69f6c763273d537a3df69b810468b5d9113fab2319eb9},
+            "publicKey": Buffer{f810e450f58892687c9fe8979c648464994e03f9f5c23652ba8d73bb5b8a863e},
+            "weight": 4293620069933927n,
+          },
+          "n:89" => {
+            "adnlAddress": Buffer{48be98359b182f01cfbf943eb74377315849cbca9f7e080dd1ebc5bc641268f6},
+            "publicKey": Buffer{608eda1c18bbc39f7c60d71779a2ae51bd0745f1156faf9180275d0d246e2f5e},
+            "weight": 4277216215133959n,
+          },
+          "n:90" => {
+            "adnlAddress": Buffer{51c6437db378a04e35c2d97565deec28d4937684ddfac73083d89c036635ed20},
+            "publicKey": Buffer{115d4015cd7a0bb8ee0aa4667d9f7bbaf0560014c772f4f485773ae38a6ea909},
+            "weight": 4270914132504107n,
+          },
+          "n:91" => {
+            "adnlAddress": Buffer{cce6f66e86eac838026d6b4ec89a1f60311be56c72e496873ff2c1aef1382acb},
+            "publicKey": Buffer{48c65a241829032eb202b93e9d1f640f7af1be32b1e38435543ca2da7eb67384},
+            "weight": 4270914132504107n,
+          },
+          "n:92" => {
+            "adnlAddress": Buffer{f5a118aecf095c89636e4c19f9405c3dab77a2c8dc0412eae7d5307576013eb6},
+            "publicKey": Buffer{02d32d2ee4af6dc428e7d281c749088a0766b38665e95d8a04118091e45f8f96},
+            "weight": 4270914132504107n,
+          },
+          "n:93" => {
+            "adnlAddress": Buffer{a4927cbd67b609ac4dc31efd704b913c584c20b6f07514de7531dbe7f69bf2bf},
+            "publicKey": Buffer{eaef22f3568069de5c97198eb50a12be13bab23019895c5ad280c7ead5af62ce},
+            "weight": 4270914132504107n,
+          },
+          "n:94" => {
+            "adnlAddress": Buffer{278365b3b9b26caa86e0d39ae1e41b7f1d4c90fd5652ccd5ad4cea05cdab87cc},
+            "publicKey": Buffer{4574742acbd5f005785f9b7ef1c33a8e4ff9d34dfa0681b49ad6fa8b179f0524},
+            "weight": 4270914132504107n,
+          },
+          "n:95" => {
+            "adnlAddress": Buffer{cae477be2cf8f1de99b6ca226458dfdc17a606bbcc286115758d349944e4c333},
+            "publicKey": Buffer{24372e84a2e6a8c0815ef2a0225bf7d07b2eb1588ed8d151f853ba7b18692d7e},
+            "weight": 4262470530605544n,
+          },
+          "n:96" => {
+            "adnlAddress": Buffer{73b75bac5ed9797c5fd3702b6a840b20fe3192a8c003710b60daffdb7b638685},
+            "publicKey": Buffer{d86e19055fd04f7730f18109bdfb41fa8e9a3f12d66e126df53205e2413811cf},
+            "weight": 4259504655072514n,
+          },
+          "n:97" => {
+            "adnlAddress": Buffer{d31440e204fcb678728415504b760e7c7936d18bb9f99ab19d58454f17262bb8},
+            "publicKey": Buffer{7755e99af79c16676a003198c5e2b25a1eca3b115de9d0bc373aa639bea19c27},
+            "weight": 4239529206228658n,
+          },
+          "n:98" => {
+            "adnlAddress": Buffer{7416e6d9d0b400ddcb3cb74563ed6415153b009c72598993ae50dc3e9a9b0124},
+            "publicKey": Buffer{40c7b6ad57fc6757c624b5bfa08ac03768ae53dc2b3fada8284e45e97b945558},
+            "weight": 4239529206228658n,
+          },
+          "n:99" => {
+            "adnlAddress": Buffer{ac194291dcf132e5b835d9d10dec0213e36f377a29681b693d54e0409fba101d},
+            "publicKey": Buffer{554a8132c7dd00f7524bcc4c56947fe6377512af50bd433fbeb71f84ebfc05cd},
+            "weight": 4238563256455972n,
+          },
+          "n:100" => {
+            "adnlAddress": Buffer{3fb117e9ce51505e69fd0d7cc0fd73f3972c750cc3a38b268c231ba9e08e5812},
+            "publicKey": Buffer{486bc274b52e9d93eeb52a69ea08bc49df5568388011d0e85966d1c83fd87b27},
+            "weight": 4222461526686756n,
+          },
+          "n:101" => {
+            "adnlAddress": Buffer{69813f00b62cca725db91daab2bd982bab31c64aa7f19cf1b412da621ad0b8d1},
+            "publicKey": Buffer{f23f3f37682c9d12c01b21aa27f119ccee362ab7b15b89b4828da2c057cf0e96},
+            "weight": 4222461524811250n,
+          },
+          "n:102" => {
+            "adnlAddress": Buffer{23cd076ba1db02b0f92e3dd84390a018c18ec1bc1e42a6a3642c859dd95e2586},
+            "publicKey": Buffer{a7936b3abd2868799ef15fbaaffba2ac63cda3cc4047a1987f04f7b13b457c0b},
+            "weight": 4222461522310886n,
+          },
+          "n:103" => {
+            "adnlAddress": Buffer{fdf28e03967543f21d17f047a7690bae49a6e9ba437db1f63af0eb898d15561b},
+            "publicKey": Buffer{cd86b02579f1acc8c06847ceb9e902044f025f470ebc7d24f7ffc0ecae6255ec},
+            "weight": 4222461518258642n,
+          },
+          "n:104" => {
+            "adnlAddress": Buffer{8f00e8c50d35a59a95ffa7d037ba87e84e7cac108447a0bcc58cf5d40f36c051},
+            "publicKey": Buffer{e6210fd0bb6dbb5974d51e3397ecacda065eb8e435818d7026f88fb35e152f47},
+            "weight": 4222461517444815n,
+          },
+          "n:105" => {
+            "adnlAddress": Buffer{98b9b2956984f3d06a594cea85cf22e806d9ddda2aa8e5edf421952d6169ce7d},
+            "publicKey": Buffer{6a9a6ecd74db1012290fb1da82466b7e69bd0f1823f4dc998ac9a70bbaf9a004},
+            "weight": 4222461516810244n,
+          },
+          "n:106" => {
+            "adnlAddress": Buffer{5d9b97f545e1cac0c28da05779b8dd251032bc779a255fe65cb2f7bf360c6c0e},
+            "publicKey": Buffer{89565d9ca551c923d1d81352e5b79abf8d0afb002987714c103ecc97ee19848e},
+            "weight": 4222461512796336n,
+          },
+          "n:107" => {
+            "adnlAddress": Buffer{3090f82ae131b3a0c924e786222ba98d8ef0ec2075ab463b2924bee26a049726},
+            "publicKey": Buffer{25b510fee1d2861c9458e4f547067dc3d107955b40a21837d99d484242bc9039},
+            "weight": 4221957821604984n,
+          },
+          "n:108" => {
+            "adnlAddress": Buffer{356ceb3bb1bb60055a1733ae878be5d77f00e3cdd3810e249ad7b572d527a47e},
+            "publicKey": Buffer{df9cff4ab7c9b457521aa6c600f13cab1d4c6cf07962d7b769b994c8e5010a8d},
+            "weight": 4216538548335204n,
+          },
+          "n:109" => {
+            "adnlAddress": Buffer{ff1e12ac60b2a45d8a9eafa9456abe8af5a9dcd48a7f6edc5466dce3c76ee083},
+            "publicKey": Buffer{d15fb10b9fbb297af08b0bec16e9010daf5de49aa0b437e69e90cd42e8f9e3c8},
+            "weight": 4216538548135732n,
+          },
+          "n:110" => {
+            "adnlAddress": Buffer{49a26fc9f06f15661a955927c5bed2ec0c7512d1a38e0b6f0501729650f1f6e9},
+            "publicKey": Buffer{bbf2be9c0ddcac09ae04c5a24d7770bb6b9c9638e1c7ce6d6da404191cdbf02e},
+            "weight": 4216538546881638n,
+          },
+          "n:111" => {
+            "adnlAddress": Buffer{0ce4be0fccaee752264be87364bbe93ec196b07a4b04f9fb32cb4b0876445811},
+            "publicKey": Buffer{a7e5f2acfecf82ab0b30ae16b0263175724efaaaac1bd05a52a132f03196c3f2},
+            "weight": 4216537834441389n,
+          },
+          "n:112" => {
+            "adnlAddress": Buffer{f4ea9c481b3f7c627f53d069abbdaccc4cf0b7dff58ae8a847863f3ff8c71440},
+            "publicKey": Buffer{63d66dedb2ed54d7e6cd29e3aab04c7bdea4da39fb8a8fdcf13b2a2c3f341368},
+            "weight": 4216537831411452n,
+          },
+          "n:113" => {
+            "adnlAddress": Buffer{82cab5d7cdd07afcb929f6c07b1c0d1e0109ccf197de23474929d55e85c5ab93},
+            "publicKey": Buffer{40aab5df8afc1082271906785cea5334150d196fc312a27d6871c94f6d5ab198},
+            "weight": 4210819184466921n,
+          },
+          "n:114" => {
+            "adnlAddress": Buffer{32bbe43ce7691c3aa7e3d82b52509b4d3532bd31cf30885614bdf8553c87ef6d},
+            "publicKey": Buffer{6e60c3935cacf02a24f691fd1e9ad42cce868168fe987cf067e9c2d6715804a4},
+            "weight": 4204548802673854n,
+          },
+          "n:115" => {
+            "adnlAddress": Buffer{e2e5cadaa61c6d84f86a3618d496ea0bd98c79edc796af9895b82fb83cb666b9},
+            "publicKey": Buffer{ca59aeaaacb61d3e2bf2ca25a4dc03bc24bbed6a363cf734d29586f6b26d0fa0},
+            "weight": 4194349548124680n,
+          },
+          "n:116" => {
+            "adnlAddress": Buffer{781fbda36a95304f8206b5635f54e04ba5512cfaff77825038dbb850514c6e9a},
+            "publicKey": Buffer{d8cfd6d9dd1ee9904c2a338a3eedf5c2380a463e8b879d1b083b7829dacf7013},
+            "weight": 4194349548124680n,
+          },
+          "n:117" => {
+            "adnlAddress": Buffer{41a924b2d66fbd326ad4b7bc97850110aefa7c9b98f9c6b9e1ea69fefe86aa21},
+            "publicKey": Buffer{435e31c674b1e571760404c697d08c1fee1f2c51537cfab97d7f30043a381c08},
+            "weight": 4181884195935303n,
+          },
+          "n:118" => {
+            "adnlAddress": Buffer{26e19aec2805686e72d28109679d70a15385005fd94fcf90b8d38f8be1fafac7},
+            "publicKey": Buffer{98de037758a18519d3a8a4a2fc333c3c40e04c3b1c331fa9de7ef9981d3f73da},
+            "weight": 4158497500676025n,
+          },
+          "n:119" => {
+            "adnlAddress": Buffer{6e8fb336868699d80f31379aa2cf793dbd0b1a2d206ec9599eb43ca92209a5f8},
+            "publicKey": Buffer{c30f29d2e5113540bc5c877443f24d34f3332972c85be0be8e3472e37f58b9bd},
+            "weight": 4158497500676025n,
+          },
+          "n:120" => {
+            "adnlAddress": Buffer{c38231f77c6ff0f063f16756a3126c98b52a6379a17622045f61fa038da2304b},
+            "publicKey": Buffer{0c5f3d342e5f2414ef9f5502f7842b72c14aee5d234c7c4ed7183e01e0fb70cf},
+            "weight": 4158497500676025n,
+          },
+          "n:121" => {
+            "adnlAddress": Buffer{2503e99ff0df0082ea29739f9ea79001cc0d3c8017a550c94e2a3e75ca925ac3},
+            "publicKey": Buffer{32460b5e03e1a9e779ba33c7f3b4ed2b35211e58059ba4d01bff34c4e4cb37bf},
+            "weight": 4158497500676025n,
+          },
+          "n:122" => {
+            "adnlAddress": Buffer{ffb11720a377f67f26cfdbf302cd634ddd4d99f32d12a296bc25383271bb0d81},
+            "publicKey": Buffer{3fe8b182dacae3b8fdc0fad2eaea4409d6502d99e846e5b2852b119e7bcfc995},
+            "weight": 4158497500676025n,
+          },
+          "n:123" => {
+            "adnlAddress": Buffer{ae08cc5389b594e8f7381665de8320f25c2a62fbf3d79d724deaa76ca759ffaa},
+            "publicKey": Buffer{2060b7a604688c468b154b5e49c47782b6802516a0de06dd10e220c6a26c3f09},
+            "weight": 4158497500676025n,
+          },
+          "n:124" => {
+            "adnlAddress": Buffer{0803689f44c555ebedb2871d50bb50f219cc8141f5a3d9657740782eccb11c6b},
+            "publicKey": Buffer{e811bb8c3a098115da1f994134f6e1a6389c758be3143adff4f033d0fa8cc0d9},
+            "weight": 4158497500676025n,
+          },
+          "n:125" => {
+            "adnlAddress": Buffer{0992d296262695836c78ade13b1928b35fc78c7dc1de146261129156a8bc0676},
+            "publicKey": Buffer{6ef38dcb9d8f4429f16fa42633e646723cd239be153a26111983e4829949af99},
+            "weight": 4158497500676025n,
+          },
+          "n:126" => {
+            "adnlAddress": Buffer{32708b4d13c47293ae67743eed50ff0477ec7a1b8c8199a6eddb7de1f87c0aef},
+            "publicKey": Buffer{7fa4ec65eb7143de4257f070c1b6fd5d361c2409a89ce7d8126478ceaae0afc3},
+            "weight": 4158497500676025n,
+          },
+          "n:127" => {
+            "adnlAddress": Buffer{ccbcb11e31c07a44916a8f623755605f9131cf4310b6a7cba105875e709f088e},
+            "publicKey": Buffer{d24a935508507fd4fc3c111a1984fc0dfba10f0b4b48e46482a82fdde34e4c07},
+            "weight": 4158497500676025n,
+          },
+          "n:128" => {
+            "adnlAddress": Buffer{1479d29413558a1da01f88e71b2d81d187616311ccd9e4686efea13ce590d4e5},
+            "publicKey": Buffer{a8633ad3fcda2835149cb68d7f261db6b1ffc647192aae94c7d54db61889efb0},
+            "weight": 4158497500676025n,
+          },
+          "n:129" => {
+            "adnlAddress": Buffer{af20670974dba927b26e673f74f3ebe47590aea77253fe09cfbd29ed3f45a408},
+            "publicKey": Buffer{af07976c0c2062365dc5d83e3ffbd03c5d4a4ebdb5f08a16a484a9304642a7c4},
+            "weight": 4158497500676025n,
+          },
+          "n:130" => {
+            "adnlAddress": Buffer{88b4fa2e7808231cc93003abda6dfa98b7d6e93e965c53d1977b9aa1e54f6310},
+            "publicKey": Buffer{570488e7b58415ef2f80e044980cbb83a1d07c8e9c58c8341eb69190e76942c0},
+            "weight": 4158497500676025n,
+          },
+          "n:131" => {
+            "adnlAddress": Buffer{326ea121f368b3322364b2269f051671d615167913e50aece3f3c648667efee8},
+            "publicKey": Buffer{38da00032914b379e947090766ae3bf897af68a3b52a86e55eacf3eb604259b8},
+            "weight": 4158497500676025n,
+          },
+          "n:132" => {
+            "adnlAddress": Buffer{4b81c41f882d9a169f22637b0c01ea5e16023b5075d1f035d41e358edf1db439},
+            "publicKey": Buffer{a6a08c2e959cf83d9fa8dfb79140eef5a58f69cdbd011c58ea20225babc37af9},
+            "weight": 4158497500676025n,
+          },
+          "n:133" => {
+            "adnlAddress": Buffer{8a842cdef2c7b06ebb64c2fe6738610b58e030c1ae03f2d7fca5c7d7eebcf34f},
+            "publicKey": Buffer{edac529894fb1e62f61fd37eed4dd60a56a793164e58fdae60b7a0c752c57f74},
+            "weight": 4158497500676025n,
+          },
+          "n:134" => {
+            "adnlAddress": Buffer{856021bdc29b84d9b1377ccfe09907f9d83fb57212a4bf9a36a28e59ef99addd},
+            "publicKey": Buffer{2d8c7ac79d0a4a5cf0706f5e45a873d6e45e730d19faec117923c2e7ca4b205b},
+            "weight": 4158497500676025n,
+          },
+          "n:135" => {
+            "adnlAddress": Buffer{59a031a8aa53cd457ba04b322196a33ed02b8904a303da08c35fc0f24157076b},
+            "publicKey": Buffer{e44af51876fd4401446b431f2a321eaba9c04f7cf6312886bf1a7ccdee7f3d17},
+            "weight": 4158497500676025n,
+          },
+          "n:136" => {
+            "adnlAddress": Buffer{208cdb72489bfcd94585ab5f60c893071eff7f191c004a0f33faaee28e394984},
+            "publicKey": Buffer{414892b167ed2b815fea5c9d37fdb16b730e2d2e8b58520e7ef70f0e13ad71a2},
+            "weight": 4158497500676025n,
+          },
+          "n:137" => {
+            "adnlAddress": Buffer{62b694fef86e081005a8446d90b17042dbbec56a455fb807dcf47f1db39bd0ac},
+            "publicKey": Buffer{951b1f338e11197bbb2624353a3847f4c4f268ce2881fb988fc772da82f7bf25},
+            "weight": 4158497500676025n,
+          },
+          "n:138" => {
+            "adnlAddress": Buffer{608d1c904a66dc4b1fdd0dce7e35a701f4bdedfeecf80a833510c8535959e006},
+            "publicKey": Buffer{f0820a8cc260257a92a8cb4cf3b5d979c199252d13e4b608261524c279650444},
+            "weight": 4086521403084327n,
+          },
+          "n:139" => {
+            "adnlAddress": Buffer{be3d9fcde7f1f164fc2f8b03cd27097612e1d312bc725578dc10393237e9f6da},
+            "publicKey": Buffer{392b8d1dfd6c3473da02af3bcdc676194fc42b6a6d71bba9f9318005d784d28f},
+            "weight": 4086521403084327n,
+          },
+          "n:140" => {
+            "adnlAddress": Buffer{48cbbc37760aa7a8e1756181b0a1b5e2d540c382247642aae04c9d0f75babc3d},
+            "publicKey": Buffer{9e77ee9206fbce5e06edf9c862c9f004464d3fd7f5545e3e317b906283479d7f},
+            "weight": 4086521403084327n,
+          },
+          "n:141" => {
+            "adnlAddress": Buffer{0d4f3bf192f228e636c4d5f75b8711edd9fbeb173cc9cfeee29bc6fecd8ad041},
+            "publicKey": Buffer{6b665abcbb644ac916733fd0c35e82bc2b11fdee098fa3425f44f7b0e348abbf},
+            "weight": 4086521403084327n,
+          },
+          "n:142" => {
+            "adnlAddress": Buffer{721273cbdf55df7fcac63c179401b24a3220865ec87d1c282538062067557afe},
+            "publicKey": Buffer{51e2973779073c3e05b9460152d96e1d7cc1eba3bbf54c2b15638c61c2023d14},
+            "weight": 4086521403084327n,
+          },
+          "n:143" => {
+            "adnlAddress": Buffer{871f5a1c98e7d475329a61a5dd3a706c344b980e3fd493b935dbdb8d94b78215},
+            "publicKey": Buffer{532e785931a6a121994131fb7a9d94d223ab06c9f29244a7d700d7845e1e015c},
+            "weight": 4086521403084327n,
+          },
+          "n:144" => {
+            "adnlAddress": Buffer{5112cfdab888b8cd16f2b56c16f85893f0016f4a2182d557ee24ec264a69b410},
+            "publicKey": Buffer{cb7e61ad640b82470b68071b7abf26960530275de3b0d381f1a8d91a1de95e9b},
+            "weight": 4081102272480766n,
+          },
+          "n:145" => {
+            "adnlAddress": Buffer{da00b4ae993bb2132b56c0eac19552cfc38795eb08259f853af0dc41bcc454eb},
+            "publicKey": Buffer{98ff719acb8e6ce68cb4929e2316253f73e049243534c85ee37843031e7bf5b2},
+            "weight": 4068161221213189n,
+          },
+          "n:146" => {
+            "adnlAddress": Buffer{65e02db2cde41fcb0e9d1e476ea2e19bc76c7547a975a078fe71835e02ef1310},
+            "publicKey": Buffer{6f4f9cd157150b441bcbf92d426ec89d88e9dd67bd02184446693f4d7026cd6a},
+            "weight": 3977988153933244n,
+          },
+          "n:147" => {
+            "adnlAddress": Buffer{931f3634f688358ea81af60ebceb4e5ff00bfe86569fd647144b5f738334064a},
+            "publicKey": Buffer{91c218b2babbf94b8139931674b4a4fbc869914d942f445f3a6858dab7136e34},
+            "weight": 3977988153933244n,
+          },
+          "n:148" => {
+            "adnlAddress": Buffer{d970275b1d6341a39ea3b7a30aee231d6458a2eaef2baa3c72e49eaaf1f5f9aa},
+            "publicKey": Buffer{cef08b52f31e23481eced879e1a0e48c9181309b2d827f66fbd40378728fb51c},
+            "weight": 3977988153933244n,
+          },
+          "n:149" => {
+            "adnlAddress": Buffer{61dcab6649c2e94bb3a591354108d5258d70c1e5ac606f7aa797272fec0a8850},
+            "publicKey": Buffer{b48686b85ea2118d0fc95a8b3e6ff984065e3d941b39b774bb1f1e2da3f08310},
+            "weight": 3977988153933244n,
+          },
+          "n:150" => {
+            "adnlAddress": Buffer{ae8742015f1b45419e300891f4d7658ef75c681a9dfedc72d9f0d8c5e5b39518},
+            "publicKey": Buffer{7b70f850590ba93d4e42ce2ce5c237757e58db3a5f72232cfa0522efb58abc0e},
+            "weight": 3977988153933244n,
+          },
+          "n:151" => {
+            "adnlAddress": Buffer{c8349f70872528858077fd0a277467a708f2de575174db01aa317b9d426a9fd3},
+            "publicKey": Buffer{014dd6e395e717725b302a63482b97e93e7d673e3dc28556482d8875dac53e00},
+            "weight": 3977988153933244n,
+          },
+          "n:152" => {
+            "adnlAddress": Buffer{2a734afda1b6f9ee9b5102aabd9fe6f8d382cf6641d279f9c0252750815e2a29},
+            "publicKey": Buffer{6eaab6649d77d1c517cd5b09eafe912b45dce9bf77de9f805e31da44679bc5b4},
+            "weight": 3973232727245619n,
+          },
+          "n:153" => {
+            "adnlAddress": Buffer{093e0c25e7c6e8e5061f541b8f74d5a3fb5f0bcc8395d831502d4e4ed64260fc},
+            "publicKey": Buffer{c940ea8f6f9c8fc5255ec46b50bbb6af5165fa8e3c4663ecea24ae2ec9dcc037},
+            "weight": 3961702986086607n,
+          },
+          "n:154" => {
+            "adnlAddress": Buffer{08ffbe73d24526cb8a8ff5f7b1f768e87c3448337498bdb3b66dcafa665e172d},
+            "publicKey": Buffer{dc50186c1859652be4001546803e754e16e5b5b2bd44b8483905ee081636dc1f},
+            "weight": 3959445282757166n,
+          },
+          "n:155" => {
+            "adnlAddress": Buffer{0637f5054bfcdc3d42ac29f7823b783355b499a8a21a361ed8266902914d4f1b},
+            "publicKey": Buffer{2c2cf943715859623b80dbb617156ff92f07665b82f341000f9035d2d09ad254},
+            "weight": 3947632642673371n,
+          },
+          "n:156" => {
+            "adnlAddress": Buffer{1905c09e1a02253dba9a329a7b4e35f2001366b31989a714b72e92544c2fd625},
+            "publicKey": Buffer{c2cb3c47ae0e410309444e63a0a7eabb3208a8bf7617caf60ddef171bd5e00ae},
+            "weight": 3942508750619227n,
+          },
+          "n:157" => {
+            "adnlAddress": Buffer{b02e523d85bbf6f738d8a8e26f70bfdf056581d6b92da69824aca9d4d7fe308d},
+            "publicKey": Buffer{653d7ab0ed5f2e4796f0e6d0b7ddca4e11c1127c1b9b56699dd060f52372de46},
+            "weight": 3930663859200445n,
+          },
+          "n:158" => {
+            "adnlAddress": Buffer{b73054305bf8225c907a03d104cce74b81057bea80a8b0d485cc98e8282cf89d},
+            "publicKey": Buffer{baf06a6010b9a66a50295da40b08bfd207d98128668bff98fb30e6ff64fdb0d5},
+            "weight": 3923057534657103n,
+          },
+          "n:159" => {
+            "adnlAddress": Buffer{5565d9be0533b84a517b0f1285b357f8a2e2aa45eaaf01655a70164796ae3bb9},
+            "publicKey": Buffer{d73365b45f120e2c225bb4b236e7c1ee3036170afd74d6c95d520f93480ba1b0},
+            "weight": 3920033184982310n,
+          },
+          "n:160" => {
+            "adnlAddress": Buffer{8aeb933a728ec9f12d5f16ff53247b447d8137ce00f3c2fb76d10ded8f1f33ed},
+            "publicKey": Buffer{3dd009636d6723ea4953d858cc540c983b3488c0732a4d00d2f4937a98577a07},
+            "weight": 3878539432758348n,
+          },
+          "n:161" => {
+            "adnlAddress": Buffer{f3876c71c1712514468cefff4e1e9e7443c65742ea0994cc97e229f54ae3b9c9},
+            "publicKey": Buffer{bc1c2de64999f339df6ca430f46d143325f5563c93aba435b9262e4e87837482},
+            "weight": 3869649165933989n,
+          },
+          "n:162" => {
+            "adnlAddress": Buffer{182541cbdbac49c01fa62c30b2154546eb1ae53081c037c7d5125a68a9fe14d1},
+            "publicKey": Buffer{d03038051d7d8649d0da814a9a0b055b5a9b4c11a0d647bdbfc0c60a6be73bc8},
+            "weight": 3851664549646676n,
+          },
+          "n:163" => {
+            "adnlAddress": Buffer{03639807fc27eb2d174cbd0b581f4d00e564d7a0b5d52230261e417a731d1c63},
+            "publicKey": Buffer{da2bd7297ecc0d2a4bf51e3cbed94ddccf6dbcf8d2554f86aea063e775b1e4b4},
+            "weight": 3841986806739629n,
+          },
+          "n:164" => {
+            "adnlAddress": Buffer{6b5de5ba8610c88b64174b26fab8759b026fb5b631e3b63ad1238f6d68d14882},
+            "publicKey": Buffer{e5dd36463cda82220c083655f0a756022d40b7a5b610bf710075ae2747eb0999},
+            "weight": 3841986806739629n,
+          },
+          "n:165" => {
+            "adnlAddress": Buffer{17986a9864208a53882743d58e64451f51470c8f722788f1cefcc6e639ca7ab0},
+            "publicKey": Buffer{cc08366349312dd3f99ae887b670e8f4b3d5e943ec42fc194d18966e654f781a},
+            "weight": 3841986806739629n,
+          },
+          "n:166" => {
+            "adnlAddress": Buffer{fdcc88c0cf2abab5c2f5a9c8c1c8d1f29f87abd61a348b21702653e5d84ea3ec},
+            "publicKey": Buffer{02ebb49d88889035e23be65e3c46ee3d9fb3af127982439dd3ab733e2d71d719},
+            "weight": 3841986806739629n,
+          },
+          "n:167" => {
+            "adnlAddress": Buffer{a7f807b93262a8c710b588e25e5376b85a4b82358055382daa19d35e91b3f585},
+            "publicKey": Buffer{a533f428a7838b21807c93278d1936feb6f8ff69805c41c906bf0287be5fad03},
+            "weight": 3833973182635728n,
+          },
+          "n:168" => {
+            "adnlAddress": Buffer{a48fdfeec71dfc92f977aaf6a39ae24c19d741d46a8b60cd77235c432e4a610b},
+            "publicKey": Buffer{38602068d0866880d59312e01aa59b67358c10c96d01b86c97b822b022c615d7},
+            "weight": 3801983811839551n,
+          },
+          "n:169" => {
+            "adnlAddress": Buffer{a56b8cd290400a8eb2daf6073b97bd0963df0400f1f4bdfd30ee6ce171c465a3},
+            "publicKey": Buffer{59dc38b671f6c5e566ae5f1793aaa6d394df3ed4c3ba5e54913d15ca750ea74c},
+            "weight": 3801778877391782n,
+          },
+          "n:170" => {
+            "adnlAddress": Buffer{54a387ca823db25df7ad786e87aafb369b392cbb8453ae3d9e328a463dded857},
+            "publicKey": Buffer{297a6a3d5bf6f6191c253a26cf2920223bf9ebcb17052ac80087a55789ae6202},
+            "weight": 3801583778514715n,
+          },
+          "n:171" => {
+            "adnlAddress": Buffer{79b52f64d1ceb4771ae105db81f20d3c68784389655ce6106b65c92a4d40f855},
+            "publicKey": Buffer{27e69edbd7e56facdef49aa235d31a956dde507213e128c87cd93cfe102918bc},
+            "weight": 3792340027462446n,
+          },
+          "n:172" => {
+            "adnlAddress": Buffer{9257aed9e2cdbe189172565ca38859bcd8034d92ce10ca1199e8a5c187bee6c1},
+            "publicKey": Buffer{27b78d8876cd2ecf2ce4f90d306d9dd905dd2cebb786fbc4370ac25514adaf4e},
+            "weight": 3787646355414705n,
+          },
+          "n:173" => {
+            "adnlAddress": Buffer{a2d0c204d5ed2217df5a99e9d8aa204078c40980c73dbb1af07fa4a5d80d7362},
+            "publicKey": Buffer{90f6be5e7c277a20751e1348a2f3b4a95f08d4d3fef3fa2c6e37ee31f369901a},
+            "weight": 3786379940594307n,
+          },
+          "n:174" => {
+            "adnlAddress": Buffer{37e5d2468a4de1c59899bcf0fb27a4ce43c2abadd2c1e7a4b719a53a7b1dd1ff},
+            "publicKey": Buffer{df792004f3827bf856b0de228aed860484950848ee6639eaca1f71d4f562172b},
+            "weight": 3781655610038052n,
+          },
+          "n:175" => {
+            "adnlAddress": Buffer{34e970549412873926ef4317c0885a6f81f07d4c369c95705e156a2f6043779f},
+            "publicKey": Buffer{6b3159d18258f53973707d4794c25c67ee4be635ca1e0e7666b8bf6683559541},
+            "weight": 3773780681176450n,
+          },
+          "n:176" => {
+            "adnlAddress": Buffer{668a2a1eb3ebfd7787088b3d2bc1f7047a38fe92ab7bd76adf3807045396e7da},
+            "publicKey": Buffer{7e9eb4956ff0f339e924ec945ae3f46a02fcbaf7c5b64ff0a55294ebbe82b981},
+            "weight": 3761955271249508n,
+          },
+          "n:177" => {
+            "adnlAddress": Buffer{a8fa83056dd2fe72958ea33b2c7ebb26b36d88155e82129f218b8677c123e0fa},
+            "publicKey": Buffer{0a1756f8ae8bc73fc8a5e15eba9b803f462d238a1c60729aded4b70c0946dee7},
+            "weight": 3756256388808371n,
+          },
+          "n:178" => {
+            "adnlAddress": Buffer{497a8d0561651eea80652c501998bf3309a4f7624c884480e84c9a967d433992},
+            "publicKey": Buffer{2d670130ee5c9f1fe976007b9a2eb6e8007acfd718231ffdead6f0085b93743a},
+            "weight": 3736922109788622n,
+          },
+          "n:179" => {
+            "adnlAddress": Buffer{e631ee57d0aa270a97b54f5aba37199686b9093bc7a586eb216f889eb977f397},
+            "publicKey": Buffer{5c46e24ff8289a55f50f3cc2276a312f7f7d9ce62612dd6c9735c7998d630480},
+            "weight": 3736922108544273n,
+          },
+          "n:180" => {
+            "adnlAddress": Buffer{b94c51fb87269352403030a4b7e7fb95a6c0b81553247a8ddd3e186be07f0f25},
+            "publicKey": Buffer{d357597e99c3dc685acf498a8e796e9e469a8687000c0a6fa4b1516f8995599d},
+            "weight": 3736922107198335n,
+          },
+          "n:181" => {
+            "adnlAddress": Buffer{b45b54b474d2bdd6dc306871cd8eaff0dcf3dfefcc8a7322fa009da0959c2ffc},
+            "publicKey": Buffer{4ca4297d4118f52515a42191253159548736e9b20f9da1a932313d0dc82cd275},
+            "weight": 3736922106868182n,
+          },
+          "n:182" => {
+            "adnlAddress": Buffer{c8d88ff8de9a9dec151cd14e59c2324d8d463462be514a2e480529b5e543fa6c},
+            "publicKey": Buffer{2ed5202ffd935316e3f1dafb957fac38c7b940b34ffe111f7c7f1b8cdff951be},
+            "weight": 3735700678186631n,
+          },
+          "n:183" => {
+            "adnlAddress": Buffer{a37b04564b90cc8d2405847f38cbeb751f893dd4dab250ae0717bdf09b65e76b},
+            "publicKey": Buffer{70999b9fc8caa2c3b10c4364b152ceec3d72e91e447d3fcfea865e8aef15d693},
+            "weight": 3734667940662997n,
+          },
+          "n:184" => {
+            "adnlAddress": Buffer{684fc47fcc6029ecf745ba0cf0e904727345f22167030a20263203ea02d1ed9e},
+            "publicKey": Buffer{1e2e59dc0d9b010410389e93c7fc4f519bc4cfa81778c8621675ad08c9a070d0},
+            "weight": 3726033822380716n,
+          },
+          "n:185" => {
+            "adnlAddress": Buffer{212331dc6ef20d8761bce0461f6deecd7e0ffa2b609074cee30b26b2bd65c8ed},
+            "publicKey": Buffer{43c257a2f7f0938e79c16ab1cfbcf679b779aa777550a605fe2954dc6a7d1dd8},
+            "weight": 3723402234094359n,
+          },
+          "n:186" => {
+            "adnlAddress": Buffer{7476b0b27e846dc8cfee3fb6026d82c890ba0136970dc31e464244c31bd8d746},
+            "publicKey": Buffer{82fc16f8136e6723801cc6a625ef88343ce622afacee81d0fe1af3e5fccdbdc0},
+            "weight": 3709395400167940n,
+          },
+          "n:187" => {
+            "adnlAddress": Buffer{87470ce69196b8fb5ca09b2880e0801fba2c4fcd33295e3158be59218ccaefa6},
+            "publicKey": Buffer{54cf33a6f2745bc65c01b5ff47b34845eb6ccbccf9eb330a310ecdbeba33cab9},
+            "weight": 3702459468248119n,
+          },
+          "n:188" => {
+            "adnlAddress": Buffer{acffc56d5dc7a2aa0b9c4f8bfce50e5a58a783d938376da059746430955f396d},
+            "publicKey": Buffer{dcbfe0afc3ffbb61329e058b35c6078c17d2cfb11fc8f69c8ef2c15999337a9d},
+            "weight": 3640646217131107n,
+          },
+          "n:189" => {
+            "adnlAddress": Buffer{2a0b9442d367d40540f11da723c1731fc948dbc55bc02ab37ba6df81bac1fb60},
+            "publicKey": Buffer{f58ac9617e8b7fc1229590abd49492ad09ebc6e045280b24a0eb71ad64aef3bc},
+            "weight": 3616731195429024n,
+          },
+          "n:190" => {
+            "adnlAddress": Buffer{36f0cb9fe63d7c6377c211e583da7715a40f2de493fc2f508c944ba85c042399},
+            "publicKey": Buffer{1254da121e961d7f332a63902a9ab0cbe444a7aa5d67bb5a751c1b8ad50a2801},
+            "weight": 3598859926076291n,
+          },
+          "n:191" => {
+            "adnlAddress": Buffer{1093d78a0eb70fa3694b2428b72f41f8c47209b6f12d8f7606643edb2dcc26f1},
+            "publicKey": Buffer{fa002d00ced134b52e220a322796dcc47706adf13085d9398c805ea27b569cf0},
+            "weight": 3583624678373436n,
+          },
+          "n:192" => {
+            "adnlAddress": Buffer{ed04c6265b5ba338d249e96ad54e807a8d97f05e66121919545b53f5082aa216},
+            "publicKey": Buffer{7dfd01977b4c4492891fe6954896ed2bf93dcc544e7cea96b81574fc86ff69e6},
+            "weight": 3573545244754195n,
+          },
+          "n:193" => {
+            "adnlAddress": Buffer{b1e0e68db670e941527f85fd432ec0b955292cb07495c012d327dc1c4d29f1b8},
+            "publicKey": Buffer{8f4f061f198350cb73967d86e5b1aa36d74e4fb5612fa379ece0d13c6fd7cc23},
+            "weight": 3571308355067079n,
+          },
+          "n:194" => {
+            "adnlAddress": Buffer{fe55de00a6f9e6d2a5b7f429e25b0bc6c8c0f91865c767afa8c250fd32f2f902},
+            "publicKey": Buffer{ece89689bac57f7569f4ea70df0e722f7595194d363a910c68a15b9833fa6d19},
+            "weight": 3555519634899896n,
+          },
+          "n:195" => {
+            "adnlAddress": Buffer{8883c59791c5f87d4b3b2bf213921c41f203b1ad2d97664ee4988d1ca5f75d2b},
+            "publicKey": Buffer{ec55c248b2442e4923a582ee2119008acb4388358301ab4dd295e049c868d761},
+            "weight": 3548009500631818n,
+          },
+          "n:196" => {
+            "adnlAddress": Buffer{37e369d3f65979346ee2584c55559a7584b1913e3a38b546e454873304a95d74},
+            "publicKey": Buffer{019fb496e0449b39fbb65c79d26477d1a441bbb5dcf01ca784cf456ca447f283},
+            "weight": 3528390446043352n,
+          },
+          "n:197" => {
+            "adnlAddress": Buffer{8e926bdfd627f970da141ed9e8beef7ca121abe4dcb10a993e44c05f35a66fe8},
+            "publicKey": Buffer{3cc11011ee1f51971e21ba408ea6db1a80cdb56658f86fb908e4f7607c96ccca},
+            "weight": 3505443167124164n,
+          },
+          "n:198" => {
+            "adnlAddress": Buffer{02f878af6d1cc60117ff86edb9e7daf6f42ed504fe8dff088afef37fb8ba15e8},
+            "publicKey": Buffer{dc2835c05845d14703910da5fb93bcd0af1c360613c7b867ee9ce74a4ffb9696},
+            "weight": 3487974243264182n,
+          },
+          "n:199" => {
+            "adnlAddress": Buffer{9de39dad458aceb34354e3433853c7e1c2af035ed145841b4d9160b8792ecc41},
+            "publicKey": Buffer{a68c8ba78340ab35965cb62a4ea91738636b700304ec7e6c73560c7afae19b74},
+            "weight": 3486200133973692n,
+          },
+          "n:200" => {
+            "adnlAddress": Buffer{0e50d497e0587e2bb0bed4d4cd7f0aeec6ac2d1da0640f2d11f329a6093c6e73},
+            "publicKey": Buffer{60ffc2e0f94ef6a3e0d4ed6cea90705709a053e16493502bea7644983851e2f0},
+            "weight": 3483733100870358n,
+          },
+          "n:201" => {
+            "adnlAddress": Buffer{0d4db6b86bc7f02544c5dabfdf1e758e3ba66ba5d7f6592fe50b6df43ee46dde},
+            "publicKey": Buffer{6e16df61574a8bde8465bd2728a0afc34050bf0f93d09190bf29a2455b72eef6},
+            "weight": 3444657814183016n,
+          },
+          "n:202" => {
+            "adnlAddress": Buffer{122485157696c94efc280dcfa5036ac7d8b0cf6c6db0e38b09427a42c635b62d},
+            "publicKey": Buffer{687f985aed3e7d9dd8536a6c407ba95235bd9cc4d0d810082b3b07a9d4f5288d},
+            "weight": 3437120201055862n,
+          },
+          "n:203" => {
+            "adnlAddress": Buffer{c404f095073e609e62cc540976c7645b78e764f7146c5939e7682cd14b903acd},
+            "publicKey": Buffer{9b2c27bc7efa6cd7d4203bda21e264529dccd9c276e8ee5f8901879d3f5ae56b},
+            "weight": 3409219001596987n,
+          },
+          "n:204" => {
+            "adnlAddress": Buffer{e854aae0edd1f482bdb2b8d0d1248df0ee4098a2186bfdd2e996a404cf039227},
+            "publicKey": Buffer{53a34982452ae200f385085fa5464ddd3904b3f6cbb662cf73884658a0351dd9},
+            "weight": 3358181880652060n,
+          },
+          "n:205" => {
+            "adnlAddress": Buffer{13d5dfedfb1ab8244be01bb876347f3bd91ff248a393279b3c1e2a6efe227d2a},
+            "publicKey": Buffer{c03f2e929d5fcc5eff1675a9adc6e6784b3e153a52fc893c328c49d1b4812b0c},
+            "weight": 3324861550589625n,
+          },
+          "n:206" => {
+            "adnlAddress": Buffer{0f113b6df5a06a7bbee7b9cad9bb21d30b736efbfbd3e7343b244c71b8cae810},
+            "publicKey": Buffer{2ddb393f680bb58891b05ed45ad3d5c4be07839413cccccdc74a13e064f7c9e8},
+            "weight": 3309807247619501n,
+          },
+          "n:207" => {
+            "adnlAddress": Buffer{eaaa0fc02f4147eed54d945eed6a4594def300f89ea1e9fb02bc650fe88e7cd0},
+            "publicKey": Buffer{81d8a8a429eb424bfd9f0c19ab6260a9deca9c0abe3bc706653bd8e6112958a6},
+            "weight": 3295542936327213n,
+          },
+          "n:208" => {
+            "adnlAddress": Buffer{f25df3b32fa93ae4a8e3403644feb61f6e3e48b2d7caf9724feb17efa619704a},
+            "publicKey": Buffer{ad3e40f2d1480a52be82cfc8c6d8b9fbbc2327d9f0d773551309cbd48f064c96},
+            "weight": 3280411799395888n,
+          },
+          "n:209" => {
+            "adnlAddress": Buffer{72a92f2fcd9f49e4b051b22a70d5ec59dfb99c72d586a5e792abf4296bb086ad},
+            "publicKey": Buffer{fb1657515e59ccd6da69e18c1d484a1f81b39a90c0dc3b79bf00d9bd8a112ed7},
+            "weight": 3250034215674845n,
+          },
+          "n:210" => {
+            "adnlAddress": Buffer{c59bab025b32aa64e4a48c547b9892b081dea4dc0301f231190c683b3a9f3f43},
+            "publicKey": Buffer{c983c4a5ba41511a7a205fd1c803e2aebde5788e5b92c0448463f7caa78e8b38},
+            "weight": 3250034215672951n,
+          },
+          "n:211" => {
+            "adnlAddress": Buffer{f9bece7e860020087da73dd27af660c2ebf84399dd5c9978e49c1bb8f0e2b35b},
+            "publicKey": Buffer{a3b3d9a07feebd3ee2b72e774f63e7d7dae90c623ad99064a6b32cd090883824},
+            "weight": 3250034215672946n,
+          },
+          "n:212" => {
+            "adnlAddress": Buffer{a6512b1a15d15e3e3b42f77f29cb53fe5849860b42aea1387bb271274dc67aae},
+            "publicKey": Buffer{a2d26c9478287d8dea26fa4c3222e332f6c81cb89fd583042de4c397970cac17},
+            "weight": 3250034212398363n,
+          },
+          "n:213" => {
+            "adnlAddress": Buffer{e041576d93865b8ce5bb79efa8a10df07527db6c1ab3fe1a27adcec4fa8fd4d0},
+            "publicKey": Buffer{786fed77ee14a730982b6d521a881fd5c304ecaaf19a5ab831af71ab52b88a0e},
+            "weight": 3211671813977216n,
+          },
+          "n:214" => {
+            "adnlAddress": Buffer{ebe59d79a1b243f8a808a4350d34cba61efac87b36a23711b6efb03c94dfd783},
+            "publicKey": Buffer{3394a2e672c43a7186ea5a56db3326e019fef1c7d3fa78ff82ed007c3c6710c8},
+            "weight": 3206712995097962n,
+          },
+          "n:215" => {
+            "adnlAddress": Buffer{3fab01fc392f044c82a36a2c6ce99918ad4f1252938539db08e3c99993fff893},
+            "publicKey": Buffer{ae6b03efb264fb15510760cc4a6c1795ed145e414df4c83fe828457885dfe64a},
+            "weight": 3202648647673024n,
+          },
+          "n:216" => {
+            "adnlAddress": Buffer{8c2e39518eedbd2eb81df8655a89848d34fc77d4c5d5670b03357d2e015fd1d7},
+            "publicKey": Buffer{27697dfd9b8db5d274eb7ef229f1eb8a85d569548502d6c42d4e80f382755c10},
+            "weight": 3199782157739866n,
+          },
+          "n:217" => {
+            "adnlAddress": Buffer{b161720201ea05a9b4eb212852681a7b78b12baecdc10e761067a38171f777eb},
+            "publicKey": Buffer{dc72b7a5efe5a59a5f595255bbd94a222e2d01bb1fd4c935e7424bb4696a0eb7},
+            "weight": 3161367007978716n,
+          },
+          "n:218" => {
+            "adnlAddress": Buffer{2682ae91168d8a9ea9ed6f982d4aa6214c568f064ad4c4fa2075a0c895e39e69},
+            "publicKey": Buffer{a4d4e9e1a04d1c63a6ad966f9c8f454e904aa462ac70b2530267e9997092c821},
+            "weight": 3138487396723913n,
+          },
+          "n:219" => {
+            "adnlAddress": Buffer{9ae8d699f61e2e73a3345d91628abefd6e359094c6cfd226a7f7a4fc9287b1c4},
+            "publicKey": Buffer{311c34ef93cab72552ee8e3097ffdb5a1e4c2256c86e96bcd094302d8656f325},
+            "weight": 3138487396723913n,
+          },
+          "n:220" => {
+            "adnlAddress": Buffer{43fbcd0197830042952698408766c5a170a9778b974116e724fb5e5aec38f3ca},
+            "publicKey": Buffer{d0e5f9182010982c892d90a8a4db0a0d03b338b1c286f22013d3555362fb126d},
+            "weight": 3092449937052719n,
+          },
+          "n:221" => {
+            "adnlAddress": Buffer{992298d37bb944cbb41f311531f9dd3897be96d09f626aa0195894d492aa7e37},
+            "publicKey": Buffer{d3c4ff7da638b07ce89ecb7156781c74772de0eabd192dfa72d5b731186c1d85},
+            "weight": 3070779649105677n,
+          },
+          "n:222" => {
+            "adnlAddress": Buffer{1e89f6ec66e8d4ed5c6647d96fff96bb47d1d83b06d78bfec8f7250c38e82f88},
+            "publicKey": Buffer{cbbc64e8c9cc2b6d6b1230cf0e01c4e16aa60a2da727e4b0fa5f9c094d705507},
+            "weight": 3067703926330683n,
+          },
+          "n:223" => {
+            "adnlAddress": Buffer{396d8922ba55e06714c65518f75e8a49de0d696c9cc8f6d933a8702e1c4a41eb},
+            "publicKey": Buffer{31563e3148a479a523d0258ca1406d45ca49cf227a254fe053828f443a00dc9a},
+            "weight": 3065266363723289n,
+          },
+          "n:224" => {
+            "adnlAddress": Buffer{0c0e58ed560c34b4a14cd844d2dd862ad0d4a2ef6bda1e9a749a19c505e4bff2},
+            "publicKey": Buffer{0d95ea1ff806b2e14cfc7cfc9b93a4bcba39da55fa41062fdd1153ce1e716cef},
+            "weight": 3054119484074459n,
+          },
+          "n:225" => {
+            "adnlAddress": Buffer{58d94ca575e82acfff9c2a38e6d0c411b24f969465dbb0c3c5f2045468a2d890},
+            "publicKey": Buffer{8b6aacb6be57c36241b6a1fe5b13b3ebd42cf7d6b543b235ea6b64d191cea8af},
+            "weight": 3049783133427401n,
+          },
+          "n:226" => {
+            "adnlAddress": Buffer{d28b8fd36a09f81347335837a27de8af86ccbd0bbbf9dfe2cbe3312d52b37e17},
+            "publicKey": Buffer{3808a04ac061e3c6f36e682c07dbee307d0c5e618005f891fd18e4a3152461b7},
+            "weight": 3013621122526224n,
+          },
+          "n:227" => {
+            "adnlAddress": Buffer{47cdaa6dd6e5a1fde4f7b085b181b8fdf1af62aef86be9028a238c378a543bc7},
+            "publicKey": Buffer{0c799694ca8cd6a14c26b52ae91da2acd238f0ab3600cbcad5bfd4d238a52c70},
+            "weight": 3011121478754050n,
+          },
+          "n:228" => {
+            "adnlAddress": Buffer{9c90bef9ff11dd3d34f6acd84f9f2be9ec1e7e84928ce9bf2432a5aea9a5c130},
+            "publicKey": Buffer{e443160b8f76bb16d66d2b02c289235053e1c86b176c547ef6ab2baa7369bc11},
+            "weight": 2979174864296445n,
+          },
+          "n:229" => {
+            "adnlAddress": Buffer{7adcf5845d9878e3c21aa18c4258187dceeaa32946042085dff9dcfb7ab81b34},
+            "publicKey": Buffer{e0c254bd1709801f19defd165dbd5462f865557a977ff2bb0a3360f29d8b40e5},
+            "weight": 2956256053126561n,
+          },
+          "n:230" => {
+            "adnlAddress": Buffer{dd475f7b8a39e8dec78d5ca98aaf4cebcb28fe1b4616283339bfd82f69b8d167},
+            "publicKey": Buffer{437c7d55eb165591217ab5706468063230472098d11ce47af6997ded83951d5d},
+            "weight": 2945812830445820n,
+          },
+          "n:231" => {
+            "adnlAddress": Buffer{4930f90db58c3a5bb4dce2965579fc1032fc55d79458611b5154e9293d354590},
+            "publicKey": Buffer{bd275366c534ed2c8b71355184c4bdf42c6d91185d48de15b2850f36b40ee435},
+            "weight": 2876952631980013n,
+          },
+          "n:232" => {
+            "adnlAddress": Buffer{a36e46f3c282d27449858ff0a6eec61961f36d522a2171800d9660cdcc88a380},
+            "publicKey": Buffer{43d49ee782e82d62d7e62d2db9e6e125f8136beb55c0dd4ff8acb82a0c0af04a},
+            "weight": 2829251718131908n,
+          },
+          "n:233" => {
+            "adnlAddress": Buffer{0c45e850d955541ed9ec49ad04fe12d57161209987de97a04416e985ae89b7dc},
+            "publicKey": Buffer{1428007afa0703409ec1658a88ba560ec35a7e8e494fc5bf786ee79dce29f25e},
+            "weight": 2810922921187046n,
+          },
+          "n:234" => {
+            "adnlAddress": Buffer{6808f66fadbb858c12622d771878faf1f42446cd6fb30af7d85f0a1378d4364f},
+            "publicKey": Buffer{d155a79fbc15b79b2de9d2caa4dec06dac4c1908661e3747da96cf3c848d6c41},
+            "weight": 2777450273641906n,
+          },
+          "n:235" => {
+            "adnlAddress": Buffer{87a90f59eadc95a4412280ed292c42f86300ff1111c8e2193afef94a3a6bebe9},
+            "publicKey": Buffer{ee5405216062e9e320dc2a52e1efa0ab642370920a0ff0864da97c81258587ba},
+            "weight": 2776462272136602n,
+          },
+          "n:236" => {
+            "adnlAddress": Buffer{f604b1a5fab9c02b0e21c479bd9cc9a43cc8ca45353b601434312a279ea80d65},
+            "publicKey": Buffer{428f7b6c3c9fbc1e981a96d90826f921e3945e5a5eb9361b501ea4412cdeedb2},
+            "weight": 2729088347464348n,
+          },
+          "n:237" => {
+            "adnlAddress": Buffer{24c84c3c110dd379b172f679c8c112bb0ebcfddec63795326e7df3d0ca436e27},
+            "publicKey": Buffer{d374d701dcc9ef077aa0003c7aa55b2727776fd03e135da172da505f44d8bfb0},
+            "weight": 2715203371133482n,
+          },
+          "n:238" => {
+            "adnlAddress": Buffer{59800c464795b7797832a7eb029eb6c108ba942d69ddda7399d50491d828324c},
+            "publicKey": Buffer{479517c0d1e7828f7f96ca958c67a71c1b7fecae7cff5493ac9dce90902ab861},
+            "weight": 2677242560606082n,
+          },
+          "n:239" => {
+            "adnlAddress": Buffer{5b5035bce39832dacc0bfaf6d023f2a99fffe30c9c69024a6c7a809d2cb9cc09},
+            "publicKey": Buffer{82973a9f2d1eed22f16f86c173ce9ef6c2eed139300eda810c519e62cdea5af0},
+            "weight": 2665869660415492n,
+          },
+          "n:240" => {
+            "adnlAddress": Buffer{6240d83273fee87abc67ea00ab60233d2f4ff73a322a2a7743be4e6f786b3c4c},
+            "publicKey": Buffer{51ab9155853de792ae27f9b51d2b65160f173466c68761a8eb1fe2c52807daf6},
+            "weight": 2655129647951530n,
+          },
+          "n:241" => {
+            "adnlAddress": Buffer{fc268729460bde860cb66593f6b99e1b45215119084e367076470d9828ef2963},
+            "publicKey": Buffer{7b3a98f166b2543603001b2bcc3dd2cbf2ca83e7c8a8f6eb52197c567fef4205},
+            "weight": 2615405292133087n,
+          },
+          "n:242" => {
+            "adnlAddress": Buffer{e45bc0a5980ce2ff8f3addd00b3ae505806ffb9ea8b60bf27d0f4083db5c59c4},
+            "publicKey": Buffer{e653a9adb7eb5be76c762b43ef33e7799eba3f08d29ea9a58f5e59b4d90a084d},
+            "weight": 2605021552333200n,
+          },
+          "n:243" => {
+            "adnlAddress": Buffer{a74cb9884eb1fb995071da460d6556d70e0efc789deb2876e9209762e396c278},
+            "publicKey": Buffer{9bc1f9072cc223e5fe5fbe6c466d2648b72765e8d24b16f0c56152df84dd74b4},
+            "weight": 2604943650041270n,
+          },
+          "n:244" => {
+            "adnlAddress": Buffer{b065b16c72daf012b751bae7ac1d6aa4f4c609b1a6d523bfc4c2c462a87c2749},
+            "publicKey": Buffer{9ee7d3160545edab6ae37b4eec906b685e40360b0a95ff32d9016b5e2bc67a02},
+            "weight": 2595167245506467n,
+          },
+          "n:245" => {
+            "adnlAddress": Buffer{59a69e334175cd390dfdc2f2ae643d563e64b3861b06a2fbf8a2f955cd44e6cd},
+            "publicKey": Buffer{aac2d5083d2485ca1858a3b5a1ebac7d43869938e96b3a034780c68dbf26b519},
+            "weight": 2521256800858251n,
+          },
+          "n:246" => {
+            "adnlAddress": Buffer{945f80b22b0d1ad61e24e5f4e980dfdd195b35cb87b12d959e64b56381f66366},
+            "publicKey": Buffer{633765837dd2b487934657f48c5594b0581c1ca815de62c397da7f0ce20081e7},
+            "weight": 2486502829993356n,
+          },
+          "n:247" => {
+            "adnlAddress": Buffer{e9201d7b35d07543fb8550c6370f05af68da011aeaf3d342ba418678428ec9ef},
+            "publicKey": Buffer{44cbbc5c32f017b13ce637ba353ea96e70e7d4794e12214cea84c28d09b5e257},
+            "weight": 2484634765985380n,
+          },
+          "n:248" => {
+            "adnlAddress": Buffer{e17073f70082f62a888204240bc6ec19955f8e49e5a2143c86499f682fb4f54b},
+            "publicKey": Buffer{d418377c36ebac3a845b0f1ecd9232d932d3b1fd5fb3d16392bb7531e5117baa},
+            "weight": 2397340569789136n,
+          },
+          "n:249" => {
+            "adnlAddress": Buffer{a7a8b452e5e466264bdcffd1629035dbf8c55fb9d3169e038743307a4fcc9814},
+            "publicKey": Buffer{71151389854c2cc936f1bc71d13a182240d468605c20af34065f175063063610},
+            "weight": 2388010077023891n,
+          },
+          "n:250" => {
+            "adnlAddress": Buffer{4ff10562503118421e5c54f0b94d6e131b53f7dc3e517e19b4aec65dd28e355f},
+            "publicKey": Buffer{1bf7f6ffc799e0db60c93e4ee4d253bff8130106edd3a3c38ca49d24385163e0},
+            "weight": 2361252217271001n,
+          },
+          "n:251" => {
+            "adnlAddress": Buffer{95b5ddba013d309d8d66742fc2d61a0ceea38db11d3d0c8e36885a6c1d1855d8},
+            "publicKey": Buffer{540df5e8b1649520ba21d57a43178784447272d7270320e765d32d10e84d2a5a},
+            "weight": 2360979424727255n,
+          },
+          "n:252" => {
+            "adnlAddress": Buffer{d748654cf5aa74e0fc28672bdb75057a71113b7c29dce4205ccf159a69cb253a},
+            "publicKey": Buffer{c5ddabe23e2057a891afd9cb25048806d2118946aa676f34d2633e60a79a2f0f},
+            "weight": 2347181632797229n,
+          },
+          "n:253" => {
+            "adnlAddress": Buffer{5e88a8aef1bc68ee238d34fb0c899023db7cf2bfdb4c1e1741ef454065868352},
+            "publicKey": Buffer{2450f6fcdf7e96f270c2deb19216dc3df5ef057da4915e87c2193e5eaaaad95b},
+            "weight": 2307264742132455n,
+          },
+          "n:254" => {
+            "adnlAddress": Buffer{7ba71388570480eb43e573637162fef199e00707b1a221b4595ccd1a45619ed8},
+            "publicKey": Buffer{7be45ae3ad8a8d1d5801878d153f655d83b2f9e1fa42ad838552ca2140efc49d},
+            "weight": 2306944621266375n,
+          },
+          "n:255" => {
+            "adnlAddress": Buffer{9d8e9b0d8de7b2f8ef4b276000a280b19ec0f97998fac2818ce6ac7edf2bb3e9},
+            "publicKey": Buffer{4cb242847d6b46b43c1f66d9ad0e159d4a547921b932d3c28a6e6eae6aefc893},
+            "weight": 2301556029378591n,
+          },
+          "n:256" => {
+            "adnlAddress": Buffer{5601699a227f026d0cfac72b2043165d540206384b2382b838ef7025d1da3a7a},
+            "publicKey": Buffer{9b6acab8a364e81a2280fa04154e46dbba82a3bdfd619e741a82d38626318fce},
+            "weight": 2278595883312245n,
+          },
+          "n:257" => {
+            "adnlAddress": Buffer{d4c0b9946750f37ffd6bc84b261ee8da77e32004152978450dbd0782737e6cd9},
+            "publicKey": Buffer{d2742ab2ebb76af0ae83ff5d7a3b1a4f020609f4d05bb94067e425fe87c2c2b0},
+            "weight": 2274721660476998n,
+          },
+          "n:258" => {
+            "adnlAddress": Buffer{2fde0e8185a13ef858239c07a8b1bc4cdc73c9da18805acd27af045425df014d},
+            "publicKey": Buffer{18a1582ef3ba08db5b86ae26b579e8c7326f144a2d50c31603b9f8b01fb08770},
+            "weight": 2261676917864514n,
+          },
+          "n:259" => {
+            "adnlAddress": Buffer{d54f83e3cc253fd4a097dcd962dfa9ae29a33e4b21634820d042e5d77fca955a},
+            "publicKey": Buffer{35b88c5af2853f9057b1240d28310391ed79532fb35965f728d05a489aeb8cc4},
+            "weight": 2261676917864043n,
+          },
+          "n:260" => {
+            "adnlAddress": Buffer{e424d0b2e9246c2141fe2896e9531026e9b4433dee72d628fabd79193f5eff97},
+            "publicKey": Buffer{7d18bcc2b744953594d1c86be397422f3f084efc8603588a036e47bf9dc3d609},
+            "weight": 2261676917863091n,
+          },
+          "n:261" => {
+            "adnlAddress": Buffer{06fb42da3fd2fd0423c89a1ee53e52ce91715aa63168a4e61ac18a8b1cb13691},
+            "publicKey": Buffer{187f27bc042addf7237a72bb2a151e8a51835f9d425f5d4cf8f3c6206137bc5f},
+            "weight": 2261676917858828n,
+          },
+          "n:262" => {
+            "adnlAddress": Buffer{18375619175ae365ff92e81ca1b8211223eaed80b021cad795f19c17b6779900},
+            "publicKey": Buffer{c6933e9126ec273d6f588eeefcc24edde84e4f0135fb43adf0bd88af4b777566},
+            "weight": 2261676914603202n,
+          },
+          "n:263" => {
+            "adnlAddress": Buffer{b4b72982594928d68cb9a16e9c732909ac38f3e470c9a735bbadcd9c6dc4d3a5},
+            "publicKey": Buffer{8d0cdc82be417aa9d1dd404c9dabf75a93ae2730aab414095de89dab7489d4cf},
+            "weight": 2259263356783227n,
+          },
+          "n:264" => {
+            "adnlAddress": Buffer{8a4506c9af480f5d45e0b97b141601f2a55d3a71cca592577a0f56ce6d4548fe},
+            "publicKey": Buffer{766ba409a6fa7f9e2998ef004e9708bf5525f1943297fbb04c2fb32cb777b480},
+            "weight": 2242382645297852n,
+          },
+          "n:265" => {
+            "adnlAddress": Buffer{cef9ebc84744ec58df62b1c21b17d3b83ea9d93cf654650fb803bd51a31d985e},
+            "publicKey": Buffer{eeca9e1855dd759469e763d8baec154d67adf02150c7d75ea87e112d16cf8aec},
+            "weight": 2238104093085719n,
+          },
+          "n:266" => {
+            "adnlAddress": Buffer{92d3fd813ff90a96ad991f74accf2e116078dbee45f3c62acbe65f56c013ccc3},
+            "publicKey": Buffer{6a37405b0c288dbc6eefeac78c7f6c6a5272f2da71f502274a74e7e8aef17d4c},
+            "weight": 2221415555547358n,
+          },
+          "n:267" => {
+            "adnlAddress": Buffer{279d1318c20134cc6f06763aa54981c7ed99d0e949c964a63ae6c5d78b129277},
+            "publicKey": Buffer{a3d8191080b4620e2943bd1ddf4514ca174ab43ab9cd7bdae6d349ada8251e3f},
+            "weight": 2208688173917519n,
+          },
+          "n:268" => {
+            "adnlAddress": Buffer{fc3674149dfa8709aae57b004b15f56848241d27ac6b67cc526f1ad9c1e1b374},
+            "publicKey": Buffer{26e0c7d666a074d08714ae7a3c56a3a13850c4c2d66a7bad28f7d038f8a920c9},
+            "weight": 2193601961355567n,
+          },
+          "n:269" => {
+            "adnlAddress": Buffer{d60896a12e9838506c6927d03a592fd112a44d76503eaccba28f326b8a0dbade},
+            "publicKey": Buffer{07c8d4d0c53ade2ff1ca8a11cb63b4bd4a9e0775898243b672135af816e77257},
+            "weight": 2189026928337097n,
+          },
+          "n:270" => {
+            "adnlAddress": Buffer{61fc4d759102f5a9e65921cf6a074b02decdda89bc1c95016461f3898b521702},
+            "publicKey": Buffer{e6f8d1a732675ae79073453f5f95606a1146495d53130e91ecc549ebc31c37f6},
+            "weight": 2161524440787071n,
+          },
+          "n:271" => {
+            "adnlAddress": Buffer{685f475cf774032ea62933ce2ceb1926ee79b39c19359472096d943bdf978016},
+            "publicKey": Buffer{2c95ba3ca70e4b3a9628d372c5eb8327afc819a06ceb9b59dc06749ce3225966},
+            "weight": 2148007687484983n,
+          },
+          "n:272" => {
+            "adnlAddress": Buffer{59cce7d9746881a596b6db0fd0700ccbc1022acecdfac687940c1ddac32fbcd3},
+            "publicKey": Buffer{028a2369f217ea09a15748fcd9c1498c9e4f4fe8406a92c25b0f88008637ec3b},
+            "weight": 2130932969124614n,
+          },
+          "n:273" => {
+            "adnlAddress": Buffer{ec7cd9bb2080b4347743dd0a2a3c8da19e24e5dd77f50cc8b8f2abf4be69a6b1},
+            "publicKey": Buffer{b00ad9555757a58af28ddd7efeefff8d99b4219865d1ccb09960cfe6295989b2},
+            "weight": 2128319773665498n,
+          },
+          "n:274" => {
+            "adnlAddress": Buffer{7d37ed3ec2df996e93193c9624ef4c205fe7e7ba036fc749925a5b21029c61de},
+            "publicKey": Buffer{081bb1db1bd4db01bbd1a0b615ce1362fb5d39575b6483da9e1701b64a89c662},
+            "weight": 2110465271535483n,
+          },
+          "n:275" => {
+            "adnlAddress": Buffer{32c1fbeb4e9a9acac5f7e5a22606cedd73ab316f1123f679773d59e4cf51d3b6},
+            "publicKey": Buffer{ae091fd525d662e7554a56590ec0dee125f48854e221737a2360c539776316f1},
+            "weight": 2107117449831350n,
+          },
+          "n:276" => {
+            "adnlAddress": Buffer{ee21c176286a49ee505447e93727717543436933dfeed2125afc6a58b7d33874},
+            "publicKey": Buffer{68c2e85236b694d16c65a1485c09e09e13844d724fbd7432bfa80a21e39c8b69},
+            "weight": 2103617252116709n,
+          },
+          "n:277" => {
+            "adnlAddress": Buffer{bbb511e7539c32847aacd84fe9a50a8054b7fc9f3b47b58b963d29eccd3ae966},
+            "publicKey": Buffer{12ded2f00cac86284b186063299b0b72b426d0edcb235160adfce541538a44d1},
+            "weight": 2092329475093774n,
+          },
+          "n:278" => {
+            "adnlAddress": Buffer{7fa5a399d21613520ce662ac3c8463f0405a6781b4ec1964c8b3bd3199a00baf},
+            "publicKey": Buffer{8233d2b7574f59056444e399e5be0e79c57da5429a022abcc58c043e69aea563},
+            "weight": 2077100516757669n,
+          },
+          "n:279" => {
+            "adnlAddress": Buffer{f84715c91b99dc309ed541de440274278e44bdf05b822f69797be541b11a5395},
+            "publicKey": Buffer{3a23022efe16fcb406dc931bb959cc55dcaae2d6cf9c8f7d651b1ce50897397c},
+            "weight": 2061653359054145n,
+          },
+          "n:280" => {
+            "adnlAddress": Buffer{60c934c60659a8507145148f080b8a88b62bb4941ac1baf426daaf837ffcfff5},
+            "publicKey": Buffer{de8ddd928e219eafe357fb159fb5df142f2ec29644e8d30855fbf84b2d9758cd},
+            "weight": 2060506091108059n,
+          },
+          "n:281" => {
+            "adnlAddress": Buffer{1b7b922df5d532c41d5bb95b892c7e51edcaed75b1376080c038689539c5b76d},
+            "publicKey": Buffer{311b69f2237de91a9bcb86f06df8e61298263ecc0b81fb514dba52f373e55944},
+            "weight": 2051893722589250n,
+          },
+          "n:282" => {
+            "adnlAddress": Buffer{6892066c5bbd39853ffce2be9c3e9f5bde9a2dd5ca09cae20b8c93d5a032d88e},
+            "publicKey": Buffer{c59228bdc213050878e3aeb2d520b469aec93d227cb1ceff722291f918bb608d},
+            "weight": 2049198419046794n,
+          },
+          "n:283" => {
+            "adnlAddress": Buffer{016ae2ef87178b8ec795198da4434d3ae46c8cacc7886e82cec858b96677a65e},
+            "publicKey": Buffer{cc514cf67305f93cda4acda9957ff1454f69dcb4660001b1a83485fd26ff7e42},
+            "weight": 2043012237542483n,
+          },
+          "n:284" => {
+            "adnlAddress": Buffer{cf78e402b2a8707451dca2ac6909d0153c78f9e1c3568c36f94f4c6fcb95679f},
+            "publicKey": Buffer{8308b6a4424f0a3e4538439149509cb93590a214388ef230fc48b41f5887dbe2},
+            "weight": 2028234785336873n,
+          },
+          "n:285" => {
+            "adnlAddress": Buffer{489604ed7c25903e8288d2b39438009e7bc85413cc1b16a44a60e685d4a30013},
+            "publicKey": Buffer{e46174ff98f6e3d7fab2818a1258af22851e9a0f05b16b09482e396939a82e50},
+            "weight": 1990014495876192n,
+          },
+          "n:286" => {
+            "adnlAddress": Buffer{5f55eb8dd95cd6501307a5396b97547faa2ff75ca0071d7ffd4cf0c96457c974},
+            "publicKey": Buffer{e40ee4623be50d28d8349f93e13b3c6c6915171a952e1688ebdd4a58f95707e1},
+            "weight": 1986626460898092n,
+          },
+          "n:287" => {
+            "adnlAddress": Buffer{b7c63fdae7b0d6184e011ff78a896181115a4ff688c1b0b81705144ad663c8cb},
+            "publicKey": Buffer{be7332a8665879b65b19b94a80b767c6c74b12a799df2abbbba0cb0f82c147c4},
+            "weight": 1986626460897611n,
+          },
+          "n:288" => {
+            "adnlAddress": Buffer{1e7a93ab3274c5367c6ab8ea77790ef69df9af53657aa9da883238013aa7c03a},
+            "publicKey": Buffer{5988b4f4d9ccceea7bbbd5e221b4fe09e5070c224cd5a6a2ce5c1dda2ca895d2},
+            "weight": 1986626460897140n,
+          },
+          "n:289" => {
+            "adnlAddress": Buffer{e0a1bdd46079dd06125322c6316cf64159c0f5594098f0aa83d15dd3d98a18b2},
+            "publicKey": Buffer{0ebd2ce8ea5f7a96cefaa94bc02673b46f11b38c9ea1f0e95815ad6c8e9c5076},
+            "weight": 1986626460896194n,
+          },
+          "n:290" => {
+            "adnlAddress": Buffer{6951f60f24e0c32f7892fc41334a8eba58431163b203068c28a8373120d9dc92},
+            "publicKey": Buffer{d49f86269f0b22c4c39aef53b04a93ce59ea7ca44e3d6b48e76a7ee696257e2b},
+            "weight": 1986626460895718n,
+          },
+          "n:291" => {
+            "adnlAddress": Buffer{cf50af01b8e9dfee884713a3fefee9e1957f4828d8930a790b2c0ea5116490a5},
+            "publicKey": Buffer{e3d182f0f6d25bed7aad4d9e5b1e7c7a0c8b41d0081ad8b54baa186bf4138886},
+            "weight": 1986626460895718n,
+          },
+          "n:292" => {
+            "adnlAddress": Buffer{950900c0a128990f7cfa68f709e93a49063df4a18ee31351104efdd1f63adad2},
+            "publicKey": Buffer{9091a0a489cf7d884a953bc391f049362970fe6802019ae9b0c83b569c6d8d13},
+            "weight": 1986626460886710n,
+          },
+          "n:293" => {
+            "adnlAddress": Buffer{30d592410d762c99cd28fa148f77c19a16a8acfd200c654afaca3a22c6561f10},
+            "publicKey": Buffer{970519f6eaa0da09ecf75f5476184c417f89bd70fa4e8f7737676374b870a6f9},
+            "weight": 1986626460868695n,
+          },
+          "n:294" => {
+            "adnlAddress": Buffer{f59eea828bb24ee92a493942fc20549672b5628383a291f429ffacfc66ec95af},
+            "publicKey": Buffer{8bf415bf4a8bba034aec2af13c52bea01085c961397e99dba2cef34a6441e7f5},
+            "weight": 1986626460868695n,
+          },
+          "n:295" => {
+            "adnlAddress": Buffer{6cd227f9514f6ff978b0036696356482197a963236a1cc7f8de9d2626d5b70f9},
+            "publicKey": Buffer{a401eccac4fad5d5184648473169c4a9821ec97132066118d21bdcb54a9400b5},
+            "weight": 1986626460864903n,
+          },
+          "n:296" => {
+            "adnlAddress": Buffer{e022d813033a2cd981235b64cb5dec3709c37564a1f7672b96317166621fee0f},
+            "publicKey": Buffer{6fa5475defa418b773b2da56961254f88cbfe27f2c4088415d4aa683bc797bd7},
+            "weight": 1986626460863009n,
+          },
+          "n:297" => {
+            "adnlAddress": Buffer{910d786d2508f745a8c98112df02be7723547ed0eff0869b83b73c04608210e0},
+            "publicKey": Buffer{c378f3a577924432c92324b4ae83eeec6acb41f88882af49a9910c0868a7b799},
+            "weight": 1986626460861116n,
+          },
+          "n:298" => {
+            "adnlAddress": Buffer{e38c2f32f082c369982f37041b3ac92769a54f2f4cf59c4f9a9345a908403898},
+            "publicKey": Buffer{c4ae4756c24b83c33795f834c76b91b7678f432a2557d5881f82f182c12f1b7c},
+            "weight": 1986626460860640n,
+          },
+          "n:299" => {
+            "adnlAddress": Buffer{6ca3790b294a941747089864a148e3ffc0b5edbee325b98bdede9197bded1111},
+            "publicKey": Buffer{161d2c35f5f68cc7e7100cb4027902350613b3cf4e2ba666074663890bcdc545},
+            "weight": 1986626460858741n,
+          },
+          "n:300" => {
+            "adnlAddress": Buffer{dc4f98ca70783dcd56b8199fc82615b44f9fbf27f88761f2005b8b8320eab71e},
+            "publicKey": Buffer{ea70d8f2b90b1162b3c723061c4cc22bd2183d66aaabcae1e98fbef1428bcd07},
+            "weight": 1986626460855901n,
+          },
+          "n:301" => {
+            "adnlAddress": Buffer{114bcc7b9db5320e97af719499a662e55b5f1dfa58d64fa12b30e133e2d21a27},
+            "publicKey": Buffer{e43230a84b37d90c5705470a1cb8ad965b289f80cb7b3a115f2c172bc188a890},
+            "weight": 1986626460835516n,
+          },
+          "n:302" => {
+            "adnlAddress": Buffer{1f62280894f5b594e32029b4820ff8c7183ca2ef794f8ea86beeda3afa19176c},
+            "publicKey": Buffer{bd0ecb93d34e60cd921f861571db17bc28b87e36c2dbfa925bd701e738ab93df},
+            "weight": 1986626457648157n,
+          },
+          "n:303" => {
+            "adnlAddress": Buffer{9d62873d997c99f8b015c11f3590ef36ef77e8b50ea91c221b766263e7fbedb4},
+            "publicKey": Buffer{71c80ad8f8337155af2f228c9917c3b967c143caa1e88a71fcb93dcd77fb6ea1},
+            "weight": 1985771362837109n,
+          },
+          "n:304" => {
+            "adnlAddress": Buffer{a33aaf48e2d618c100d971824a07f38a240918c8908076361973501b8090fce5},
+            "publicKey": Buffer{d4cb4dea5aaf9792f0a4c41cdcf4c11af2962086ba292dad0449420392916b93},
+            "weight": 1966685451137375n,
+          },
+          "n:305" => {
+            "adnlAddress": Buffer{d6d306600a582abb73c231f3042f4d2ffcf6b51cb008d5ed8f59ebe8d6f9d2a6},
+            "publicKey": Buffer{3695b1a1d821ef8fadd1840ae93a7aedb56835a32bf65b7c45d48b55dca73548},
+            "weight": 1964098377111336n,
+          },
+          "n:306" => {
+            "adnlAddress": Buffer{58c31a7d14058b08be2e7c995cc75b02e915c5283260926ac3334d4b50c5bcc4},
+            "publicKey": Buffer{1a1864602d26ea43b48128fb549486bfada8dc82921b02b10d40724cb1989d4e},
+            "weight": 1963638579764226n,
+          },
+          "n:307" => {
+            "adnlAddress": Buffer{32e2a3eee1208064ed34812086fab08f1632e3b0ab0c53fcd7b54d6bb801e3eb},
+            "publicKey": Buffer{0df2ef400dd06f78ffccfc056d73b0aaa5d05806bc2713ced2e08a6f9bbd92d1},
+            "weight": 1963264281431884n,
+          },
+          "n:308" => {
+            "adnlAddress": Buffer{834047a0c3babce6e67b5e3df1fa47824519e32929f1bb7b12f9eada863feba8},
+            "publicKey": Buffer{060a0b11dd56a678c238118ffe0e10e32d48b9d4ddb492756a9fcf00f99fd165},
+            "weight": 1954088796371586n,
+          },
+          "n:309" => {
+            "adnlAddress": Buffer{99026b223ba587324782be70e150247a1ed90e728b321b27bfff54b54fc94ee1},
+            "publicKey": Buffer{29840f1554e651618f4ae01846e7ea98dea149c06c29d0577dec137ef9298bc0},
+            "weight": 1921795996299736n,
+          },
+          "n:310" => {
+            "adnlAddress": Buffer{187a8a514d5cb8cddb601b127203f0fc6fe1c7da489ef7e104f111e40d80cf56},
+            "publicKey": Buffer{5e82d2aec50588af821dda13f450295b9c3af78cf2a5f1496e4752cec4e2f22b},
+            "weight": 1877326540164123n,
+          },
+          "n:311" => {
+            "adnlAddress": Buffer{61fb8d008d7d6a25d6dc364cc2db6eb9cd7bf0f0d8426ed4c50eaf04d368497a},
+            "publicKey": Buffer{30ef08fd2c40d40f6bad5e4a0ea96a7b6a259bf26b30bfd63aff59db6c9b5fde},
+            "weight": 1877322330112602n,
+          },
+          "n:312" => {
+            "adnlAddress": Buffer{56937a8efe76935117b78427f4920943a3254e234ea5ad5fa7380eb5f3343915},
+            "publicKey": Buffer{13fd22eeab0af52f9fc4d14c1e3c1f0651d8f5003b541e6c3872650e9c0f0b11},
+            "weight": 1846749256580864n,
+          },
+          "n:313" => {
+            "adnlAddress": Buffer{4d5c6501709a8bb4c8d4adc015eafbd82da412071a2e21eb50c462a909d6f844},
+            "publicKey": Buffer{56f12ff2bd6db1f0257422c43a64b5a401ca9f1a758f1f2328315b3aeb000a63},
+            "weight": 1846722440594415n,
+          },
+          "n:314" => {
+            "adnlAddress": Buffer{8851b3df277679998e4a8f0fdad34c0cac4cccaaf16cfe0f811f12955aa28e03},
+            "publicKey": Buffer{a7cbd16438d70f647ca3e95672246f225242959429ba0f79811e99898afbd974},
+            "weight": 1846174980786664n,
+          },
+          "n:315" => {
+            "adnlAddress": Buffer{bdc88a88a2b171abf033a0b93cac1b00ff30b33047c63dd040b79e7949f8f6cc},
+            "publicKey": Buffer{63cd2df17931972bee2b9c73941ba7226d371689768f4f359a56b3355060c783},
+            "weight": 1811165930174839n,
+          },
+          "n:316" => {
+            "adnlAddress": Buffer{860f8d19ee041eb7a35ce60c44db21c6146c5c5005d05bdd1c59dbe3d16eb624},
+            "publicKey": Buffer{00495ddc5d7218272a3fd1e7cc1b41229f1f21995bb2870f8199d8e45cc19ce2},
+            "weight": 1774105145593886n,
+          },
+          "n:317" => {
+            "adnlAddress": Buffer{1b4c7485c34eed9dd95e17f8032ad8e02fad92264de431ad8bdb5be6aa194f59},
+            "publicKey": Buffer{2aea39b9489a07f1d7e16d08ff7f2dc2b932b6e5ed5f29666d2f744bc949977d},
+            "weight": 1755560094429491n,
+          },
+        },
+        "_value": {
+          "parse": [Function],
+          "serialize": [Function],
+        },
+      },
+      "main": 100,
+      "timeSince": 1680363272,
+      "timeUntil": 1680428808,
+      "total": 318,
+    },
+  },
+  "voting": {
+    "criticalParams": {
+      "bitPrice": 2,
+      "cellPrice": 1000,
+      "maxLoses": 5,
+      "maxStoreSec": 20000000,
+      "maxTotalRounds": 7,
+      "minStoreSec": 5000000,
+      "minTotalRounds": 4,
+      "minWins": 3,
+    },
+    "normalParams": {
+      "bitPrice": 1,
+      "cellPrice": 500,
+      "maxLoses": 5,
+      "maxStoreSec": 10000000,
+      "maxTotalRounds": 6,
+      "minStoreSec": 1000000,
+      "minTotalRounds": 2,
+      "minWins": 2,
+    },
+  },
+}
+`;
+
+exports[`ConfigContract should parse testnet config 1`] = `
+{
+  "configAddress": kf9VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVQft,
+  "dnsRootAddress": kf_v5x0Thgr6pq6ur2NvkWhIf4DxAxsL-Nk5rknT6n99oEkd,
+  "electorAddress": kf8zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM_BP,
+  "feeCollectorAddress": null,
+  "gasPrices": {
+    "masterchain": {
+      "flatGasPrice": 100000n,
+      "flatLimit": 100n,
+      "other": {
+        "blockGasLimit": 37000000n,
+        "deleteDueLimit": 1000000000n,
+        "freezeDueLimit": 100000000n,
+        "gasCredit": 10000n,
+        "gasLimit": 1000000n,
+        "gasPrice": 655360000n,
+        "specialGasLimit": 35000000n,
+      },
+    },
+    "workchain": {
+      "flatGasPrice": 100000n,
+      "flatLimit": 100n,
+      "other": {
+        "blockGasLimit": 10000000n,
+        "deleteDueLimit": 1000000000n,
+        "freezeDueLimit": 100000000n,
+        "gasCredit": 10000n,
+        "gasLimit": 1000000n,
+        "gasPrice": 65536000n,
+        "specialGasLimit": 1000000n,
+      },
+    },
+  },
+  "globalVersion": {
+    "capabilities": 72057594037927936n,
+    "version": 3288334336,
+  },
+  "messagePrices": {
+    "masterchain": {
+      "bitPrice": 655360000n,
+      "cellPrice": 65536000000n,
+      "firstFrac": 21845,
+      "ihrPriceFactor": 98304,
+      "lumpPrice": 10000000n,
+      "nextFrac": 21845,
+    },
+    "workchain": {
+      "bitPrice": 65536000n,
+      "cellPrice": 6553600000n,
+      "firstFrac": 21845,
+      "ihrPriceFactor": 98304,
+      "lumpPrice": 1000000n,
+      "nextFrac": 21845,
+    },
+  },
+  "minterAddress": kf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIue,
+  "punishment": null,
+  "storagePrices": [
+    {
+      "bitPricePs": 1n,
+      "cellPricePs": 500n,
+      "mcBitPricePs": 1000n,
+      "mcCellPricePs": 500000n,
+      "utimeSince": 0,
+    },
+  ],
+  "validating": {
+    "electorsEndBefore": 180,
+    "electorsStartBefore": 2400,
+    "maxMainValidators": 30,
+    "maxStake": 5000000000000000n,
+    "maxStakeFactor": 1966080,
+    "maxValidators": 30,
+    "minStake": 10000000000000n,
+    "minTotalStake": 200000000000000n,
+    "minValidators": 3,
+    "stakeHeldFor": 900,
+    "validatorsElectedFor": 7200,
+  },
+  "validators": {
+    "currentTempValidators": null,
+    "currentValidators": {
+      "list": Dictionary {
+        "_key": {
+          "bits": 16,
+          "parse": [Function],
+          "serialize": [Function],
+        },
+        "_map": Map {
+          "n:0" => {
+            "adnlAddress": Buffer{ab1dce868eaa8dd77e6e5d68f6049dcaf8d2fe911cb4506ad68748105f914c84},
+            "publicKey": Buffer{085159495a74b2c40a62a14ae69fad49f022fc246be14c1469d0c768fa4a48b1},
+            "weight": 79393686987502716n,
+          },
+          "n:1" => {
+            "adnlAddress": Buffer{52f35e1edb798a40ad13a80e70e19831eac16e7a93800791558c2861e5b4929b},
+            "publicKey": Buffer{5b307374aacbc365be11adae6a41279c8e95cd20ee8de700549ac604028f127a},
+            "weight": 76680558401381732n,
+          },
+          "n:2" => {
+            "adnlAddress": Buffer{9660710d3d90261a0431ff104da3760e852ae84c9eadd0280acb0a4ab1b6e43c},
+            "publicKey": Buffer{e9ec93adaee6f4bc5845e2ce79d1d61e0f77bf018d20fb693ce2579d603a8b97},
+            "weight": 76680558401381732n,
+          },
+          "n:3" => {
+            "adnlAddress": Buffer{98c8552b9d35cb2fc820086e23b234f6268ff3091b994c8d52e462de132040c2},
+            "publicKey": Buffer{59679868fa1e595175e1b0e2d49f8c924dd3faa62b78d9272a4c0d1d75f66b9c},
+            "weight": 76680558401381732n,
+          },
+          "n:4" => {
+            "adnlAddress": Buffer{d8a5a4f1ca99802d3a280a6185fcc4dd571e416b69a401846f26e4d3ab333bd2},
+            "publicKey": Buffer{ebc987235fc94a625cede1f81c3e7b9db385f83a2155526d8676a8e009a933bf},
+            "weight": 76680558401381732n,
+          },
+          "n:5" => {
+            "adnlAddress": Buffer{37aa5a9ee3a8818fb826273d94a54357ccb924b87b5805fe2f6e21e0fc18490d},
+            "publicKey": Buffer{80ee7ac122973f59594ef4bf46145f550cc7ea1e2d74f5ef3e5e441e392b69c7},
+            "weight": 76680558401381732n,
+          },
+          "n:6" => {
+            "adnlAddress": Buffer{7a5bfc9a2f911553b5d58e466087055cb390691bd96208278487005765c42d94},
+            "publicKey": Buffer{d1d4097b1502783da8c5b637e7c31431802bfcdc0f5aa20451b997528513644c},
+            "weight": 76680558401381732n,
+          },
+          "n:7" => {
+            "adnlAddress": Buffer{0b36d104ee7b866a6cb6d79c2b03904499d1f0bfb8bb75bca8893c273e35af87},
+            "publicKey": Buffer{fe9d7221a06dab51a13fb527b639436705bad3ba94aa83d7b5fada73ffc70969},
+            "weight": 76680558401381732n,
+          },
+          "n:8" => {
+            "adnlAddress": Buffer{2dfe693bb4e1176ca516baa233ff5365898f6c98a3471508a6c9befd597b9d4c},
+            "publicKey": Buffer{947d513d01c2f1c8fae085965d824c4a0a6fb3089ab7e6a287898cdb920cf906},
+            "weight": 76680558401381732n,
+          },
+          "n:9" => {
+            "adnlAddress": Buffer{5a52671de5dfa5513bae418a917fec193fc9b5ff28628c037bdcfc57236a12f6},
+            "publicKey": Buffer{4b59cd1270a5e69aba172da46ac8fc6fee64b58fa8ba4f8c5dc91e85771a196c},
+            "weight": 76680558401381732n,
+          },
+          "n:10" => {
+            "adnlAddress": Buffer{a6ea2902ed5cf2246980da2afba907c10ec450d6a6e31a24956a69f8f0e21e2c},
+            "publicKey": Buffer{1c05766128b65847bab0555aafc1014b7e4a51e38f67ba617609d8063a6774e1},
+            "weight": 76680558401381732n,
+          },
+          "n:11" => {
+            "adnlAddress": Buffer{1981a52a5adcc00966f5daacd083d255255fbd3eeac01cfef49cf1776f7556d6},
+            "publicKey": Buffer{1d8178bb315fd391c9d13ed248f6f5015f51497390f77ed8bc38e8b47496d78e},
+            "weight": 76680558401381732n,
+          },
+          "n:12" => {
+            "adnlAddress": Buffer{c1c6f0e7f903f6ccb0578374147ded705c8c35fe30ea7fe0c5b962a106e52644},
+            "publicKey": Buffer{c845bbe4a59b30325072c06f41ef9635e95adfdd3a0eaca483caa2671f93cbe6},
+            "weight": 76680558401381732n,
+          },
+          "n:13" => {
+            "adnlAddress": Buffer{f1706dbab55f119f1bb0a7f6608488c0b03405422b43b998d371500b933a1418},
+            "publicKey": Buffer{8c566a900773a3d411470dc37b522f7d5762393c61b8e50ae84b99cb793f246f},
+            "weight": 76680558401381732n,
+          },
+          "n:14" => {
+            "adnlAddress": Buffer{1f84aaa426ca904eafeb48f26b038461f55624380783990368b316abb916432e},
+            "publicKey": Buffer{9c5a2cf537382ff1635e8d93f77039e3e2718395a4584e3e29997b2cbed838d8},
+            "weight": 76680558401381732n,
+          },
+        },
+        "_value": {
+          "parse": [Function],
+          "serialize": [Function],
+        },
+      },
+      "main": 15,
+      "timeSince": 1680430877,
+      "timeUntil": 1680438077,
+      "total": 15,
+    },
+    "nextTempValidators": null,
+    "nextValidators": null,
+    "prevTempValidators": null,
+    "prevValidators": {
+      "list": Dictionary {
+        "_key": {
+          "bits": 16,
+          "parse": [Function],
+          "serialize": [Function],
+        },
+        "_map": Map {
+          "n:0" => {
+            "adnlAddress": Buffer{ab1dce868eaa8dd77e6e5d68f6049dcaf8d2fe911cb4506ad68748105f914c84},
+            "publicKey": Buffer{fd98ce3436832cb856b0665629ddf006940346cf38d6885a51c85a7cbdbbe016},
+            "weight": 79804283089784235n,
+          },
+          "n:1" => {
+            "adnlAddress": Buffer{52f35e1edb798a40ad13a80e70e19831eac16e7a93800791558c2861e5b4929b},
+            "publicKey": Buffer{01e361d1146beb3bcab10fdc4de54cbb944953b01228231f3097831c850cd95c},
+            "weight": 76651230108361624n,
+          },
+          "n:2" => {
+            "adnlAddress": Buffer{9660710d3d90261a0431ff104da3760e852ae84c9eadd0280acb0a4ab1b6e43c},
+            "publicKey": Buffer{f7ba95e70b14e52effc57cea0aa93ecf1d2ca88905e487485807f9c91e162e12},
+            "weight": 76651230108361624n,
+          },
+          "n:3" => {
+            "adnlAddress": Buffer{1f84aaa426ca904eafeb48f26b038461f55624380783990368b316abb916432e},
+            "publicKey": Buffer{33494faa539b70e0cde696a59126510983b7d33115c5065e3cfda9237a0e932e},
+            "weight": 76651230108361624n,
+          },
+          "n:4" => {
+            "adnlAddress": Buffer{d8a5a4f1ca99802d3a280a6185fcc4dd571e416b69a401846f26e4d3ab333bd2},
+            "publicKey": Buffer{1d1e128100d1e1d9c28018ad31e40a6ae1357ff1ef00a7d3ba55e87447c665c9},
+            "weight": 76651230108361624n,
+          },
+          "n:5" => {
+            "adnlAddress": Buffer{37aa5a9ee3a8818fb826273d94a54357ccb924b87b5805fe2f6e21e0fc18490d},
+            "publicKey": Buffer{107c9beeb05cf63766aaf6791c75de324209442607c0806f925598ae2919c607},
+            "weight": 76651230108361624n,
+          },
+          "n:6" => {
+            "adnlAddress": Buffer{7a5bfc9a2f911553b5d58e466087055cb390691bd96208278487005765c42d94},
+            "publicKey": Buffer{be74683c9b6b9c2c0a0b5c1bf3547b76dd533fb9d6b0d795690835c5078ecf55},
+            "weight": 76651230108361624n,
+          },
+          "n:7" => {
+            "adnlAddress": Buffer{0b36d104ee7b866a6cb6d79c2b03904499d1f0bfb8bb75bca8893c273e35af87},
+            "publicKey": Buffer{edf7c532f8f70d87fd15e0f2edec8bd221836d43b2ea76544b0b6d6770410fcd},
+            "weight": 76651230108361624n,
+          },
+          "n:8" => {
+            "adnlAddress": Buffer{2dfe693bb4e1176ca516baa233ff5365898f6c98a3471508a6c9befd597b9d4c},
+            "publicKey": Buffer{24e08bbd324163bd4c1dec6d2949a11e2250d61214135552872f143372e7f53f},
+            "weight": 76651230108361624n,
+          },
+          "n:9" => {
+            "adnlAddress": Buffer{5a52671de5dfa5513bae418a917fec193fc9b5ff28628c037bdcfc57236a12f6},
+            "publicKey": Buffer{869cffaa7c89d65c46e46b2fbdc24d87ac723a716080d535e0808b6561e8c2cf},
+            "weight": 76651230108361624n,
+          },
+          "n:10" => {
+            "adnlAddress": Buffer{a6ea2902ed5cf2246980da2afba907c10ec450d6a6e31a24956a69f8f0e21e2c},
+            "publicKey": Buffer{edbc535a2d1105c9c10ae877bd02c237dfb33dafaf5efd5afbf4d5d3632e9ec3},
+            "weight": 76651230108361624n,
+          },
+          "n:11" => {
+            "adnlAddress": Buffer{1981a52a5adcc00966f5daacd083d255255fbd3eeac01cfef49cf1776f7556d6},
+            "publicKey": Buffer{72880029961b365194ecd53681085db5fb32c88f1b03e8915d10db24000f52d6},
+            "weight": 76651230108361624n,
+          },
+          "n:12" => {
+            "adnlAddress": Buffer{c1c6f0e7f903f6ccb0578374147ded705c8c35fe30ea7fe0c5b962a106e52644},
+            "publicKey": Buffer{21dc4cdbcf1763bb480606135726e0f048fa4c5e7cc34b1979007cf9812d5ac3},
+            "weight": 76651230108361624n,
+          },
+          "n:13" => {
+            "adnlAddress": Buffer{f1706dbab55f119f1bb0a7f6608488c0b03405422b43b998d371500b933a1418},
+            "publicKey": Buffer{9d3c8111807abfdc40749cc71f96b4270592d8e2523823c81fbeeb7f1d0c6041},
+            "weight": 76651230108361624n,
+          },
+          "n:14" => {
+            "adnlAddress": Buffer{98c8552b9d35cb2fc820086e23b234f6268ff3091b994c8d52e462de132040c2},
+            "publicKey": Buffer{177b00a6904f3e4e8c191b13b715a1eb7ea29415d32a630e1b23e4750c684ade},
+            "weight": 76651230108361624n,
+          },
+        },
+        "_value": {
+          "parse": [Function],
+          "serialize": [Function],
+        },
+      },
+      "main": 15,
+      "timeSince": 1680423677,
+      "timeUntil": 1680430877,
+      "total": 15,
+    },
+  },
+  "voting": {
+    "criticalParams": {
+      "bitPrice": 2,
+      "cellPrice": 1000,
+      "maxLoses": 5,
+      "maxStoreSec": 20000000,
+      "maxTotalRounds": 7,
+      "minStoreSec": 5000000,
+      "minTotalRounds": 4,
+      "minWins": 3,
+    },
+    "normalParams": {
+      "bitPrice": 1,
+      "cellPrice": 500,
+      "maxLoses": 5,
+      "maxStoreSec": 10000000,
+      "maxTotalRounds": 6,
+      "minStoreSec": 1000000,
+      "minTotalRounds": 2,
+      "minWins": 2,
+    },
+  },
+}
+`;
